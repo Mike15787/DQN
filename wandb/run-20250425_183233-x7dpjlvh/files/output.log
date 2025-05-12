@@ -1,0 +1,7 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 290, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 133, in run
+    state = self.preprocessor.reset(obs)
+AttributeError: 'DQNAgent' object has no attribute 'preprocessor'

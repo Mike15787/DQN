@@ -1,0 +1,1722 @@
+Using device: cuda
+Environment: CartPole-v1
+State shape: (4,), Num actions: 2
+Using Standard Experience Replay (Uniform Sampling)
+Collecting initial experiences (1000 steps)...
+Initial experience collection complete. Starting training...
+Ep: 1 | Step: 1039 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.998 | SPS: 3319.07
+Ep: 2 | Step: 1057 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.997 | SPS: 3013.48
+Ep: 3 | Step: 1073 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.997 | SPS: 2820.66
+Ep: 4 | Step: 1084 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.996 | SPS: 2718.21
+Ep: 5 | Step: 1107 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.995 | SPS: 2541.58
+Ep: 6 | Step: 1146 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.993 | SPS: 2325.24
+Ep: 7 | Step: 1160 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.992 | SPS: 2245.50
+Ep: 8 | Step: 1174 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.992 | SPS: 2181.19
+Ep: 9 | Step: 1196 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.991 | SPS: 2085.45
+Ep: 10 | Step: 1222 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.989 | SPS: 1992.18
+Ep: 11 | Step: 1241 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.989 | SPS: 1910.26
+Ep: 12 | Step: 1266 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.987 | SPS: 1835.99
+Ep: 13 | Step: 1278 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.987 | SPS: 1797.06
+Ep: 14 | Step: 1301 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.986 | SPS: 1741.74
+Ep: 15 | Step: 1343 | Ep Reward: 42.0 | Ep Steps: 42 | Epsilon: 0.984 | SPS: 1656.67
+Ep: 16 | Step: 1387 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.982 | SPS: 1589.86
+Ep: 17 | Step: 1438 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.979 | SPS: 1527.27
+Ep: 18 | Step: 1456 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.978 | SPS: 1505.12
+Ep: 19 | Step: 1471 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.978 | SPS: 1485.83
+Ep: 20 | Step: 1499 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.976 | SPS: 1447.31
+Ep: 21 | Step: 1519 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.975 | SPS: 1395.95
+Ep: 22 | Step: 1530 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.975 | SPS: 1380.31
+Ep: 23 | Step: 1549 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.974 | SPS: 1359.69
+Ep: 24 | Step: 1568 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.973 | SPS: 1345.04
+Ep: 25 | Step: 1579 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.972 | SPS: 1336.46
+Ep: 26 | Step: 1598 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.972 | SPS: 1322.55
+Ep: 27 | Step: 1620 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.971 | SPS: 1306.37
+Ep: 28 | Step: 1637 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.970 | SPS: 1294.33
+Ep: 29 | Step: 1659 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.969 | SPS: 1280.61
+Ep: 30 | Step: 1696 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.967 | SPS: 1260.38
+Ep: 31 | Step: 1740 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.965 | SPS: 1237.87
+Ep: 32 | Step: 1793 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.962 | SPS: 1214.94
+Ep: 33 | Step: 1803 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.962 | SPS: 1210.46
+Ep: 34 | Step: 1821 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.961 | SPS: 1201.62
+Ep: 35 | Step: 1849 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.960 | SPS: 1189.32
+Ep: 36 | Step: 1868 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.959 | SPS: 1181.12
+Ep: 37 | Step: 1888 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.958 | SPS: 1173.06
+Ep: 38 | Step: 1909 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.957 | SPS: 1164.10
+Ep: 39 | Step: 1922 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.956 | SPS: 1158.64
+Ep: 40 | Step: 1940 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.955 | SPS: 1150.84
+Ep: 41 | Step: 1965 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.954 | SPS: 1141.58
+Ep: 42 | Step: 1983 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.953 | SPS: 1135.22
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 9.35 ---
+[Eval] Step: 2000 | Eval Reward: 9.35 | Epsilon: 0.953
+*** Saved new best model to ./results\best_model.pt with reward 9.35 ***
+Ep: 43 | Step: 2019 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.952 | SPS: 1100.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 44 | Step: 2053 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.950 | SPS: 1083.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 45 | Step: 2070 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.949 | SPS: 1076.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 46 | Step: 2087 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.948 | SPS: 1070.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 47 | Step: 2122 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.947 | SPS: 1060.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 48 | Step: 2135 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.946 | SPS: 1054.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 49 | Step: 2159 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.945 | SPS: 1047.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 50 | Step: 2177 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.944 | SPS: 1042.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 51 | Step: 2185 | Ep Reward: 8.0 | Ep Steps: 8 | Epsilon: 0.944 | SPS: 1038.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 52 | Step: 2199 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.943 | SPS: 1033.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 53 | Step: 2220 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.942 | SPS: 1027.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 54 | Step: 2244 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.941 | SPS: 1020.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 55 | Step: 2267 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.940 | SPS: 1015.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 56 | Step: 2286 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.939 | SPS: 1009.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 57 | Step: 2302 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.938 | SPS: 1005.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 58 | Step: 2326 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.937 | SPS: 999.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 59 | Step: 2372 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.935 | SPS: 991.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 60 | Step: 2388 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.934 | SPS: 987.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 61 | Step: 2409 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.933 | SPS: 982.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 62 | Step: 2420 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.933 | SPS: 979.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 63 | Step: 2431 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.932 | SPS: 976.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 64 | Step: 2449 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.931 | SPS: 972.06
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 65 | Step: 2468 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.930 | SPS: 966.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 66 | Step: 2518 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.928 | SPS: 959.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 67 | Step: 2543 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.927 | SPS: 955.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 68 | Step: 2556 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.926 | SPS: 952.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 69 | Step: 2591 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.924 | SPS: 946.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 70 | Step: 2601 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.924 | SPS: 941.40
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 71 | Step: 2622 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.923 | SPS: 936.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 72 | Step: 2642 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.922 | SPS: 932.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 73 | Step: 2672 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.921 | SPS: 928.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 74 | Step: 2690 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.920 | SPS: 925.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 75 | Step: 2704 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.919 | SPS: 922.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 76 | Step: 2734 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.918 | SPS: 918.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 77 | Step: 2759 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.916 | SPS: 915.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 78 | Step: 2782 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.915 | SPS: 912.27
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 79 | Step: 2817 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.914 | SPS: 908.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 80 | Step: 2851 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.912 | SPS: 903.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 81 | Step: 2864 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.911 | SPS: 900.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 82 | Step: 2880 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.911 | SPS: 895.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 83 | Step: 2891 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.910 | SPS: 892.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 84 | Step: 2904 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.910 | SPS: 890.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 85 | Step: 2935 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.908 | SPS: 886.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 86 | Step: 2966 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.907 | SPS: 883.40
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 87 | Step: 2979 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.906 | SPS: 880.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 88 | Step: 2994 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.905 | SPS: 879.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 89 | Step: 3006 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.905 | SPS: 877.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 90 | Step: 3037 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.903 | SPS: 873.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 91 | Step: 3048 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.903 | SPS: 872.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 92 | Step: 3074 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.901 | SPS: 869.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 93 | Step: 3090 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.901 | SPS: 867.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 94 | Step: 3112 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.900 | SPS: 865.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 95 | Step: 3158 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.897 | SPS: 861.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 96 | Step: 3196 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.896 | SPS: 858.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 97 | Step: 3232 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.894 | SPS: 856.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 98 | Step: 3248 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.893 | SPS: 854.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 99 | Step: 3267 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.892 | SPS: 851.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 100 | Step: 3296 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.891 | SPS: 845.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 101 | Step: 3338 | Ep Reward: 42.0 | Ep Steps: 42 | Epsilon: 0.889 | SPS: 841.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 102 | Step: 3361 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.888 | SPS: 838.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 103 | Step: 3377 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.887 | SPS: 835.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 104 | Step: 3443 | Ep Reward: 66.0 | Ep Steps: 66 | Epsilon: 0.884 | SPS: 832.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 105 | Step: 3489 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.882 | SPS: 830.02
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 106 | Step: 3528 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.880 | SPS: 828.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 107 | Step: 3555 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.879 | SPS: 826.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 108 | Step: 3570 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.878 | SPS: 825.12
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 109 | Step: 3592 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.877 | SPS: 823.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 110 | Step: 3609 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.876 | SPS: 822.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 111 | Step: 3688 | Ep Reward: 79.0 | Ep Steps: 79 | Epsilon: 0.872 | SPS: 817.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 112 | Step: 3709 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.871 | SPS: 816.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 113 | Step: 3733 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.870 | SPS: 814.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 114 | Step: 3789 | Ep Reward: 56.0 | Ep Steps: 56 | Epsilon: 0.868 | SPS: 811.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 115 | Step: 3823 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.866 | SPS: 810.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 116 | Step: 3837 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.865 | SPS: 807.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 117 | Step: 3858 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.864 | SPS: 805.99
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 118 | Step: 3869 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.864 | SPS: 805.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 119 | Step: 3880 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.863 | SPS: 804.51
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 120 | Step: 3899 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.862 | SPS: 803.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 121 | Step: 3918 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.861 | SPS: 802.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 122 | Step: 3941 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.860 | SPS: 800.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 123 | Step: 3953 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.860 | SPS: 799.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 124 | Step: 3989 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.858 | SPS: 797.72
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 194.30 ---
+[Eval] Step: 4000 | Eval Reward: 194.30 | Epsilon: 0.858
+*** Saved new best model to ./results\best_model.pt with reward 194.30 ***
+Ep: 125 | Step: 4034 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.856 | SPS: 700.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 126 | Step: 4046 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.855 | SPS: 698.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 127 | Step: 4107 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.852 | SPS: 698.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 128 | Step: 4159 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.850 | SPS: 697.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 129 | Step: 4186 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.849 | SPS: 697.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 130 | Step: 4265 | Ep Reward: 79.0 | Ep Steps: 79 | Epsilon: 0.845 | SPS: 697.04
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 131 | Step: 4307 | Ep Reward: 42.0 | Ep Steps: 42 | Epsilon: 0.843 | SPS: 696.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 132 | Step: 4320 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.842 | SPS: 696.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 133 | Step: 4381 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.839 | SPS: 695.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 134 | Step: 4394 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.839 | SPS: 695.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 135 | Step: 4441 | Ep Reward: 47.0 | Ep Steps: 47 | Epsilon: 0.837 | SPS: 694.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 136 | Step: 4454 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.836 | SPS: 694.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 137 | Step: 4485 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.834 | SPS: 693.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 138 | Step: 4520 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.833 | SPS: 693.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 139 | Step: 4563 | Ep Reward: 43.0 | Ep Steps: 43 | Epsilon: 0.831 | SPS: 692.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 140 | Step: 4576 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.830 | SPS: 692.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 141 | Step: 4605 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.829 | SPS: 691.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 142 | Step: 4624 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.828 | SPS: 691.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 143 | Step: 4665 | Ep Reward: 41.0 | Ep Steps: 41 | Epsilon: 0.826 | SPS: 690.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 144 | Step: 4696 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.824 | SPS: 689.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 145 | Step: 4740 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.822 | SPS: 689.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 146 | Step: 4764 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.821 | SPS: 689.37
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 147 | Step: 4778 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.821 | SPS: 688.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 148 | Step: 4805 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.819 | SPS: 688.52
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 149 | Step: 4866 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.816 | SPS: 688.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 150 | Step: 4930 | Ep Reward: 64.0 | Ep Steps: 64 | Epsilon: 0.813 | SPS: 688.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 151 | Step: 4972 | Ep Reward: 42.0 | Ep Steps: 42 | Epsilon: 0.811 | SPS: 687.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 152 | Step: 4993 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.810 | SPS: 687.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 153 | Step: 5012 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.809 | SPS: 686.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 154 | Step: 5062 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.807 | SPS: 686.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 155 | Step: 5120 | Ep Reward: 58.0 | Ep Steps: 58 | Epsilon: 0.804 | SPS: 685.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 156 | Step: 5163 | Ep Reward: 43.0 | Ep Steps: 43 | Epsilon: 0.802 | SPS: 685.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 157 | Step: 5186 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.801 | SPS: 685.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 158 | Step: 5197 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.801 | SPS: 684.83
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 159 | Step: 5221 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.800 | SPS: 684.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 160 | Step: 5295 | Ep Reward: 74.0 | Ep Steps: 74 | Epsilon: 0.796 | SPS: 683.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 161 | Step: 5348 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.793 | SPS: 683.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 162 | Step: 5362 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.793 | SPS: 683.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 163 | Step: 5389 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.792 | SPS: 682.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 164 | Step: 5414 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.790 | SPS: 682.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 165 | Step: 5429 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.790 | SPS: 682.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 166 | Step: 5467 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.788 | SPS: 681.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 167 | Step: 5531 | Ep Reward: 64.0 | Ep Steps: 64 | Epsilon: 0.785 | SPS: 681.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 168 | Step: 5557 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.784 | SPS: 680.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 169 | Step: 5611 | Ep Reward: 54.0 | Ep Steps: 54 | Epsilon: 0.781 | SPS: 680.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 170 | Step: 5658 | Ep Reward: 47.0 | Ep Steps: 47 | Epsilon: 0.779 | SPS: 680.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 171 | Step: 5779 | Ep Reward: 121.0 | Ep Steps: 121 | Epsilon: 0.773 | SPS: 680.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 172 | Step: 5814 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.771 | SPS: 680.10
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 173 | Step: 5859 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.769 | SPS: 679.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 174 | Step: 5873 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.769 | SPS: 679.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 175 | Step: 5901 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.767 | SPS: 678.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 176 | Step: 5924 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.766 | SPS: 678.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 177 | Step: 5975 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.764 | SPS: 677.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 143.20 ---
+[Eval] Step: 6000 | Eval Reward: 143.20 | Epsilon: 0.763
+Ep: 178 | Step: 6014 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.762 | SPS: 638.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 179 | Step: 6043 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.760 | SPS: 638.06
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 180 | Step: 6062 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.760 | SPS: 637.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 181 | Step: 6075 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.759 | SPS: 637.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 182 | Step: 6109 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.757 | SPS: 637.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 183 | Step: 6194 | Ep Reward: 85.0 | Ep Steps: 85 | Epsilon: 0.753 | SPS: 637.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 184 | Step: 6217 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.752 | SPS: 637.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 185 | Step: 6237 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.751 | SPS: 637.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 186 | Step: 6269 | Ep Reward: 32.0 | Ep Steps: 32 | Epsilon: 0.750 | SPS: 636.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 187 | Step: 6297 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.748 | SPS: 636.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 188 | Step: 6371 | Ep Reward: 74.0 | Ep Steps: 74 | Epsilon: 0.745 | SPS: 636.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 189 | Step: 6395 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.744 | SPS: 636.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 190 | Step: 6484 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.740 | SPS: 636.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 191 | Step: 6532 | Ep Reward: 48.0 | Ep Steps: 48 | Epsilon: 0.737 | SPS: 635.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 192 | Step: 6643 | Ep Reward: 111.0 | Ep Steps: 111 | Epsilon: 0.732 | SPS: 636.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 193 | Step: 6667 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.731 | SPS: 635.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 194 | Step: 6734 | Ep Reward: 67.0 | Ep Steps: 67 | Epsilon: 0.728 | SPS: 635.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 195 | Step: 6755 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.727 | SPS: 634.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 196 | Step: 6833 | Ep Reward: 78.0 | Ep Steps: 78 | Epsilon: 0.723 | SPS: 635.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 197 | Step: 6863 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.722 | SPS: 634.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 198 | Step: 6876 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.721 | SPS: 634.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 199 | Step: 6913 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.719 | SPS: 634.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 200 | Step: 6945 | Ep Reward: 32.0 | Ep Steps: 32 | Epsilon: 0.718 | SPS: 634.22
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 201 | Step: 6986 | Ep Reward: 41.0 | Ep Steps: 41 | Epsilon: 0.716 | SPS: 633.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 202 | Step: 7008 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.715 | SPS: 633.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 203 | Step: 7045 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.713 | SPS: 633.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 204 | Step: 7076 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.711 | SPS: 633.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 205 | Step: 7124 | Ep Reward: 48.0 | Ep Steps: 48 | Epsilon: 0.709 | SPS: 633.28
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 206 | Step: 7136 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.709 | SPS: 633.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 207 | Step: 7205 | Ep Reward: 69.0 | Ep Steps: 69 | Epsilon: 0.705 | SPS: 633.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 208 | Step: 7297 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.701 | SPS: 633.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 209 | Step: 7328 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.699 | SPS: 633.38
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 210 | Step: 7385 | Ep Reward: 57.0 | Ep Steps: 57 | Epsilon: 0.697 | SPS: 633.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 211 | Step: 7496 | Ep Reward: 111.0 | Ep Steps: 111 | Epsilon: 0.691 | SPS: 633.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 212 | Step: 7578 | Ep Reward: 82.0 | Ep Steps: 82 | Epsilon: 0.688 | SPS: 633.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 213 | Step: 7608 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.686 | SPS: 633.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 214 | Step: 7632 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.685 | SPS: 633.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 215 | Step: 7646 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.684 | SPS: 633.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 216 | Step: 7668 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.683 | SPS: 632.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 217 | Step: 7688 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.682 | SPS: 632.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 218 | Step: 7709 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.681 | SPS: 632.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 219 | Step: 7742 | Ep Reward: 33.0 | Ep Steps: 33 | Epsilon: 0.680 | SPS: 632.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 220 | Step: 7775 | Ep Reward: 33.0 | Ep Steps: 33 | Epsilon: 0.678 | SPS: 631.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 221 | Step: 7817 | Ep Reward: 42.0 | Ep Steps: 42 | Epsilon: 0.676 | SPS: 631.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 222 | Step: 7869 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.674 | SPS: 631.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 223 | Step: 7883 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.673 | SPS: 631.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 224 | Step: 7928 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.671 | SPS: 631.28
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 225 | Step: 7943 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.670 | SPS: 631.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 226 | Step: 7980 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.668 | SPS: 630.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 197.90 ---
+[Eval] Step: 8000 | Eval Reward: 197.90 | Epsilon: 0.668
+*** Saved new best model to ./results\best_model.pt with reward 197.90 ***
+Ep: 227 | Step: 8004 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.667 | SPS: 595.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 228 | Step: 8036 | Ep Reward: 32.0 | Ep Steps: 32 | Epsilon: 0.666 | SPS: 595.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 229 | Step: 8063 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.665 | SPS: 595.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 230 | Step: 8077 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.664 | SPS: 595.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 231 | Step: 8105 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.663 | SPS: 595.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 232 | Step: 8143 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.661 | SPS: 595.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 233 | Step: 8200 | Ep Reward: 57.0 | Ep Steps: 57 | Epsilon: 0.658 | SPS: 595.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 234 | Step: 8241 | Ep Reward: 41.0 | Ep Steps: 41 | Epsilon: 0.656 | SPS: 595.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 235 | Step: 8285 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.654 | SPS: 595.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 236 | Step: 8297 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.653 | SPS: 595.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 237 | Step: 8406 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.648 | SPS: 596.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 238 | Step: 8438 | Ep Reward: 32.0 | Ep Steps: 32 | Epsilon: 0.647 | SPS: 596.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 239 | Step: 8498 | Ep Reward: 60.0 | Ep Steps: 60 | Epsilon: 0.644 | SPS: 596.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 240 | Step: 8514 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.643 | SPS: 596.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 241 | Step: 8558 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.641 | SPS: 596.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 242 | Step: 8574 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.640 | SPS: 596.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 243 | Step: 8594 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.639 | SPS: 595.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 244 | Step: 8618 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.638 | SPS: 595.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 245 | Step: 8728 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.633 | SPS: 596.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 246 | Step: 8786 | Ep Reward: 58.0 | Ep Steps: 58 | Epsilon: 0.630 | SPS: 596.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 247 | Step: 8835 | Ep Reward: 49.0 | Ep Steps: 49 | Epsilon: 0.628 | SPS: 596.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 248 | Step: 8860 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.627 | SPS: 596.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 249 | Step: 8878 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.626 | SPS: 596.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 250 | Step: 8938 | Ep Reward: 60.0 | Ep Steps: 60 | Epsilon: 0.623 | SPS: 596.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 251 | Step: 8949 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.622 | SPS: 596.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 252 | Step: 8995 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.620 | SPS: 596.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 253 | Step: 9058 | Ep Reward: 63.0 | Ep Steps: 63 | Epsilon: 0.617 | SPS: 596.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 254 | Step: 9076 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.616 | SPS: 596.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 255 | Step: 9094 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.616 | SPS: 595.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 256 | Step: 9107 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.615 | SPS: 595.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 257 | Step: 9124 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.614 | SPS: 595.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 258 | Step: 9139 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.613 | SPS: 595.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 259 | Step: 9154 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.613 | SPS: 595.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 260 | Step: 9173 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.612 | SPS: 595.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 261 | Step: 9221 | Ep Reward: 48.0 | Ep Steps: 48 | Epsilon: 0.610 | SPS: 595.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 262 | Step: 9329 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.604 | SPS: 595.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 263 | Step: 9347 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.604 | SPS: 594.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 264 | Step: 9462 | Ep Reward: 115.0 | Ep Steps: 115 | Epsilon: 0.598 | SPS: 595.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 265 | Step: 9572 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.593 | SPS: 595.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 266 | Step: 9596 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.592 | SPS: 595.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 267 | Step: 9616 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.591 | SPS: 595.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 268 | Step: 9669 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.588 | SPS: 595.54
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 269 | Step: 9778 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.583 | SPS: 596.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 270 | Step: 9797 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.582 | SPS: 595.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 271 | Step: 9886 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.578 | SPS: 596.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 272 | Step: 9975 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.574 | SPS: 596.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 273 | Step: 9986 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.573 | SPS: 596.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 106.95 ---
+[Eval] Step: 10000 | Eval Reward: 106.95 | Epsilon: 0.573
+Ep: 274 | Step: 10001 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.572 | SPS: 582.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 275 | Step: 10028 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.571 | SPS: 582.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 276 | Step: 10044 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.570 | SPS: 582.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 277 | Step: 10091 | Ep Reward: 47.0 | Ep Steps: 47 | Epsilon: 0.568 | SPS: 582.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 278 | Step: 10114 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.567 | SPS: 582.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 279 | Step: 10233 | Ep Reward: 119.0 | Ep Steps: 119 | Epsilon: 0.561 | SPS: 582.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 280 | Step: 10243 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.561 | SPS: 582.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 281 | Step: 10263 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.560 | SPS: 582.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 282 | Step: 10349 | Ep Reward: 86.0 | Ep Steps: 86 | Epsilon: 0.556 | SPS: 582.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 283 | Step: 10366 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.555 | SPS: 582.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 284 | Step: 10391 | Ep Reward: 25.0 | Ep Steps: 25 | Epsilon: 0.554 | SPS: 582.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 285 | Step: 10404 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.553 | SPS: 582.52
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 286 | Step: 10466 | Ep Reward: 62.0 | Ep Steps: 62 | Epsilon: 0.550 | SPS: 582.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 287 | Step: 10494 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.549 | SPS: 582.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 288 | Step: 10514 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.548 | SPS: 582.34
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 289 | Step: 10544 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.547 | SPS: 582.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 290 | Step: 10588 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.545 | SPS: 582.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 291 | Step: 10623 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.543 | SPS: 582.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 292 | Step: 10636 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.542 | SPS: 582.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 293 | Step: 10650 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.542 | SPS: 582.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 294 | Step: 10667 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.541 | SPS: 581.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 295 | Step: 10727 | Ep Reward: 60.0 | Ep Steps: 60 | Epsilon: 0.538 | SPS: 581.99
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 296 | Step: 10741 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.537 | SPS: 581.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 297 | Step: 10756 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.537 | SPS: 581.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 298 | Step: 10817 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.534 | SPS: 581.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 299 | Step: 10845 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.532 | SPS: 581.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 300 | Step: 10900 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.530 | SPS: 581.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 301 | Step: 10913 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.529 | SPS: 581.83
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 302 | Step: 10931 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.528 | SPS: 581.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 303 | Step: 10946 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.528 | SPS: 581.54
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 304 | Step: 10968 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.527 | SPS: 581.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 305 | Step: 11011 | Ep Reward: 43.0 | Ep Steps: 43 | Epsilon: 0.524 | SPS: 581.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 306 | Step: 11050 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.523 | SPS: 581.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 307 | Step: 11061 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.522 | SPS: 581.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 308 | Step: 11192 | Ep Reward: 131.0 | Ep Steps: 131 | Epsilon: 0.516 | SPS: 581.72
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 309 | Step: 11242 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.514 | SPS: 581.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 310 | Step: 11275 | Ep Reward: 33.0 | Ep Steps: 33 | Epsilon: 0.512 | SPS: 581.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 311 | Step: 11326 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.510 | SPS: 581.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 312 | Step: 11357 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.508 | SPS: 581.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 313 | Step: 11381 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.507 | SPS: 581.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 314 | Step: 11398 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.506 | SPS: 581.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 315 | Step: 11437 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.504 | SPS: 581.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 316 | Step: 11456 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.503 | SPS: 581.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 317 | Step: 11469 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.503 | SPS: 581.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 318 | Step: 11486 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.502 | SPS: 581.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 319 | Step: 11513 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.501 | SPS: 581.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 320 | Step: 11572 | Ep Reward: 59.0 | Ep Steps: 59 | Epsilon: 0.498 | SPS: 581.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 321 | Step: 11589 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.497 | SPS: 581.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 322 | Step: 11645 | Ep Reward: 56.0 | Ep Steps: 56 | Epsilon: 0.494 | SPS: 581.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 323 | Step: 11697 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.492 | SPS: 581.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 324 | Step: 11747 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.490 | SPS: 581.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 325 | Step: 11759 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.489 | SPS: 581.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 326 | Step: 11773 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.488 | SPS: 581.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 327 | Step: 11787 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.488 | SPS: 581.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 328 | Step: 11842 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.485 | SPS: 581.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 329 | Step: 11868 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.484 | SPS: 581.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 330 | Step: 11972 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.479 | SPS: 582.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 331 | Step: 11993 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.478 | SPS: 581.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 109.30 ---
+[Eval] Step: 12000 | Eval Reward: 109.30 | Epsilon: 0.478
+Ep: 332 | Step: 12006 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.477 | SPS: 570.02
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 333 | Step: 12037 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.476 | SPS: 569.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 334 | Step: 12055 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.475 | SPS: 569.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 335 | Step: 12078 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.474 | SPS: 569.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 336 | Step: 12106 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.472 | SPS: 569.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 337 | Step: 12192 | Ep Reward: 86.0 | Ep Steps: 86 | Epsilon: 0.468 | SPS: 570.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 338 | Step: 12231 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.467 | SPS: 570.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 339 | Step: 12252 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.466 | SPS: 570.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 340 | Step: 12265 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.465 | SPS: 570.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 341 | Step: 12325 | Ep Reward: 60.0 | Ep Steps: 60 | Epsilon: 0.462 | SPS: 570.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 342 | Step: 12376 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.460 | SPS: 570.28
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 343 | Step: 12388 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.459 | SPS: 570.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 344 | Step: 12414 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.458 | SPS: 570.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 345 | Step: 12469 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.455 | SPS: 570.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 346 | Step: 12489 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.454 | SPS: 570.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 347 | Step: 12520 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.453 | SPS: 570.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 348 | Step: 12530 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.452 | SPS: 570.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 349 | Step: 12548 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.451 | SPS: 570.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 350 | Step: 12568 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.451 | SPS: 569.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 351 | Step: 12581 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.450 | SPS: 569.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 352 | Step: 12651 | Ep Reward: 70.0 | Ep Steps: 70 | Epsilon: 0.447 | SPS: 570.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 353 | Step: 12677 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.445 | SPS: 570.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 354 | Step: 12705 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.444 | SPS: 570.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 355 | Step: 12718 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.443 | SPS: 569.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 356 | Step: 12737 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.442 | SPS: 569.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 357 | Step: 12759 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.441 | SPS: 569.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 358 | Step: 12776 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.441 | SPS: 569.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 359 | Step: 12813 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.439 | SPS: 569.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 360 | Step: 12862 | Ep Reward: 49.0 | Ep Steps: 49 | Epsilon: 0.437 | SPS: 569.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 361 | Step: 12880 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.436 | SPS: 569.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 362 | Step: 12913 | Ep Reward: 33.0 | Ep Steps: 33 | Epsilon: 0.434 | SPS: 569.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 363 | Step: 12941 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.433 | SPS: 569.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 364 | Step: 12956 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.432 | SPS: 569.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 365 | Step: 12985 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.431 | SPS: 569.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 366 | Step: 13006 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.430 | SPS: 569.54
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 367 | Step: 13018 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.429 | SPS: 569.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 368 | Step: 13033 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.428 | SPS: 569.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 369 | Step: 13053 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.427 | SPS: 569.28
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 370 | Step: 13069 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.427 | SPS: 569.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 371 | Step: 13083 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.426 | SPS: 569.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 372 | Step: 13175 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.422 | SPS: 569.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 373 | Step: 13188 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.421 | SPS: 569.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 374 | Step: 13214 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.420 | SPS: 569.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 375 | Step: 13228 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.419 | SPS: 569.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 376 | Step: 13240 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.419 | SPS: 569.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 377 | Step: 13277 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.417 | SPS: 569.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 378 | Step: 13323 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.415 | SPS: 569.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 379 | Step: 13351 | Ep Reward: 28.0 | Ep Steps: 28 | Epsilon: 0.413 | SPS: 569.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 380 | Step: 13367 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.413 | SPS: 569.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 381 | Step: 13384 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.412 | SPS: 568.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 382 | Step: 13481 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.407 | SPS: 569.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 383 | Step: 13495 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.406 | SPS: 569.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 384 | Step: 13516 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.405 | SPS: 569.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 385 | Step: 13548 | Ep Reward: 32.0 | Ep Steps: 32 | Epsilon: 0.404 | SPS: 569.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 386 | Step: 13558 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.403 | SPS: 569.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 387 | Step: 13578 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.403 | SPS: 569.12
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 388 | Step: 13594 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.402 | SPS: 569.06
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 389 | Step: 13614 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.401 | SPS: 568.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 390 | Step: 13720 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.396 | SPS: 569.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 391 | Step: 13749 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.394 | SPS: 569.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 392 | Step: 13765 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.394 | SPS: 569.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 393 | Step: 13803 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.392 | SPS: 569.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 394 | Step: 13881 | Ep Reward: 78.0 | Ep Steps: 78 | Epsilon: 0.388 | SPS: 569.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 395 | Step: 13900 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.387 | SPS: 569.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 97.20 ---
+[Eval] Step: 14000 | Eval Reward: 97.20 | Epsilon: 0.383
+Ep: 396 | Step: 14001 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.382 | SPS: 561.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 397 | Step: 14167 | Ep Reward: 166.0 | Ep Steps: 166 | Epsilon: 0.375 | SPS: 562.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 398 | Step: 14187 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.374 | SPS: 562.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 399 | Step: 14239 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.371 | SPS: 562.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 400 | Step: 14295 | Ep Reward: 56.0 | Ep Steps: 56 | Epsilon: 0.368 | SPS: 562.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 401 | Step: 14309 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.368 | SPS: 562.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 402 | Step: 14328 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.367 | SPS: 562.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 403 | Step: 14346 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.366 | SPS: 562.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 404 | Step: 14362 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.365 | SPS: 562.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 405 | Step: 14392 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.364 | SPS: 562.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 406 | Step: 14504 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.359 | SPS: 562.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 407 | Step: 14620 | Ep Reward: 116.0 | Ep Steps: 116 | Epsilon: 0.353 | SPS: 563.22
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 408 | Step: 14728 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.348 | SPS: 563.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 409 | Step: 14747 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.347 | SPS: 563.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 410 | Step: 14795 | Ep Reward: 48.0 | Ep Steps: 48 | Epsilon: 0.345 | SPS: 563.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 411 | Step: 14879 | Ep Reward: 84.0 | Ep Steps: 84 | Epsilon: 0.341 | SPS: 564.10
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 412 | Step: 14915 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.339 | SPS: 564.12
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 413 | Step: 15014 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.334 | SPS: 564.54
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 414 | Step: 15038 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.333 | SPS: 564.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 415 | Step: 15131 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.329 | SPS: 564.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 416 | Step: 15268 | Ep Reward: 137.0 | Ep Steps: 137 | Epsilon: 0.322 | SPS: 565.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 417 | Step: 15304 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.321 | SPS: 565.38
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 418 | Step: 15327 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.319 | SPS: 565.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 419 | Step: 15470 | Ep Reward: 143.0 | Ep Steps: 143 | Epsilon: 0.313 | SPS: 565.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 420 | Step: 15639 | Ep Reward: 169.0 | Ep Steps: 169 | Epsilon: 0.305 | SPS: 566.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 421 | Step: 15658 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.304 | SPS: 566.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 422 | Step: 15672 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.303 | SPS: 566.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 423 | Step: 15684 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.303 | SPS: 566.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 424 | Step: 15701 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.302 | SPS: 566.34
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 425 | Step: 15712 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.301 | SPS: 566.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 426 | Step: 15728 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.300 | SPS: 566.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 427 | Step: 15824 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.296 | SPS: 566.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 428 | Step: 15844 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.295 | SPS: 566.37
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 429 | Step: 15865 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.294 | SPS: 566.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 430 | Step: 15892 | Ep Reward: 27.0 | Ep Steps: 27 | Epsilon: 0.293 | SPS: 566.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 431 | Step: 15903 | Ep Reward: 11.0 | Ep Steps: 11 | Epsilon: 0.292 | SPS: 566.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 432 | Step: 15932 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.291 | SPS: 566.12
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 78.25 ---
+[Eval] Step: 16000 | Eval Reward: 78.25 | Epsilon: 0.288
+Ep: 433 | Step: 16020 | Ep Reward: 88.0 | Ep Steps: 88 | Epsilon: 0.287 | SPS: 560.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 434 | Step: 16058 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.285 | SPS: 560.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 435 | Step: 16110 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.282 | SPS: 560.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 436 | Step: 16202 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.278 | SPS: 560.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 437 | Step: 16217 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.277 | SPS: 560.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 438 | Step: 16254 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.275 | SPS: 560.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 439 | Step: 16267 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.275 | SPS: 560.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 440 | Step: 16281 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.274 | SPS: 560.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 441 | Step: 16300 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.273 | SPS: 560.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 442 | Step: 16381 | Ep Reward: 81.0 | Ep Steps: 81 | Epsilon: 0.269 | SPS: 560.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 443 | Step: 16397 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.269 | SPS: 560.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 444 | Step: 16455 | Ep Reward: 58.0 | Ep Steps: 58 | Epsilon: 0.266 | SPS: 560.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 445 | Step: 16474 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.265 | SPS: 560.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 446 | Step: 16489 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.264 | SPS: 560.72
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 447 | Step: 16583 | Ep Reward: 94.0 | Ep Steps: 94 | Epsilon: 0.260 | SPS: 560.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 448 | Step: 16672 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.256 | SPS: 561.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 449 | Step: 16744 | Ep Reward: 72.0 | Ep Steps: 72 | Epsilon: 0.252 | SPS: 561.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 450 | Step: 16778 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.251 | SPS: 561.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 451 | Step: 16844 | Ep Reward: 66.0 | Ep Steps: 66 | Epsilon: 0.247 | SPS: 561.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 452 | Step: 16856 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.247 | SPS: 561.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 453 | Step: 16869 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.246 | SPS: 560.99
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 454 | Step: 16919 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.244 | SPS: 560.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 455 | Step: 16933 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.243 | SPS: 560.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 456 | Step: 16948 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.242 | SPS: 560.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 457 | Step: 16998 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.240 | SPS: 560.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 458 | Step: 17024 | Ep Reward: 26.0 | Ep Steps: 26 | Epsilon: 0.239 | SPS: 560.72
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 459 | Step: 17037 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.238 | SPS: 560.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 460 | Step: 17125 | Ep Reward: 88.0 | Ep Steps: 88 | Epsilon: 0.234 | SPS: 560.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 461 | Step: 17196 | Ep Reward: 71.0 | Ep Steps: 71 | Epsilon: 0.231 | SPS: 560.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 462 | Step: 17286 | Ep Reward: 90.0 | Ep Steps: 90 | Epsilon: 0.226 | SPS: 561.02
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 463 | Step: 17301 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.226 | SPS: 561.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 464 | Step: 17399 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.221 | SPS: 560.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 465 | Step: 17459 | Ep Reward: 60.0 | Ep Steps: 60 | Epsilon: 0.218 | SPS: 560.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 466 | Step: 17494 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.217 | SPS: 560.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 467 | Step: 17530 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.215 | SPS: 560.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 468 | Step: 17560 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.213 | SPS: 560.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 469 | Step: 17649 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.209 | SPS: 561.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 470 | Step: 17735 | Ep Reward: 86.0 | Ep Steps: 86 | Epsilon: 0.205 | SPS: 561.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 471 | Step: 17778 | Ep Reward: 43.0 | Ep Steps: 43 | Epsilon: 0.203 | SPS: 561.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 472 | Step: 17821 | Ep Reward: 43.0 | Ep Steps: 43 | Epsilon: 0.201 | SPS: 561.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 473 | Step: 17919 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.196 | SPS: 561.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 474 | Step: 17940 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.195 | SPS: 561.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 93.90 ---
+[Eval] Step: 18000 | Eval Reward: 93.90 | Epsilon: 0.193
+Ep: 475 | Step: 18031 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.191 | SPS: 556.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 476 | Step: 18126 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.187 | SPS: 556.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 477 | Step: 18192 | Ep Reward: 66.0 | Ep Steps: 66 | Epsilon: 0.183 | SPS: 556.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 478 | Step: 18287 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.179 | SPS: 556.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 479 | Step: 18337 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.176 | SPS: 556.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 480 | Step: 18361 | Ep Reward: 24.0 | Ep Steps: 24 | Epsilon: 0.175 | SPS: 556.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 481 | Step: 18412 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.173 | SPS: 556.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 482 | Step: 18432 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.172 | SPS: 556.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 483 | Step: 18472 | Ep Reward: 40.0 | Ep Steps: 40 | Epsilon: 0.170 | SPS: 556.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 484 | Step: 18507 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.168 | SPS: 556.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 485 | Step: 18566 | Ep Reward: 59.0 | Ep Steps: 59 | Epsilon: 0.166 | SPS: 557.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 486 | Step: 18578 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.165 | SPS: 556.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 487 | Step: 18658 | Ep Reward: 80.0 | Ep Steps: 80 | Epsilon: 0.161 | SPS: 557.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 488 | Step: 18709 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.159 | SPS: 557.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 489 | Step: 18753 | Ep Reward: 44.0 | Ep Steps: 44 | Epsilon: 0.157 | SPS: 557.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 490 | Step: 18809 | Ep Reward: 56.0 | Ep Steps: 56 | Epsilon: 0.154 | SPS: 557.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 491 | Step: 18856 | Ep Reward: 47.0 | Ep Steps: 47 | Epsilon: 0.152 | SPS: 557.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 492 | Step: 18890 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.150 | SPS: 557.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 493 | Step: 18921 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.149 | SPS: 557.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 494 | Step: 18966 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.147 | SPS: 557.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 495 | Step: 19013 | Ep Reward: 47.0 | Ep Steps: 47 | Epsilon: 0.144 | SPS: 557.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 496 | Step: 19067 | Ep Reward: 54.0 | Ep Steps: 54 | Epsilon: 0.142 | SPS: 557.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 497 | Step: 19128 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.139 | SPS: 557.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 498 | Step: 19183 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.136 | SPS: 557.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 499 | Step: 19278 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.132 | SPS: 557.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 500 | Step: 19331 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.129 | SPS: 557.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 501 | Step: 19352 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.128 | SPS: 557.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 502 | Step: 19414 | Ep Reward: 62.0 | Ep Steps: 62 | Epsilon: 0.125 | SPS: 557.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 503 | Step: 19453 | Ep Reward: 39.0 | Ep Steps: 39 | Epsilon: 0.123 | SPS: 557.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 504 | Step: 19506 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.121 | SPS: 557.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 505 | Step: 19551 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.119 | SPS: 557.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 506 | Step: 19602 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.116 | SPS: 557.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 507 | Step: 19710 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.111 | SPS: 558.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 508 | Step: 19769 | Ep Reward: 59.0 | Ep Steps: 59 | Epsilon: 0.108 | SPS: 558.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 509 | Step: 19842 | Ep Reward: 73.0 | Ep Steps: 73 | Epsilon: 0.105 | SPS: 558.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 510 | Step: 19937 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.100 | SPS: 558.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 100.40 ---
+[Eval] Step: 20000 | Eval Reward: 100.40 | Epsilon: 0.098
+Ep: 511 | Step: 20029 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.096 | SPS: 552.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 512 | Step: 20131 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.091 | SPS: 553.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 513 | Step: 20226 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.087 | SPS: 553.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 514 | Step: 20328 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.082 | SPS: 553.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 515 | Step: 20430 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.077 | SPS: 553.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 516 | Step: 20537 | Ep Reward: 107.0 | Ep Steps: 107 | Epsilon: 0.072 | SPS: 554.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 517 | Step: 20643 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.067 | SPS: 554.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 518 | Step: 20739 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.062 | SPS: 554.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 519 | Step: 20833 | Ep Reward: 94.0 | Ep Steps: 94 | Epsilon: 0.058 | SPS: 554.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 520 | Step: 20936 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.053 | SPS: 554.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 521 | Step: 21035 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 555.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 522 | Step: 21090 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.050 | SPS: 555.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 523 | Step: 21194 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 555.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 524 | Step: 21295 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 555.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 525 | Step: 21392 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 555.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 526 | Step: 21490 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 555.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 527 | Step: 21592 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 556.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 528 | Step: 21690 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 556.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 529 | Step: 21721 | Ep Reward: 31.0 | Ep Steps: 31 | Epsilon: 0.050 | SPS: 556.34
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 530 | Step: 21823 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 556.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 531 | Step: 21917 | Ep Reward: 94.0 | Ep Steps: 94 | Epsilon: 0.050 | SPS: 556.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 99.15 ---
+[Eval] Step: 22000 | Eval Reward: 99.15 | Epsilon: 0.050
+Ep: 532 | Step: 22017 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 533 | Step: 22116 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 551.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 534 | Step: 22220 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 552.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 535 | Step: 22317 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 552.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 536 | Step: 22420 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 552.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 537 | Step: 22527 | Ep Reward: 107.0 | Ep Steps: 107 | Epsilon: 0.050 | SPS: 552.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 538 | Step: 22628 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 552.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 539 | Step: 22731 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 553.10
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 540 | Step: 22836 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 553.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 541 | Step: 22935 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 553.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 542 | Step: 23034 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 553.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 543 | Step: 23144 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.050 | SPS: 553.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 544 | Step: 23249 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 554.12
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 545 | Step: 23354 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 554.34
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 546 | Step: 23472 | Ep Reward: 118.0 | Ep Steps: 118 | Epsilon: 0.050 | SPS: 554.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 547 | Step: 23572 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 554.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 548 | Step: 23630 | Ep Reward: 58.0 | Ep Steps: 58 | Epsilon: 0.050 | SPS: 554.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 549 | Step: 23728 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 554.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 550 | Step: 23794 | Ep Reward: 66.0 | Ep Steps: 66 | Epsilon: 0.050 | SPS: 554.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 551 | Step: 23895 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 554.34
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 552 | Step: 23997 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 554.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 49.75 ---
+[Eval] Step: 24000 | Eval Reward: 49.75 | Epsilon: 0.050
+Ep: 553 | Step: 24107 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.050 | SPS: 552.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 554 | Step: 24211 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 552.40
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 555 | Step: 24319 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.050 | SPS: 552.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 556 | Step: 24371 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.050 | SPS: 552.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 557 | Step: 24477 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 553.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 558 | Step: 24591 | Ep Reward: 114.0 | Ep Steps: 114 | Epsilon: 0.050 | SPS: 553.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 559 | Step: 24699 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.050 | SPS: 553.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 560 | Step: 24799 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 553.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 561 | Step: 24856 | Ep Reward: 57.0 | Ep Steps: 57 | Epsilon: 0.050 | SPS: 553.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 562 | Step: 24965 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 554.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 563 | Step: 25070 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 554.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 564 | Step: 25184 | Ep Reward: 114.0 | Ep Steps: 114 | Epsilon: 0.050 | SPS: 554.52
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 565 | Step: 25300 | Ep Reward: 116.0 | Ep Steps: 116 | Epsilon: 0.050 | SPS: 554.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 566 | Step: 25395 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 554.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 567 | Step: 25435 | Ep Reward: 40.0 | Ep Steps: 40 | Epsilon: 0.050 | SPS: 554.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 568 | Step: 25540 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 555.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 569 | Step: 25649 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 554.92
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 570 | Step: 25761 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.050 | SPS: 555.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 571 | Step: 25817 | Ep Reward: 56.0 | Ep Steps: 56 | Epsilon: 0.050 | SPS: 555.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 572 | Step: 25863 | Ep Reward: 46.0 | Ep Steps: 46 | Epsilon: 0.050 | SPS: 555.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 573 | Step: 25965 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 555.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 92.75 ---
+[Eval] Step: 26000 | Eval Reward: 92.75 | Epsilon: 0.050
+Ep: 574 | Step: 26069 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 551.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 575 | Step: 26132 | Ep Reward: 63.0 | Ep Steps: 63 | Epsilon: 0.050 | SPS: 551.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 576 | Step: 26234 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 551.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 577 | Step: 26285 | Ep Reward: 51.0 | Ep Steps: 51 | Epsilon: 0.050 | SPS: 551.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 578 | Step: 26385 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 579 | Step: 26481 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 552.04
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 580 | Step: 26586 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 552.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 581 | Step: 26636 | Ep Reward: 50.0 | Ep Steps: 50 | Epsilon: 0.050 | SPS: 552.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 582 | Step: 26742 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 552.52
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 583 | Step: 26834 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 552.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 584 | Step: 26933 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 552.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 585 | Step: 27037 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 553.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 586 | Step: 27132 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 553.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 587 | Step: 27230 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 553.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 588 | Step: 27325 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 553.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 589 | Step: 27421 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 553.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 590 | Step: 27524 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 553.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 591 | Step: 27635 | Ep Reward: 111.0 | Ep Steps: 111 | Epsilon: 0.050 | SPS: 554.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 592 | Step: 27709 | Ep Reward: 74.0 | Ep Steps: 74 | Epsilon: 0.050 | SPS: 554.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 593 | Step: 27826 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 554.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 594 | Step: 27948 | Ep Reward: 122.0 | Ep Steps: 122 | Epsilon: 0.050 | SPS: 554.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 97.65 ---
+[Eval] Step: 28000 | Eval Reward: 97.65 | Epsilon: 0.050
+Ep: 595 | Step: 28051 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 550.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 596 | Step: 28168 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 550.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 597 | Step: 28295 | Ep Reward: 127.0 | Ep Steps: 127 | Epsilon: 0.050 | SPS: 550.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 598 | Step: 28401 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 551.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 599 | Step: 28521 | Ep Reward: 120.0 | Ep Steps: 120 | Epsilon: 0.050 | SPS: 551.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 600 | Step: 28566 | Ep Reward: 45.0 | Ep Steps: 45 | Epsilon: 0.050 | SPS: 551.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 601 | Step: 28671 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 551.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 602 | Step: 28790 | Ep Reward: 119.0 | Ep Steps: 119 | Epsilon: 0.050 | SPS: 551.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 603 | Step: 28905 | Ep Reward: 115.0 | Ep Steps: 115 | Epsilon: 0.050 | SPS: 551.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 604 | Step: 29005 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 552.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 605 | Step: 29114 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 552.28
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 606 | Step: 29217 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 552.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 607 | Step: 29322 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 552.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 608 | Step: 29426 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 552.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 609 | Step: 29540 | Ep Reward: 114.0 | Ep Steps: 114 | Epsilon: 0.050 | SPS: 552.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 610 | Step: 29651 | Ep Reward: 111.0 | Ep Steps: 111 | Epsilon: 0.050 | SPS: 553.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 611 | Step: 29723 | Ep Reward: 72.0 | Ep Steps: 72 | Epsilon: 0.050 | SPS: 553.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 612 | Step: 29830 | Ep Reward: 107.0 | Ep Steps: 107 | Epsilon: 0.050 | SPS: 553.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 613 | Step: 29932 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 553.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 68.80 ---
+[Eval] Step: 30000 | Eval Reward: 68.80 | Epsilon: 0.050
+Ep: 614 | Step: 30005 | Ep Reward: 73.0 | Ep Steps: 73 | Epsilon: 0.050 | SPS: 550.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 615 | Step: 30111 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 551.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 616 | Step: 30216 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 551.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 617 | Step: 30317 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 551.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 618 | Step: 30409 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 551.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 619 | Step: 30504 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 551.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 620 | Step: 30542 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.050 | SPS: 551.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 621 | Step: 30557 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.050 | SPS: 551.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 622 | Step: 30657 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.69
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 623 | Step: 30757 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 624 | Step: 30851 | Ep Reward: 94.0 | Ep Steps: 94 | Epsilon: 0.050 | SPS: 552.01
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 625 | Step: 30947 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 552.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 626 | Step: 31050 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 552.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 627 | Step: 31152 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 552.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 628 | Step: 31257 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 552.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 629 | Step: 31357 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 552.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 630 | Step: 31459 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 552.83
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 631 | Step: 31561 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 552.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 632 | Step: 31666 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 553.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 633 | Step: 31761 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 553.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 634 | Step: 31790 | Ep Reward: 29.0 | Ep Steps: 29 | Epsilon: 0.050 | SPS: 553.27
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 635 | Step: 31886 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 553.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 636 | Step: 31983 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 553.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 94.50 ---
+[Eval] Step: 32000 | Eval Reward: 94.50 | Epsilon: 0.050
+Ep: 637 | Step: 32006 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.050 | SPS: 550.10
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 638 | Step: 32016 | Ep Reward: 10.0 | Ep Steps: 10 | Epsilon: 0.050 | SPS: 550.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 639 | Step: 32086 | Ep Reward: 70.0 | Ep Steps: 70 | Epsilon: 0.050 | SPS: 550.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 640 | Step: 32190 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 550.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 641 | Step: 32225 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.050 | SPS: 550.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 642 | Step: 32323 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 550.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 643 | Step: 32424 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 550.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 644 | Step: 32523 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 550.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 645 | Step: 32628 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 550.55
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 646 | Step: 32739 | Ep Reward: 111.0 | Ep Steps: 111 | Epsilon: 0.050 | SPS: 550.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 647 | Step: 32845 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 550.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 648 | Step: 32959 | Ep Reward: 114.0 | Ep Steps: 114 | Epsilon: 0.050 | SPS: 550.94
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 649 | Step: 33065 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 551.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 650 | Step: 33166 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 551.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 651 | Step: 33272 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 551.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 652 | Step: 33372 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 653 | Step: 33475 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 551.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 654 | Step: 33580 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 551.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 655 | Step: 33680 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 551.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 656 | Step: 33785 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 552.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 657 | Step: 33887 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 552.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 658 | Step: 33987 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 552.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 102.70 ---
+[Eval] Step: 34000 | Eval Reward: 102.70 | Epsilon: 0.050
+Ep: 659 | Step: 34089 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 548.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 660 | Step: 34102 | Ep Reward: 13.0 | Ep Steps: 13 | Epsilon: 0.050 | SPS: 548.73
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 661 | Step: 34154 | Ep Reward: 52.0 | Ep Steps: 52 | Epsilon: 0.050 | SPS: 548.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 662 | Step: 34256 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 548.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 663 | Step: 34353 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 549.06
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 664 | Step: 34450 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 549.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 665 | Step: 34488 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.050 | SPS: 549.03
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 666 | Step: 34591 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 549.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 667 | Step: 34692 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 549.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 668 | Step: 34796 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 549.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 669 | Step: 34898 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 549.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 670 | Step: 34996 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 549.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 671 | Step: 35108 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.050 | SPS: 549.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 672 | Step: 35225 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 549.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 673 | Step: 35334 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 549.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 674 | Step: 35436 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 550.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 675 | Step: 35541 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 550.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 676 | Step: 35660 | Ep Reward: 119.0 | Ep Steps: 119 | Epsilon: 0.050 | SPS: 550.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 677 | Step: 35770 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.050 | SPS: 550.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 678 | Step: 35883 | Ep Reward: 113.0 | Ep Steps: 113 | Epsilon: 0.050 | SPS: 550.64
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 679 | Step: 35999 | Ep Reward: 116.0 | Ep Steps: 116 | Epsilon: 0.050 | SPS: 550.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 193.90 ---
+[Eval] Step: 36000 | Eval Reward: 193.90 | Epsilon: 0.050
+Ep: 680 | Step: 36060 | Ep Reward: 61.0 | Ep Steps: 61 | Epsilon: 0.050 | SPS: 544.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 681 | Step: 36178 | Ep Reward: 118.0 | Ep Steps: 118 | Epsilon: 0.050 | SPS: 544.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 682 | Step: 36327 | Ep Reward: 149.0 | Ep Steps: 149 | Epsilon: 0.050 | SPS: 544.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 683 | Step: 36448 | Ep Reward: 121.0 | Ep Steps: 121 | Epsilon: 0.050 | SPS: 545.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 684 | Step: 36565 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 545.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 685 | Step: 36678 | Ep Reward: 113.0 | Ep Steps: 113 | Epsilon: 0.050 | SPS: 545.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 686 | Step: 36714 | Ep Reward: 36.0 | Ep Steps: 36 | Epsilon: 0.050 | SPS: 545.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 687 | Step: 36819 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 545.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 688 | Step: 36932 | Ep Reward: 113.0 | Ep Steps: 113 | Epsilon: 0.050 | SPS: 545.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 689 | Step: 37038 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 545.90
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 690 | Step: 37154 | Ep Reward: 116.0 | Ep Steps: 116 | Epsilon: 0.050 | SPS: 546.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 691 | Step: 37245 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 546.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 692 | Step: 37327 | Ep Reward: 82.0 | Ep Steps: 82 | Epsilon: 0.050 | SPS: 546.31
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 693 | Step: 37426 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 546.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 694 | Step: 37524 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 546.60
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 695 | Step: 37637 | Ep Reward: 113.0 | Ep Steps: 113 | Epsilon: 0.050 | SPS: 546.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 696 | Step: 37658 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.050 | SPS: 546.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 697 | Step: 37748 | Ep Reward: 90.0 | Ep Steps: 90 | Epsilon: 0.050 | SPS: 546.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 698 | Step: 37841 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 546.96
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 699 | Step: 37944 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 547.11
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 94.10 ---
+[Eval] Step: 38000 | Eval Reward: 94.10 | Epsilon: 0.050
+Ep: 700 | Step: 38040 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 544.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 701 | Step: 38095 | Ep Reward: 55.0 | Ep Steps: 55 | Epsilon: 0.050 | SPS: 544.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 702 | Step: 38196 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 544.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 703 | Step: 38343 | Ep Reward: 147.0 | Ep Steps: 147 | Epsilon: 0.050 | SPS: 544.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 704 | Step: 38421 | Ep Reward: 78.0 | Ep Steps: 78 | Epsilon: 0.050 | SPS: 544.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 705 | Step: 38514 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 545.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 706 | Step: 38548 | Ep Reward: 34.0 | Ep Steps: 34 | Epsilon: 0.050 | SPS: 545.04
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 707 | Step: 38656 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.050 | SPS: 545.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 708 | Step: 38676 | Ep Reward: 20.0 | Ep Steps: 20 | Epsilon: 0.050 | SPS: 545.16
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 709 | Step: 38767 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 545.27
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 710 | Step: 38862 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 545.38
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 711 | Step: 38951 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 545.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 712 | Step: 39050 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 545.62
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 713 | Step: 39159 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 545.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 714 | Step: 39299 | Ep Reward: 140.0 | Ep Steps: 140 | Epsilon: 0.050 | SPS: 545.79
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 715 | Step: 39399 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 545.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 716 | Step: 39437 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.050 | SPS: 545.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 717 | Step: 39543 | Ep Reward: 106.0 | Ep Steps: 106 | Epsilon: 0.050 | SPS: 546.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 718 | Step: 39639 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 546.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 719 | Step: 39736 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 546.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 720 | Step: 39832 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 546.41
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 721 | Step: 39927 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 546.51
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 722 | Step: 39945 | Ep Reward: 18.0 | Ep Steps: 18 | Epsilon: 0.050 | SPS: 546.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 107.05 ---
+[Eval] Step: 40000 | Eval Reward: 107.05 | Epsilon: 0.050
+Ep: 723 | Step: 40040 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 543.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 724 | Step: 40129 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 543.57
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 725 | Step: 40225 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 543.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 726 | Step: 40263 | Ep Reward: 38.0 | Ep Steps: 38 | Epsilon: 0.050 | SPS: 543.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 727 | Step: 40358 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 543.78
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 728 | Step: 40447 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 543.89
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 729 | Step: 40462 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.050 | SPS: 543.87
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 730 | Step: 40557 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 544.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 731 | Step: 40648 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 544.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 732 | Step: 40738 | Ep Reward: 90.0 | Ep Steps: 90 | Epsilon: 0.050 | SPS: 544.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 733 | Step: 40791 | Ep Reward: 53.0 | Ep Steps: 53 | Epsilon: 0.050 | SPS: 544.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 734 | Step: 40812 | Ep Reward: 21.0 | Ep Steps: 21 | Epsilon: 0.050 | SPS: 544.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 735 | Step: 40853 | Ep Reward: 41.0 | Ep Steps: 41 | Epsilon: 0.050 | SPS: 544.18
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 736 | Step: 40944 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 544.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 737 | Step: 41032 | Ep Reward: 88.0 | Ep Steps: 88 | Epsilon: 0.050 | SPS: 544.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 738 | Step: 41131 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 544.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 739 | Step: 41232 | Ep Reward: 101.0 | Ep Steps: 101 | Epsilon: 0.050 | SPS: 544.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 740 | Step: 41321 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 544.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 741 | Step: 41356 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.050 | SPS: 544.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 742 | Step: 41461 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 544.84
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 743 | Step: 41563 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 544.95
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 744 | Step: 41675 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.050 | SPS: 545.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 745 | Step: 41775 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 545.21
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 746 | Step: 41878 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 545.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 747 | Step: 41980 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 545.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 99.75 ---
+[Eval] Step: 42000 | Eval Reward: 99.75 | Epsilon: 0.050
+Ep: 748 | Step: 42100 | Ep Reward: 120.0 | Ep Steps: 120 | Epsilon: 0.050 | SPS: 542.74
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 749 | Step: 42210 | Ep Reward: 110.0 | Ep Steps: 110 | Epsilon: 0.050 | SPS: 542.85
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 750 | Step: 42352 | Ep Reward: 142.0 | Ep Steps: 142 | Epsilon: 0.050 | SPS: 543.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 751 | Step: 42497 | Ep Reward: 145.0 | Ep Steps: 145 | Epsilon: 0.050 | SPS: 543.26
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 752 | Step: 42633 | Ep Reward: 136.0 | Ep Steps: 136 | Epsilon: 0.050 | SPS: 543.42
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 753 | Step: 42736 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 543.52
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 754 | Step: 42836 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 543.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 755 | Step: 42936 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 543.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 756 | Step: 43073 | Ep Reward: 137.0 | Ep Steps: 137 | Epsilon: 0.050 | SPS: 543.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 757 | Step: 43182 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 543.98
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 758 | Step: 43294 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.050 | SPS: 544.10
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 759 | Step: 43394 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 544.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 760 | Step: 43494 | Ep Reward: 100.0 | Ep Steps: 100 | Epsilon: 0.050 | SPS: 544.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 761 | Step: 43591 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 544.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 762 | Step: 43695 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 544.46
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 763 | Step: 43792 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 544.53
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 764 | Step: 43909 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 544.65
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 94.60 ---
+[Eval] Step: 44000 | Eval Reward: 94.60 | Epsilon: 0.050
+Ep: 765 | Step: 44014 | Ep Reward: 105.0 | Ep Steps: 105 | Epsilon: 0.050 | SPS: 542.32
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 766 | Step: 44131 | Ep Reward: 117.0 | Ep Steps: 117 | Epsilon: 0.050 | SPS: 542.44
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 767 | Step: 44239 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.050 | SPS: 542.56
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 768 | Step: 44342 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 542.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 769 | Step: 44375 | Ep Reward: 33.0 | Ep Steps: 33 | Epsilon: 0.050 | SPS: 542.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 770 | Step: 44491 | Ep Reward: 116.0 | Ep Steps: 116 | Epsilon: 0.050 | SPS: 542.71
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 771 | Step: 44594 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 542.83
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 772 | Step: 44702 | Ep Reward: 108.0 | Ep Steps: 108 | Epsilon: 0.050 | SPS: 542.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 773 | Step: 44827 | Ep Reward: 125.0 | Ep Steps: 125 | Epsilon: 0.050 | SPS: 543.05
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 774 | Step: 44936 | Ep Reward: 109.0 | Ep Steps: 109 | Epsilon: 0.050 | SPS: 543.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 775 | Step: 45039 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 543.24
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 776 | Step: 45152 | Ep Reward: 113.0 | Ep Steps: 113 | Epsilon: 0.050 | SPS: 543.37
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 777 | Step: 45168 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.050 | SPS: 543.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 778 | Step: 45280 | Ep Reward: 112.0 | Ep Steps: 112 | Epsilon: 0.050 | SPS: 543.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 779 | Step: 45310 | Ep Reward: 30.0 | Ep Steps: 30 | Epsilon: 0.050 | SPS: 543.48
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 780 | Step: 45429 | Ep Reward: 119.0 | Ep Steps: 119 | Epsilon: 0.050 | SPS: 543.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 781 | Step: 45536 | Ep Reward: 107.0 | Ep Steps: 107 | Epsilon: 0.050 | SPS: 543.76
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 782 | Step: 45632 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 543.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 783 | Step: 45736 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 543.99
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 784 | Step: 45835 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 544.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 785 | Step: 45931 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 544.20
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 94.15 ---
+[Eval] Step: 46000 | Eval Reward: 94.15 | Epsilon: 0.050
+Ep: 786 | Step: 46033 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 541.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 787 | Step: 46126 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 542.07
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 788 | Step: 46215 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 542.15
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 789 | Step: 46232 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.050 | SPS: 542.13
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 790 | Step: 46324 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 542.23
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 791 | Step: 46416 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 542.33
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 792 | Step: 46428 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.050 | SPS: 542.30
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 793 | Step: 46525 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 542.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 794 | Step: 46617 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 542.49
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 795 | Step: 46720 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 542.61
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 796 | Step: 46739 | Ep Reward: 19.0 | Ep Steps: 19 | Epsilon: 0.050 | SPS: 542.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 797 | Step: 46842 | Ep Reward: 103.0 | Ep Steps: 103 | Epsilon: 0.050 | SPS: 542.70
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 798 | Step: 46944 | Ep Reward: 102.0 | Ep Steps: 102 | Epsilon: 0.050 | SPS: 542.82
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 799 | Step: 47048 | Ep Reward: 104.0 | Ep Steps: 104 | Epsilon: 0.050 | SPS: 542.93
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 800 | Step: 47139 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 543.02
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 801 | Step: 47151 | Ep Reward: 12.0 | Ep Steps: 12 | Epsilon: 0.050 | SPS: 543.00
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 802 | Step: 47258 | Ep Reward: 107.0 | Ep Steps: 107 | Epsilon: 0.050 | SPS: 543.09
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 803 | Step: 47355 | Ep Reward: 97.0 | Ep Steps: 97 | Epsilon: 0.050 | SPS: 543.14
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 804 | Step: 47451 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 543.25
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 805 | Step: 47546 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 543.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 806 | Step: 47642 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 543.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 807 | Step: 47659 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.050 | SPS: 543.43
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 808 | Step: 47676 | Ep Reward: 17.0 | Ep Steps: 17 | Epsilon: 0.050 | SPS: 543.38
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 809 | Step: 47769 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 543.47
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 810 | Step: 47867 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 543.58
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 811 | Step: 47956 | Ep Reward: 89.0 | Ep Steps: 89 | Epsilon: 0.050 | SPS: 543.68
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 812 | Step: 47972 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.050 | SPS: 543.66
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 107.35 ---
+[Eval] Step: 48000 | Eval Reward: 107.35 | Epsilon: 0.050
+Ep: 813 | Step: 48071 | Ep Reward: 99.0 | Ep Steps: 99 | Epsilon: 0.050 | SPS: 541.19
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 814 | Step: 48162 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 541.29
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 815 | Step: 48258 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 541.39
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 816 | Step: 48293 | Ep Reward: 35.0 | Ep Steps: 35 | Epsilon: 0.050 | SPS: 541.40
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 817 | Step: 48383 | Ep Reward: 90.0 | Ep Steps: 90 | Epsilon: 0.050 | SPS: 541.50
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 818 | Step: 48474 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 541.59
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 819 | Step: 48565 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 541.67
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 820 | Step: 48656 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 541.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 821 | Step: 48672 | Ep Reward: 16.0 | Ep Steps: 16 | Epsilon: 0.050 | SPS: 541.75
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 822 | Step: 48744 | Ep Reward: 72.0 | Ep Steps: 72 | Epsilon: 0.050 | SPS: 541.80
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 823 | Step: 48759 | Ep Reward: 15.0 | Ep Steps: 15 | Epsilon: 0.050 | SPS: 541.77
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 824 | Step: 48851 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 541.86
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 825 | Step: 48949 | Ep Reward: 98.0 | Ep Steps: 98 | Epsilon: 0.050 | SPS: 541.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 826 | Step: 48986 | Ep Reward: 37.0 | Ep Steps: 37 | Epsilon: 0.050 | SPS: 541.97
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 827 | Step: 49081 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 542.08
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 828 | Step: 49174 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 542.17
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 829 | Step: 49268 | Ep Reward: 94.0 | Ep Steps: 94 | Epsilon: 0.050 | SPS: 542.27
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 830 | Step: 49361 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 542.36
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 831 | Step: 49375 | Ep Reward: 14.0 | Ep Steps: 14 | Epsilon: 0.050 | SPS: 542.35
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 832 | Step: 49470 | Ep Reward: 95.0 | Ep Steps: 95 | Epsilon: 0.050 | SPS: 542.45
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 833 | Step: 49561 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 542.54
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 834 | Step: 49657 | Ep Reward: 96.0 | Ep Steps: 96 | Epsilon: 0.050 | SPS: 542.63
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 835 | Step: 49748 | Ep Reward: 91.0 | Ep Steps: 91 | Epsilon: 0.050 | SPS: 542.72
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 836 | Step: 49840 | Ep Reward: 92.0 | Ep Steps: 92 | Epsilon: 0.050 | SPS: 542.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 837 | Step: 49863 | Ep Reward: 23.0 | Ep Steps: 23 | Epsilon: 0.050 | SPS: 542.81
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 838 | Step: 49956 | Ep Reward: 93.0 | Ep Steps: 93 | Epsilon: 0.050 | SPS: 542.91
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+Ep: 839 | Step: 49978 | Ep Reward: 22.0 | Ep Steps: 22 | Epsilon: 0.050 | SPS: 542.88
+Saved best model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: 82.00 ---
+[Eval] Step: 50000 | Eval Reward: 82.00 | Epsilon: 0.050
+Saved final model to ./results\Task1-CartPole_final_model.pt
+Saved BEST model snapshot for Task 1: ./results\LAB5_kmk7nmb2_task1_cartpole.pt

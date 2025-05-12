@@ -1,0 +1,81 @@
+Using device: cuda
+[Ep 1] R=-20.0  Steps=871  ε=0.9574
+[Ep 2] R=-21.0  Steps=1755  ε=0.9160
+[Ep 3] R=-21.0  Steps=2697  ε=0.8738
+[Ep 4] R=-21.0  Steps=3638  ε=0.8337
+[Ep 5] R=-20.0  Steps=4541  ε=0.7969
+[Ep 6] R=-21.0  Steps=5393  ε=0.7636
+[Ep 7] R=-21.0  Steps=6219  ε=0.7327
+[Ep 8] R=-21.0  Steps=7071  ε=0.7022
+[Ep 9] R=-20.0  Steps=8030  ε=0.6693
+*** (avg_R=-21.00) ***
+[Ep 10] R=-21.0  Steps=8914  ε=0.6404
+[Ep 11] R=-20.0  Steps=9833  ε=0.6116
+[Ep 12] R=-20.0  Steps=10772  ε=0.5836
+[Ep 13] R=-21.0  Steps=11655  ε=0.5584
+[Ep 14] R=-21.0  Steps=12479  ε=0.5358
+[Ep 15] R=-21.0  Steps=13423  ε=0.5111
+[Ep 16] R=-20.0  Steps=14459  ε=0.4853
+[Ep 17] R=-21.0  Steps=15223  ε=0.4671
+[Ep 18] R=-21.0  Steps=16229  ε=0.4442
+[Ep 19] R=-21.0  Steps=17115  ε=0.4250
+*** (avg_R=-21.00) ***
+[Ep 20] R=-21.0  Steps=17879  ε=0.4090
+[Ep 21] R=-21.0  Steps=18671  ε=0.3931
+[Ep 22] R=-20.0  Steps=19652  ε=0.3743
+[Ep 23] R=-21.0  Steps=20476  ε=0.3592
+[Ep 24] R=-21.0  Steps=21420  ε=0.3427
+[Ep 25] R=-20.0  Steps=22382  ε=0.3266
+[Ep 26] R=-21.0  Steps=23146  ε=0.3143
+[Ep 27] R=-21.0  Steps=23970  ε=0.3016
+[Ep 28] R=-21.0  Steps=24794  ε=0.2895
+[Ep 29] R=-21.0  Steps=25741  ε=0.2761
+*** (avg_R=-21.00) ***
+[Ep 30] R=-21.0  Steps=26505  ε=0.2657
+[Ep 31] R=-20.0  Steps=27426  ε=0.2538
+[Ep 32] R=-21.0  Steps=28329  ε=0.2426
+[Ep 33] R=-21.0  Steps=29213  ε=0.2321
+[Ep 34] R=-21.0  Steps=29977  ε=0.2234
+[Ep 35] R=-21.0  Steps=30741  ε=0.2150
+[Ep 36] R=-21.0  Steps=31505  ε=0.2069
+[Ep 37] R=-21.0  Steps=32269  ε=0.1992
+[Ep 38] R=-21.0  Steps=33156  ε=0.1905
+[Ep 39] R=-21.0  Steps=33980  ε=0.1829
+*** (avg_R=-21.00) ***
+[Ep 40] R=-21.0  Steps=34804  ε=0.1755
+[Ep 41] R=-21.0  Steps=35568  ε=0.1689
+[Ep 42] R=-20.0  Steps=36429  ε=0.1618
+[Ep 43] R=-19.0  Steps=37486  ε=0.1535
+[Ep 44] R=-21.0  Steps=38310  ε=0.1473
+[Ep 45] R=-21.0  Steps=39194  ε=0.1409
+[Ep 46] R=-21.0  Steps=39958  ε=0.1356
+[Ep 47] R=-21.0  Steps=40722  ε=0.1305
+[Ep 48] R=-21.0  Steps=41486  ε=0.1256
+[Ep 49] R=-20.0  Steps=42405  ε=0.1200
+*** (avg_R=-21.00) ***
+[Ep 50] R=-21.0  Steps=43289  ε=0.1148
+[Ep 51] R=-21.0  Steps=44113  ε=0.1102
+[Ep 52] R=-21.0  Steps=44998  ε=0.1054
+[Ep 53] R=-21.0  Steps=45882  ε=0.1008
+[Ep 54] R=-21.0  Steps=46646  ε=0.0971
+[Ep 55] R=-21.0  Steps=47410  ε=0.0934
+[Ep 56] R=-21.0  Steps=48234  ε=0.0897
+[Ep 57] R=-21.0  Steps=48998  ε=0.0863
+[Ep 58] R=-21.0  Steps=49762  ε=0.0831
+[Ep 59] R=-21.0  Steps=50554  ε=0.0798
+*** (avg_R=-21.00) ***
+[Ep 60] R=-21.0  Steps=51346  ε=0.0767
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 331, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 208, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 280, in train
+    loss.backward()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

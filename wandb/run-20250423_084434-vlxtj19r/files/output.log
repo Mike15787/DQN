@@ -1,0 +1,9 @@
+Initializing environment: ALE/Pong-v5
+Atari detected. State shape after preprocessing: (4, 84, 84)
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\gemini_2_dqn.py", line 675, in <module>
+    agent = DQNAgent(env_name, args)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\gemini_2_dqn.py", line 205, in __init__
+    self.epsilon_decay = args.epsilon_decay
+AttributeError: 'Namespace' object has no attribute 'epsilon_decay'

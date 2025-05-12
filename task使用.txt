@@ -1,0 +1,185 @@
+python gemini_2_dqn.py --task 1 --total-steps 50000 --lr 0.0005 --memory-size 50000 --replay-start-size 1000 --target-update-frequency 500 --epsilon-decay-steps 20000 --epsilon-min 0.05 --train-frequency 1 --eval-frequency 2000 --max-episode-steps 500 --save-frequency 10000 --eval-episodes 20 --batch-size 32 --discount-factor 0.99 --grad-clip-norm 10.0 --seed 42
+
+python gemini_2_dqn.py --task 2 --total-steps 1000000 --lr 0.0001 --memory-size 200000 --replay-start-size 20000 --target-update-frequency 5000 --epsilon-decay-steps 250000 --epsilon-min 0.01 --train-frequency 4 --eval-frequency 25000 --batch-size 32 --save-frequency 100000 --eval-episodes 20 --max-episode-steps 50000 --discount-factor 0.99 --grad-clip-norm 10.0 --frame-stack 4 --seed 42
+
+python dqn.py --task 3 --total-steps 1000000 --lr 0.0001 --memory-size 200000 --replay-start-size 20000 --target-update-frequency 5000 --epsilon-decay-steps 250000 --epsilon-min 0.01 --train-frequency 4 --eval-frequency 25000 --batch-size 32 --save-frequency 100000 --per-alpha 0.6 --per-beta-start 0.4 --eval-episodes 20 --max-episode-steps 50000 --discount-factor 0.99 --grad-clip-norm 10.0 --frame-stack 4 --seed 42
+
+
+
+
+python gpt_test.py --env-name ALE/Pong-v5 --model-path ./results/LAB5_qe00dah0_task2_pong.pt --output-dir ./task2_eval_videos --episodes 5
+
+第一次
+"Task2": {
+            "env_name": "ALE/Pong-v5", "lr": 1e-4, "batch_size": 32, "memory_size": 100_000,
+            "target_update_frequency": 1000, "replay_start_size": 10_000, "epsilon_min": 0.1,
+            "epsilon_decay_steps": 1_000_000, "max_episode_steps": 10000, "train_per_env_step": 1, 
+            "eval_frequency": 50, "total_env_steps": 2_000_000,
+            "use_ddqn": False, "use_per": False, "use_multistep": False,
+            "per_beta_frames": 1_000_000, # Example: Anneal beta over 1M steps if PER was used
+            "wandb_run_name": "dqn_pong_vanilla"
+        },
+
+第二次
+wandb: Run summary:
+wandb:  Buffer Size 500000
+wandb:     Env Step 1998687
+wandb:      Episode 1199
+wandb:      Epsilon 0.1
+wandb:         Loss 0.00206
+wandb:  Reward/Eval 7.75
+wandb: Reward/Train 13
+wandb:   Train Step 7960000
+
+
+
+紀錄 task3 *** (avg_R=-15.00) *** 200000 env step
+parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--student-id', type=str, default='YourID')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=100_000)
+    parser.add_argument('--lr', type=float, default=2.5e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996)
+    parser.add_argument('--epsilon-min', type=float, default=0.05)
+    parser.add_argument('--target-update-frequency', type=int, default=1000)
+    parser.add_argument('--replay-start-size', type=int, default=50_000)
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=4)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=200_000)
+
+
+
+紀錄 task3 *** (avg_R=-12.00) *** 200000 env step
+    if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--student-id', type=str, default='YourID')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=100_000)
+    parser.add_argument('--lr', type=float, default=2.5e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996)
+    parser.add_argument('--epsilon-min', type=float, default=0.05)
+    parser.add_argument('--target-update-frequency', type=int, default=1000)
+    parser.add_argument('--replay-start-size', type=int, default=10_000)
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=4)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=200_000)
+    # n‑step
+    parser.add_argument('--n-step', type=int, default=3)
+
+紀錄 task3 *** (avg_R=-11.60) *** 200000 env step
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--student-id', type=str, default='YourID')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=100_000)
+    parser.add_argument('--lr', type=float, default=2.5e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996)
+    parser.add_argument('--epsilon-min', type=float, default=0.05)
+    parser.add_argument('--target-update-frequency', type=int, default=500)
+    parser.add_argument('--replay-start-size', type=int, default=10_000)
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=4)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=200_000)
+    # n‑step
+    parser.add_argument('--n-step', type=int, default=3)
+
+把train-per-step的結果放到8的效果沒想像中那麼好
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--student-id', type=str, default='YourID')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=100_000)
+    parser.add_argument('--lr', type=float, default=2.5e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996)
+    parser.add_argument('--epsilon-min', type=float, default=0.05)
+    parser.add_argument('--target-update-frequency', type=int, default=500)
+    parser.add_argument('--replay-start-size', type=int, default=10_000)
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=8)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=200_000)
+
+
+// 目前task3最好的參數 平均最高16
+    if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=200_000)
+    parser.add_argument('--lr', type=float, default=1e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996)
+    parser.add_argument('--epsilon-min', type=float, default=0.02)
+    parser.add_argument('--target-update-frequency', type=int, default=10000)
+    parser.add_argument('--replay-start-size', type=int, default=10_000)
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=1)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=100_000)
+    # n‑step
+    parser.add_argument('--n-step', type=int, default=5)
+
+// 目前task3最好的參數 平均最高17.60
+和前一次不一樣的是改了replay start size 這讓他在訓練的成效變好
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--env-name', type=str, default='ALE/Pong-v5')
+    parser.add_argument('--save-dir', type=str, default='./results_pong_task3')
+    parser.add_argument('--wandb-run-name', type=str, default='task3_pong')
+    parser.add_argument('--batch-size', type=int, default=32)
+    parser.add_argument('--memory-size', type=int, default=200_000)
+    parser.add_argument('--lr', type=float, default=1e-4)
+    parser.add_argument('--discount-factor', type=float, default=0.99)
+    parser.add_argument('--epsilon-start', type=float, default=1.0)
+    parser.add_argument('--epsilon-decay', type=float, default=0.99996) #3 0.999967
+    parser.add_argument('--epsilon-min', type=float, default=0.05)
+    parser.add_argument('--target-update-frequency', type=int, default=10000)
+    parser.add_argument('--replay-start-size', type=int, default=50_000) #2 改50000
+    parser.add_argument('--max-episode-steps', type=int, default=10_000)
+    parser.add_argument('--train-per-step', type=int, default=1)
+    parser.add_argument('--total-env-steps', type=int, default=2_000_000)
+    # PER
+    parser.add_argument('--per-alpha', type=float, default=0.6)
+    parser.add_argument('--per-beta-start', type=float, default=0.4)
+    parser.add_argument('--per-beta-frames', type=int, default=100_000)
+    # n‑step
+    parser.add_argument('--n-step', type=int, default=3) #1 這個改5 不好再改回3

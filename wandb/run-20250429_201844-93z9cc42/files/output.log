@@ -1,0 +1,100 @@
+Using device: cuda
+[Ep 0] R=-21.0  Steps=974  ε=1.0000
+--- Evaluation Result (Ep 0, Step 974) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 2.91s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 1] R=-20.0  Steps=1923  ε=1.0000
+[Ep 2] R=-19.0  Steps=2844  ε=1.0000
+[Ep 3] R=-19.0  Steps=3897  ε=1.0000
+[Ep 4] R=-19.0  Steps=4869  ε=1.0000
+[Ep 5] R=-19.0  Steps=5987  ε=1.0000
+[Ep 6] R=-21.0  Steps=6807  ε=1.0000
+[Ep 7] R=-21.0  Steps=7782  ε=1.0000
+[Ep 8] R=-21.0  Steps=8635  ε=1.0000
+[Ep 9] R=-21.0  Steps=9480  ε=1.0000
+[Ep 10] R=-20.0  Steps=10458  ε=1.0000
+--- Evaluation Result (Ep 10, Step 10458) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.57s)
+--------------------------------------------------
+[Ep 11] R=-21.0  Steps=11362  ε=1.0000
+[Ep 12] R=-19.0  Steps=12372  ε=1.0000
+[Ep 13] R=-21.0  Steps=13193  ε=1.0000
+[Ep 14] R=-21.0  Steps=13957  ε=1.0000
+[Ep 15] R=-20.0  Steps=14889  ε=1.0000
+[Ep 16] R=-21.0  Steps=15802  ε=1.0000
+[Ep 17] R=-21.0  Steps=16735  ε=1.0000
+[Ep 18] R=-21.0  Steps=17528  ε=1.0000
+[Ep 19] R=-21.0  Steps=18488  ε=1.0000
+[Ep 20] R=-20.0  Steps=19402  ε=1.0000
+--- Evaluation Result (Ep 20, Step 19402) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.79s)
+--------------------------------------------------
+[Ep 21] R=-20.0  Steps=20365  ε=1.0000
+[Ep 22] R=-19.0  Steps=21509  ε=1.0000
+[Ep 23] R=-21.0  Steps=22335  ε=1.0000
+[Ep 24] R=-21.0  Steps=23180  ε=1.0000
+[Ep 25] R=-20.0  Steps=24200  ε=1.0000
+[Ep 26] R=-21.0  Steps=25054  ε=1.0000
+[Ep 27] R=-20.0  Steps=25943  ε=1.0000
+[Ep 28] R=-20.0  Steps=27056  ε=1.0000
+[Ep 29] R=-21.0  Steps=27880  ε=1.0000
+[Ep 30] R=-20.0  Steps=28811  ε=1.0000
+--- Evaluation Result (Ep 30, Step 28811) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.74s)
+--------------------------------------------------
+[Ep 31] R=-21.0  Steps=29695  ε=1.0000
+[Ep 32] R=-20.0  Steps=30808  ε=1.0000
+[Ep 33] R=-21.0  Steps=31650  ε=1.0000
+[Ep 34] R=-20.0  Steps=32549  ε=1.0000
+[Ep 35] R=-21.0  Steps=33373  ε=1.0000
+[Ep 36] R=-20.0  Steps=34303  ε=1.0000
+[Ep 37] R=-20.0  Steps=35432  ε=1.0000
+[Ep 38] R=-21.0  Steps=36224  ε=1.0000
+[Ep 39] R=-19.0  Steps=37185  ε=1.0000
+[Ep 40] R=-21.0  Steps=38037  ε=1.0000
+--- Evaluation Result (Ep 40, Step 38037) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.77s)
+--------------------------------------------------
+[Ep 41] R=-20.0  Steps=38875  ε=1.0000
+[Ep 42] R=-21.0  Steps=39785  ε=1.0000
+[Ep 43] R=-21.0  Steps=40605  ε=1.0000
+[Ep 44] R=-20.0  Steps=41485  ε=1.0000
+[Ep 45] R=-19.0  Steps=42513  ε=1.0000
+[Ep 46] R=-21.0  Steps=43414  ε=1.0000
+[Ep 47] R=-21.0  Steps=44206  ε=1.0000
+[Ep 48] R=-21.0  Steps=45031  ε=1.0000
+[Ep 49] R=-20.0  Steps=46087  ε=1.0000
+[Ep 50] R=-21.0  Steps=46880  ε=1.0000
+--- Evaluation Result (Ep 50, Step 46880) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.99s)
+--------------------------------------------------
+[Ep 51] R=-19.0  Steps=48069  ε=1.0000
+[Ep 52] R=-19.0  Steps=49078  ε=1.0000
+[Ep 53] R=-20.0  Steps=49920  ε=1.0000
+[Ep 54] R=-21.0  Steps=50703  ε=0.9977
+[Ep 55] R=-19.0  Steps=51697  ε=0.9946
+[Train 10000] loss=0.0037
+[Ep 56] R=-20.0  Steps=52618  ε=0.9917
+[Ep 57] R=-21.0  Steps=53499  ε=0.9889
+[Ep 58] R=-20.0  Steps=54429  ε=0.9859
+[Train 20000] loss=0.0038
+[Ep 59] R=-20.0  Steps=55404  ε=0.9829
+[Ep 60] R=-21.0  Steps=56168  ε=0.9805
+--- Evaluation Result (Ep 60, Step 56168) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 2.92s)
+--------------------------------------------------
+[Ep 61] R=-19.0  Steps=57161  ε=0.9773
+[Train 30000] loss=0.0032
+[Ep 62] R=-20.0  Steps=58110  ε=0.9744
+[Ep 63] R=-20.0  Steps=59010  ε=0.9716
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 263, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 150, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 208, in train
+    states = torch.from_numpy(np.stack(states)).float().to(self.device) \
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\numpy\_core\shape_base.py", line 464, in stack
+    return _nx.concatenate(expanded_arrays, axis=axis, out=out,
+KeyboardInterrupt

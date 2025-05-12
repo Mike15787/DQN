@@ -1,0 +1,1285 @@
+Using device: cuda
+Environment: ALE/Pong-v5
+State shape: (4, 84, 84), Num actions: 6
+Using Standard Experience Replay (Uniform Sampling)
+Collecting initial experiences (20000 steps)...
+Initial experience collection complete. Starting training...
+Ep: 1 | Step: 20969 | Ep Reward: -20.0 | Ep Steps: 969 | Epsilon: 0.996 | SPS: 2609.06
+Ep: 2 | Step: 22012 | Ep Reward: -19.0 | Ep Steps: 1043 | Epsilon: 0.992 | SPS: 2288.31
+Ep: 3 | Step: 22914 | Ep Reward: -21.0 | Ep Steps: 902 | Epsilon: 0.988 | SPS: 2074.13
+Ep: 4 | Step: 24202 | Ep Reward: -17.0 | Ep Steps: 1288 | Epsilon: 0.983 | SPS: 1854.78
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 25000 | Eval Reward: -21.00 | Epsilon: 0.980
+Ep: 5 | Step: 25132 | Ep Reward: -20.0 | Ep Steps: 930 | Epsilon: 0.980 | SPS: 909.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 6 | Step: 26090 | Ep Reward: -21.0 | Ep Steps: 958 | Epsilon: 0.976 | SPS: 888.93
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 7 | Step: 27086 | Ep Reward: -19.0 | Ep Steps: 996 | Epsilon: 0.972 | SPS: 879.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 8 | Step: 27925 | Ep Reward: -21.0 | Ep Steps: 839 | Epsilon: 0.969 | SPS: 871.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 9 | Step: 29068 | Ep Reward: -19.0 | Ep Steps: 1143 | Epsilon: 0.964 | SPS: 862.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 10 | Step: 29910 | Ep Reward: -20.0 | Ep Steps: 842 | Epsilon: 0.961 | SPS: 857.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 11 | Step: 30860 | Ep Reward: -21.0 | Ep Steps: 950 | Epsilon: 0.957 | SPS: 851.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 12 | Step: 31746 | Ep Reward: -21.0 | Ep Steps: 886 | Epsilon: 0.953 | SPS: 845.31
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 13 | Step: 32627 | Ep Reward: -21.0 | Ep Steps: 881 | Epsilon: 0.950 | SPS: 839.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 14 | Step: 33660 | Ep Reward: -18.0 | Ep Steps: 1033 | Epsilon: 0.946 | SPS: 833.15
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 15 | Step: 34684 | Ep Reward: -20.0 | Ep Steps: 1024 | Epsilon: 0.942 | SPS: 826.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 16 | Step: 35616 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.938 | SPS: 821.55
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 17 | Step: 36752 | Ep Reward: -19.0 | Ep Steps: 1136 | Epsilon: 0.934 | SPS: 815.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 18 | Step: 37802 | Ep Reward: -20.0 | Ep Steps: 1050 | Epsilon: 0.930 | SPS: 810.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 19 | Step: 38566 | Ep Reward: -21.0 | Ep Steps: 764 | Epsilon: 0.926 | SPS: 806.28
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 20 | Step: 39388 | Ep Reward: -21.0 | Ep Steps: 822 | Epsilon: 0.923 | SPS: 802.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 21 | Step: 40360 | Ep Reward: -21.0 | Ep Steps: 972 | Epsilon: 0.919 | SPS: 798.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 22 | Step: 41143 | Ep Reward: -21.0 | Ep Steps: 783 | Epsilon: 0.916 | SPS: 794.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 23 | Step: 42076 | Ep Reward: -20.0 | Ep Steps: 933 | Epsilon: 0.913 | SPS: 790.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 24 | Step: 43042 | Ep Reward: -20.0 | Ep Steps: 966 | Epsilon: 0.909 | SPS: 787.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 25 | Step: 43969 | Ep Reward: -21.0 | Ep Steps: 927 | Epsilon: 0.905 | SPS: 783.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 26 | Step: 44900 | Ep Reward: -21.0 | Ep Steps: 931 | Epsilon: 0.901 | SPS: 780.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 27 | Step: 45823 | Ep Reward: -21.0 | Ep Steps: 923 | Epsilon: 0.898 | SPS: 777.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 28 | Step: 46715 | Ep Reward: -21.0 | Ep Steps: 892 | Epsilon: 0.894 | SPS: 775.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 29 | Step: 47781 | Ep Reward: -20.0 | Ep Steps: 1066 | Epsilon: 0.890 | SPS: 772.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 30 | Step: 48618 | Ep Reward: -20.0 | Ep Steps: 837 | Epsilon: 0.887 | SPS: 769.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 31 | Step: 49732 | Ep Reward: -17.0 | Ep Steps: 1114 | Epsilon: 0.882 | SPS: 766.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 50000 | Eval Reward: -21.00 | Epsilon: 0.881
+Ep: 32 | Step: 50614 | Ep Reward: -21.0 | Ep Steps: 882 | Epsilon: 0.879 | SPS: 631.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 33 | Step: 51563 | Ep Reward: -20.0 | Ep Steps: 949 | Epsilon: 0.875 | SPS: 633.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 34 | Step: 52507 | Ep Reward: -21.0 | Ep Steps: 944 | Epsilon: 0.871 | SPS: 634.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 35 | Step: 53479 | Ep Reward: -21.0 | Ep Steps: 972 | Epsilon: 0.867 | SPS: 635.28
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 36 | Step: 54352 | Ep Reward: -20.0 | Ep Steps: 873 | Epsilon: 0.864 | SPS: 635.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 37 | Step: 55327 | Ep Reward: -21.0 | Ep Steps: 975 | Epsilon: 0.860 | SPS: 636.49
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 38 | Step: 56211 | Ep Reward: -21.0 | Ep Steps: 884 | Epsilon: 0.857 | SPS: 636.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 39 | Step: 56975 | Ep Reward: -21.0 | Ep Steps: 764 | Epsilon: 0.854 | SPS: 637.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 40 | Step: 57857 | Ep Reward: -21.0 | Ep Steps: 882 | Epsilon: 0.850 | SPS: 637.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 41 | Step: 58808 | Ep Reward: -20.0 | Ep Steps: 951 | Epsilon: 0.846 | SPS: 637.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 42 | Step: 59697 | Ep Reward: -20.0 | Ep Steps: 889 | Epsilon: 0.843 | SPS: 637.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 43 | Step: 60609 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.839 | SPS: 637.74
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 44 | Step: 61480 | Ep Reward: -21.0 | Ep Steps: 871 | Epsilon: 0.836 | SPS: 637.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 45 | Step: 62383 | Ep Reward: -20.0 | Ep Steps: 903 | Epsilon: 0.832 | SPS: 637.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 46 | Step: 63194 | Ep Reward: -21.0 | Ep Steps: 811 | Epsilon: 0.829 | SPS: 637.74
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 47 | Step: 64065 | Ep Reward: -21.0 | Ep Steps: 871 | Epsilon: 0.826 | SPS: 637.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 48 | Step: 65049 | Ep Reward: -19.0 | Ep Steps: 984 | Epsilon: 0.822 | SPS: 637.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 49 | Step: 65887 | Ep Reward: -20.0 | Ep Steps: 838 | Epsilon: 0.818 | SPS: 637.20
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 50 | Step: 66860 | Ep Reward: -21.0 | Ep Steps: 973 | Epsilon: 0.814 | SPS: 636.74
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 51 | Step: 67624 | Ep Reward: -21.0 | Ep Steps: 764 | Epsilon: 0.811 | SPS: 636.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 52 | Step: 68444 | Ep Reward: -21.0 | Ep Steps: 820 | Epsilon: 0.808 | SPS: 635.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 53 | Step: 69442 | Ep Reward: -19.0 | Ep Steps: 998 | Epsilon: 0.804 | SPS: 634.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 54 | Step: 70294 | Ep Reward: -21.0 | Ep Steps: 852 | Epsilon: 0.801 | SPS: 633.95
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 55 | Step: 71459 | Ep Reward: -19.0 | Ep Steps: 1165 | Epsilon: 0.796 | SPS: 632.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 56 | Step: 72283 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.793 | SPS: 632.40
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 57 | Step: 73094 | Ep Reward: -21.0 | Ep Steps: 811 | Epsilon: 0.790 | SPS: 631.72
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 58 | Step: 73942 | Ep Reward: -21.0 | Ep Steps: 848 | Epsilon: 0.786 | SPS: 631.35
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 59 | Step: 74725 | Ep Reward: -21.0 | Ep Steps: 783 | Epsilon: 0.783 | SPS: 630.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 75000 | Eval Reward: -21.00 | Epsilon: 0.782
+Ep: 60 | Step: 75567 | Ep Reward: -20.0 | Ep Steps: 842 | Epsilon: 0.780 | SPS: 564.91
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 61 | Step: 76604 | Ep Reward: -19.0 | Ep Steps: 1037 | Epsilon: 0.776 | SPS: 565.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 62 | Step: 77562 | Ep Reward: -19.0 | Ep Steps: 958 | Epsilon: 0.772 | SPS: 566.62
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 63 | Step: 78711 | Ep Reward: -17.0 | Ep Steps: 1149 | Epsilon: 0.768 | SPS: 567.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 64 | Step: 79537 | Ep Reward: -21.0 | Ep Steps: 826 | Epsilon: 0.764 | SPS: 567.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 65 | Step: 80357 | Ep Reward: -21.0 | Ep Steps: 820 | Epsilon: 0.761 | SPS: 568.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 66 | Step: 81433 | Ep Reward: -20.0 | Ep Steps: 1076 | Epsilon: 0.757 | SPS: 568.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 67 | Step: 82522 | Ep Reward: -19.0 | Ep Steps: 1089 | Epsilon: 0.752 | SPS: 569.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 68 | Step: 83346 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.749 | SPS: 569.32
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 69 | Step: 84216 | Ep Reward: -20.0 | Ep Steps: 870 | Epsilon: 0.746 | SPS: 569.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 70 | Step: 85101 | Ep Reward: -21.0 | Ep Steps: 885 | Epsilon: 0.742 | SPS: 569.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 71 | Step: 86000 | Ep Reward: -20.0 | Ep Steps: 899 | Epsilon: 0.739 | SPS: 569.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 72 | Step: 86824 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.735 | SPS: 569.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 73 | Step: 87588 | Ep Reward: -21.0 | Ep Steps: 764 | Epsilon: 0.732 | SPS: 569.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 74 | Step: 88411 | Ep Reward: -21.0 | Ep Steps: 823 | Epsilon: 0.729 | SPS: 569.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 75 | Step: 89325 | Ep Reward: -21.0 | Ep Steps: 914 | Epsilon: 0.725 | SPS: 569.77
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 76 | Step: 90209 | Ep Reward: -21.0 | Ep Steps: 884 | Epsilon: 0.722 | SPS: 569.85
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 77 | Step: 91129 | Ep Reward: -20.0 | Ep Steps: 920 | Epsilon: 0.718 | SPS: 569.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 78 | Step: 91931 | Ep Reward: -21.0 | Ep Steps: 802 | Epsilon: 0.715 | SPS: 569.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 79 | Step: 92772 | Ep Reward: -21.0 | Ep Steps: 841 | Epsilon: 0.712 | SPS: 569.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 80 | Step: 93656 | Ep Reward: -21.0 | Ep Steps: 884 | Epsilon: 0.708 | SPS: 569.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 81 | Step: 94499 | Ep Reward: -20.0 | Ep Steps: 843 | Epsilon: 0.705 | SPS: 569.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 82 | Step: 95323 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.702 | SPS: 568.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 83 | Step: 96254 | Ep Reward: -20.0 | Ep Steps: 931 | Epsilon: 0.698 | SPS: 569.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 84 | Step: 97149 | Ep Reward: -20.0 | Ep Steps: 895 | Epsilon: 0.694 | SPS: 568.98
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 85 | Step: 98062 | Ep Reward: -21.0 | Ep Steps: 913 | Epsilon: 0.691 | SPS: 568.93
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 86 | Step: 99133 | Ep Reward: -20.0 | Ep Steps: 1071 | Epsilon: 0.687 | SPS: 568.81
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 87 | Step: 99958 | Ep Reward: -21.0 | Ep Steps: 825 | Epsilon: 0.683 | SPS: 568.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 100000 | Eval Reward: -21.00 | Epsilon: 0.683
+Ep: 88 | Step: 100890 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.680 | SPS: 527.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 89 | Step: 101673 | Ep Reward: -21.0 | Ep Steps: 783 | Epsilon: 0.677 | SPS: 528.19
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 90 | Step: 102633 | Ep Reward: -20.0 | Ep Steps: 960 | Epsilon: 0.673 | SPS: 528.91
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 91 | Step: 103476 | Ep Reward: -21.0 | Ep Steps: 843 | Epsilon: 0.669 | SPS: 529.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 92 | Step: 104377 | Ep Reward: -20.0 | Ep Steps: 901 | Epsilon: 0.666 | SPS: 529.80
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 93 | Step: 105371 | Ep Reward: -19.0 | Ep Steps: 994 | Epsilon: 0.662 | SPS: 530.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 94 | Step: 106307 | Ep Reward: -21.0 | Ep Steps: 936 | Epsilon: 0.658 | SPS: 530.63
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 95 | Step: 107099 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.655 | SPS: 530.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 96 | Step: 108171 | Ep Reward: -19.0 | Ep Steps: 1072 | Epsilon: 0.651 | SPS: 531.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 97 | Step: 109146 | Ep Reward: -21.0 | Ep Steps: 975 | Epsilon: 0.647 | SPS: 531.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 98 | Step: 110144 | Ep Reward: -19.0 | Ep Steps: 998 | Epsilon: 0.643 | SPS: 531.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 99 | Step: 110970 | Ep Reward: -21.0 | Ep Steps: 826 | Epsilon: 0.640 | SPS: 531.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 100 | Step: 111991 | Ep Reward: -20.0 | Ep Steps: 1021 | Epsilon: 0.636 | SPS: 532.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 101 | Step: 112843 | Ep Reward: -21.0 | Ep Steps: 852 | Epsilon: 0.632 | SPS: 532.10
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 102 | Step: 113703 | Ep Reward: -21.0 | Ep Steps: 860 | Epsilon: 0.629 | SPS: 532.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 103 | Step: 114764 | Ep Reward: -20.0 | Ep Steps: 1061 | Epsilon: 0.625 | SPS: 532.51
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 104 | Step: 115842 | Ep Reward: -20.0 | Ep Steps: 1078 | Epsilon: 0.620 | SPS: 532.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 105 | Step: 116781 | Ep Reward: -21.0 | Ep Steps: 939 | Epsilon: 0.617 | SPS: 532.72
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 106 | Step: 117761 | Ep Reward: -19.0 | Ep Steps: 980 | Epsilon: 0.613 | SPS: 532.86
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 107 | Step: 118761 | Ep Reward: -21.0 | Ep Steps: 1000 | Epsilon: 0.609 | SPS: 533.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 108 | Step: 119681 | Ep Reward: -19.0 | Ep Steps: 920 | Epsilon: 0.605 | SPS: 533.10
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 109 | Step: 120543 | Ep Reward: -20.0 | Ep Steps: 862 | Epsilon: 0.602 | SPS: 533.24
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 110 | Step: 121368 | Ep Reward: -21.0 | Ep Steps: 825 | Epsilon: 0.599 | SPS: 533.33
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 111 | Step: 122160 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.595 | SPS: 533.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 112 | Step: 123107 | Ep Reward: -20.0 | Ep Steps: 947 | Epsilon: 0.592 | SPS: 533.56
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 113 | Step: 123931 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.588 | SPS: 533.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 114 | Step: 124863 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.585 | SPS: 533.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 125000 | Eval Reward: -21.00 | Epsilon: 0.584
+Ep: 115 | Step: 125962 | Ep Reward: -20.0 | Ep Steps: 1099 | Epsilon: 0.580 | SPS: 504.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 116 | Step: 126786 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.577 | SPS: 504.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 117 | Step: 127698 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.574 | SPS: 505.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 118 | Step: 128524 | Ep Reward: -21.0 | Ep Steps: 826 | Epsilon: 0.570 | SPS: 505.62
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 119 | Step: 129521 | Ep Reward: -19.0 | Ep Steps: 997 | Epsilon: 0.566 | SPS: 506.03
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 120 | Step: 130453 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.563 | SPS: 506.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 121 | Step: 131599 | Ep Reward: -19.0 | Ep Steps: 1146 | Epsilon: 0.558 | SPS: 506.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 122 | Step: 132472 | Ep Reward: -21.0 | Ep Steps: 873 | Epsilon: 0.555 | SPS: 507.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 123 | Step: 133345 | Ep Reward: -21.0 | Ep Steps: 873 | Epsilon: 0.551 | SPS: 507.25
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 124 | Step: 134266 | Ep Reward: -20.0 | Ep Steps: 921 | Epsilon: 0.548 | SPS: 507.56
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 125 | Step: 135211 | Ep Reward: -21.0 | Ep Steps: 945 | Epsilon: 0.544 | SPS: 507.80
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 126 | Step: 136091 | Ep Reward: -21.0 | Ep Steps: 880 | Epsilon: 0.540 | SPS: 507.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 127 | Step: 136934 | Ep Reward: -20.0 | Ep Steps: 843 | Epsilon: 0.537 | SPS: 508.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 128 | Step: 137867 | Ep Reward: -20.0 | Ep Steps: 933 | Epsilon: 0.533 | SPS: 508.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 129 | Step: 139002 | Ep Reward: -19.0 | Ep Steps: 1135 | Epsilon: 0.529 | SPS: 508.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 130 | Step: 139844 | Ep Reward: -20.0 | Ep Steps: 842 | Epsilon: 0.525 | SPS: 508.67
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 131 | Step: 140724 | Ep Reward: -21.0 | Ep Steps: 880 | Epsilon: 0.522 | SPS: 508.80
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 132 | Step: 142028 | Ep Reward: -19.0 | Ep Steps: 1304 | Epsilon: 0.517 | SPS: 508.92
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 133 | Step: 142949 | Ep Reward: -20.0 | Ep Steps: 921 | Epsilon: 0.513 | SPS: 509.05
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 134 | Step: 143771 | Ep Reward: -21.0 | Ep Steps: 822 | Epsilon: 0.510 | SPS: 509.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 135 | Step: 144715 | Ep Reward: -21.0 | Ep Steps: 944 | Epsilon: 0.506 | SPS: 509.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 136 | Step: 145734 | Ep Reward: -20.0 | Ep Steps: 1019 | Epsilon: 0.502 | SPS: 509.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 137 | Step: 146745 | Ep Reward: -19.0 | Ep Steps: 1011 | Epsilon: 0.498 | SPS: 509.65
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 138 | Step: 147692 | Ep Reward: -20.0 | Ep Steps: 947 | Epsilon: 0.494 | SPS: 509.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 139 | Step: 148516 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.491 | SPS: 509.86
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 140 | Step: 149475 | Ep Reward: -20.0 | Ep Steps: 959 | Epsilon: 0.487 | SPS: 510.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 150000 | Eval Reward: -21.00 | Epsilon: 0.485
+Ep: 141 | Step: 150299 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.484 | SPS: 485.16
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 142 | Step: 151320 | Ep Reward: -20.0 | Ep Steps: 1021 | Epsilon: 0.480 | SPS: 485.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 143 | Step: 152122 | Ep Reward: -21.0 | Ep Steps: 802 | Epsilon: 0.477 | SPS: 485.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 144 | Step: 153027 | Ep Reward: -21.0 | Ep Steps: 905 | Epsilon: 0.473 | SPS: 486.06
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 145 | Step: 153819 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.470 | SPS: 486.42
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 146 | Step: 154644 | Ep Reward: -21.0 | Ep Steps: 825 | Epsilon: 0.467 | SPS: 486.65
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 147 | Step: 155546 | Ep Reward: -20.0 | Ep Steps: 902 | Epsilon: 0.463 | SPS: 486.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 148 | Step: 156477 | Ep Reward: -20.0 | Ep Steps: 931 | Epsilon: 0.460 | SPS: 487.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 149 | Step: 157539 | Ep Reward: -19.0 | Ep Steps: 1062 | Epsilon: 0.455 | SPS: 487.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 150 | Step: 158377 | Ep Reward: -20.0 | Ep Steps: 838 | Epsilon: 0.452 | SPS: 487.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 151 | Step: 159242 | Ep Reward: -20.0 | Ep Steps: 865 | Epsilon: 0.449 | SPS: 487.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 152 | Step: 160034 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.445 | SPS: 487.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 153 | Step: 161038 | Ep Reward: -19.0 | Ep Steps: 1004 | Epsilon: 0.441 | SPS: 488.16
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 154 | Step: 161902 | Ep Reward: -21.0 | Ep Steps: 864 | Epsilon: 0.438 | SPS: 488.33
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 155 | Step: 162740 | Ep Reward: -20.0 | Ep Steps: 838 | Epsilon: 0.435 | SPS: 488.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 156 | Step: 163661 | Ep Reward: -20.0 | Ep Steps: 921 | Epsilon: 0.431 | SPS: 488.62
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 157 | Step: 164504 | Ep Reward: -21.0 | Ep Steps: 843 | Epsilon: 0.428 | SPS: 488.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 158 | Step: 165388 | Ep Reward: -21.0 | Ep Steps: 884 | Epsilon: 0.424 | SPS: 488.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 159 | Step: 166260 | Ep Reward: -20.0 | Ep Steps: 872 | Epsilon: 0.421 | SPS: 489.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 160 | Step: 167388 | Ep Reward: -19.0 | Ep Steps: 1128 | Epsilon: 0.416 | SPS: 489.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 161 | Step: 168180 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.413 | SPS: 489.27
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 162 | Step: 168972 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.410 | SPS: 489.35
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 163 | Step: 169852 | Ep Reward: -21.0 | Ep Steps: 880 | Epsilon: 0.407 | SPS: 489.40
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 164 | Step: 170798 | Ep Reward: -21.0 | Ep Steps: 946 | Epsilon: 0.403 | SPS: 489.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 165 | Step: 171641 | Ep Reward: -21.0 | Ep Steps: 843 | Epsilon: 0.400 | SPS: 489.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 166 | Step: 172553 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.396 | SPS: 489.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 167 | Step: 173466 | Ep Reward: -21.0 | Ep Steps: 913 | Epsilon: 0.392 | SPS: 489.74
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 168 | Step: 174378 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.389 | SPS: 489.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -21.00 ---
+[Eval] Step: 175000 | Eval Reward: -21.00 | Epsilon: 0.386
+Ep: 169 | Step: 175162 | Ep Reward: -21.0 | Ep Steps: 784 | Epsilon: 0.386 | SPS: 470.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 170 | Step: 176268 | Ep Reward: -20.0 | Ep Steps: 1106 | Epsilon: 0.381 | SPS: 470.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 171 | Step: 177259 | Ep Reward: -20.0 | Ep Steps: 991 | Epsilon: 0.377 | SPS: 471.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 172 | Step: 178229 | Ep Reward: -21.0 | Ep Steps: 970 | Epsilon: 0.373 | SPS: 471.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 173 | Step: 179095 | Ep Reward: -20.0 | Ep Steps: 866 | Epsilon: 0.370 | SPS: 471.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 174 | Step: 180196 | Ep Reward: -20.0 | Ep Steps: 1101 | Epsilon: 0.366 | SPS: 472.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 175 | Step: 181082 | Ep Reward: -21.0 | Ep Steps: 886 | Epsilon: 0.362 | SPS: 472.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 176 | Step: 182119 | Ep Reward: -20.0 | Ep Steps: 1037 | Epsilon: 0.358 | SPS: 472.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 177 | Step: 182911 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.355 | SPS: 472.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 178 | Step: 183791 | Ep Reward: -21.0 | Ep Steps: 880 | Epsilon: 0.351 | SPS: 472.91
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 179 | Step: 184719 | Ep Reward: -21.0 | Ep Steps: 928 | Epsilon: 0.348 | SPS: 473.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 180 | Step: 185752 | Ep Reward: -21.0 | Ep Steps: 1033 | Epsilon: 0.344 | SPS: 473.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 181 | Step: 186807 | Ep Reward: -21.0 | Ep Steps: 1055 | Epsilon: 0.339 | SPS: 473.40
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 182 | Step: 187599 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.336 | SPS: 473.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 183 | Step: 188534 | Ep Reward: -19.0 | Ep Steps: 935 | Epsilon: 0.333 | SPS: 473.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 184 | Step: 189422 | Ep Reward: -20.0 | Ep Steps: 888 | Epsilon: 0.329 | SPS: 473.68
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 185 | Step: 190503 | Ep Reward: -19.0 | Ep Steps: 1081 | Epsilon: 0.325 | SPS: 473.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 186 | Step: 191341 | Ep Reward: -20.0 | Ep Steps: 838 | Epsilon: 0.321 | SPS: 473.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 187 | Step: 192270 | Ep Reward: -21.0 | Ep Steps: 929 | Epsilon: 0.318 | SPS: 473.92
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 188 | Step: 193062 | Ep Reward: -21.0 | Ep Steps: 792 | Epsilon: 0.315 | SPS: 474.05
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 189 | Step: 193899 | Ep Reward: -20.0 | Ep Steps: 837 | Epsilon: 0.311 | SPS: 474.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 190 | Step: 194837 | Ep Reward: -19.0 | Ep Steps: 938 | Epsilon: 0.308 | SPS: 474.28
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 191 | Step: 195872 | Ep Reward: -18.0 | Ep Steps: 1035 | Epsilon: 0.304 | SPS: 474.41
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 192 | Step: 196889 | Ep Reward: -21.0 | Ep Steps: 1017 | Epsilon: 0.300 | SPS: 474.58
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 193 | Step: 197715 | Ep Reward: -21.0 | Ep Steps: 826 | Epsilon: 0.296 | SPS: 474.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 194 | Step: 198567 | Ep Reward: -21.0 | Ep Steps: 852 | Epsilon: 0.293 | SPS: 474.81
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 195 | Step: 199512 | Ep Reward: -19.0 | Ep Steps: 945 | Epsilon: 0.289 | SPS: 474.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -20.75 ---
+[Eval] Step: 200000 | Eval Reward: -20.75 | Epsilon: 0.287
+*** Saved new best model to ./results\best_model.pt with reward -20.75 ***
+Saved Task 3 snapshot: ./results\LAB5_qe00dah0_task3_pong200000.pt
+Ep: 196 | Step: 200444 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.285 | SPS: 458.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 197 | Step: 201403 | Ep Reward: -21.0 | Ep Steps: 959 | Epsilon: 0.282 | SPS: 459.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 198 | Step: 202426 | Ep Reward: -20.0 | Ep Steps: 1023 | Epsilon: 0.278 | SPS: 459.58
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 199 | Step: 203524 | Ep Reward: -20.0 | Ep Steps: 1098 | Epsilon: 0.273 | SPS: 459.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 200 | Step: 204445 | Ep Reward: -20.0 | Ep Steps: 921 | Epsilon: 0.270 | SPS: 460.24
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 201 | Step: 205327 | Ep Reward: -21.0 | Ep Steps: 882 | Epsilon: 0.266 | SPS: 460.49
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 202 | Step: 206179 | Ep Reward: -21.0 | Ep Steps: 852 | Epsilon: 0.263 | SPS: 460.68
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 203 | Step: 207162 | Ep Reward: -20.0 | Ep Steps: 983 | Epsilon: 0.259 | SPS: 460.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 204 | Step: 207945 | Ep Reward: -21.0 | Ep Steps: 783 | Epsilon: 0.256 | SPS: 460.91
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 205 | Step: 208905 | Ep Reward: -19.0 | Ep Steps: 960 | Epsilon: 0.252 | SPS: 460.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 206 | Step: 209826 | Ep Reward: -19.0 | Ep Steps: 921 | Epsilon: 0.248 | SPS: 461.31
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 207 | Step: 210646 | Ep Reward: -21.0 | Ep Steps: 820 | Epsilon: 0.245 | SPS: 461.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 208 | Step: 211739 | Ep Reward: -18.0 | Ep Steps: 1093 | Epsilon: 0.241 | SPS: 461.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 209 | Step: 212930 | Ep Reward: -17.0 | Ep Steps: 1191 | Epsilon: 0.236 | SPS: 462.15
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 210 | Step: 213755 | Ep Reward: -21.0 | Ep Steps: 825 | Epsilon: 0.233 | SPS: 462.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 211 | Step: 214687 | Ep Reward: -20.0 | Ep Steps: 932 | Epsilon: 0.229 | SPS: 462.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 212 | Step: 215599 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.225 | SPS: 462.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 213 | Step: 216442 | Ep Reward: -20.0 | Ep Steps: 843 | Epsilon: 0.222 | SPS: 462.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 214 | Step: 217562 | Ep Reward: -21.0 | Ep Steps: 1120 | Epsilon: 0.218 | SPS: 462.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 215 | Step: 218451 | Ep Reward: -20.0 | Ep Steps: 889 | Epsilon: 0.214 | SPS: 462.95
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 216 | Step: 219464 | Ep Reward: -19.0 | Ep Steps: 1013 | Epsilon: 0.210 | SPS: 463.23
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 217 | Step: 220427 | Ep Reward: -20.0 | Ep Steps: 963 | Epsilon: 0.206 | SPS: 463.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 218 | Step: 221539 | Ep Reward: -20.0 | Ep Steps: 1112 | Epsilon: 0.202 | SPS: 463.63
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 219 | Step: 222363 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.199 | SPS: 463.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 220 | Step: 223301 | Ep Reward: -21.0 | Ep Steps: 938 | Epsilon: 0.195 | SPS: 463.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 221 | Step: 224186 | Ep Reward: -21.0 | Ep Steps: 885 | Epsilon: 0.191 | SPS: 463.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -20.50 ---
+[Eval] Step: 225000 | Eval Reward: -20.50 | Epsilon: 0.188
+*** Saved new best model to ./results\best_model.pt with reward -20.50 ***
+Ep: 222 | Step: 225315 | Ep Reward: -20.0 | Ep Steps: 1129 | Epsilon: 0.187 | SPS: 450.12
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 223 | Step: 226177 | Ep Reward: -21.0 | Ep Steps: 862 | Epsilon: 0.184 | SPS: 450.14
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 224 | Step: 227174 | Ep Reward: -19.0 | Ep Steps: 997 | Epsilon: 0.180 | SPS: 450.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 225 | Step: 228302 | Ep Reward: -21.0 | Ep Steps: 1128 | Epsilon: 0.175 | SPS: 450.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 226 | Step: 229204 | Ep Reward: -21.0 | Ep Steps: 902 | Epsilon: 0.172 | SPS: 450.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 227 | Step: 230471 | Ep Reward: -19.0 | Ep Steps: 1267 | Epsilon: 0.167 | SPS: 451.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 228 | Step: 231376 | Ep Reward: -21.0 | Ep Steps: 905 | Epsilon: 0.163 | SPS: 451.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 229 | Step: 232189 | Ep Reward: -21.0 | Ep Steps: 813 | Epsilon: 0.160 | SPS: 451.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 230 | Step: 233406 | Ep Reward: -18.0 | Ep Steps: 1217 | Epsilon: 0.155 | SPS: 451.55
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 231 | Step: 234299 | Ep Reward: -20.0 | Ep Steps: 893 | Epsilon: 0.151 | SPS: 451.80
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 232 | Step: 235291 | Ep Reward: -20.0 | Ep Steps: 992 | Epsilon: 0.147 | SPS: 452.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 233 | Step: 236203 | Ep Reward: -21.0 | Ep Steps: 912 | Epsilon: 0.144 | SPS: 452.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 234 | Step: 237083 | Ep Reward: -21.0 | Ep Steps: 880 | Epsilon: 0.140 | SPS: 452.35
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 235 | Step: 237986 | Ep Reward: -20.0 | Ep Steps: 903 | Epsilon: 0.137 | SPS: 452.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 236 | Step: 239023 | Ep Reward: -20.0 | Ep Steps: 1037 | Epsilon: 0.133 | SPS: 452.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 237 | Step: 239954 | Ep Reward: -20.0 | Ep Steps: 931 | Epsilon: 0.129 | SPS: 452.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 238 | Step: 240826 | Ep Reward: -21.0 | Ep Steps: 872 | Epsilon: 0.126 | SPS: 453.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 239 | Step: 241813 | Ep Reward: -20.0 | Ep Steps: 987 | Epsilon: 0.122 | SPS: 453.20
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 240 | Step: 242814 | Ep Reward: -19.0 | Ep Steps: 1001 | Epsilon: 0.118 | SPS: 453.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 241 | Step: 243838 | Ep Reward: -20.0 | Ep Steps: 1024 | Epsilon: 0.114 | SPS: 453.56
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 242 | Step: 244649 | Ep Reward: -21.0 | Ep Steps: 811 | Epsilon: 0.110 | SPS: 453.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 243 | Step: 245723 | Ep Reward: -19.0 | Ep Steps: 1074 | Epsilon: 0.106 | SPS: 453.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 244 | Step: 246724 | Ep Reward: -20.0 | Ep Steps: 1001 | Epsilon: 0.102 | SPS: 453.67
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 245 | Step: 247646 | Ep Reward: -19.0 | Ep Steps: 922 | Epsilon: 0.099 | SPS: 453.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 246 | Step: 248807 | Ep Reward: -18.0 | Ep Steps: 1161 | Epsilon: 0.094 | SPS: 454.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 247 | Step: 249829 | Ep Reward: -18.0 | Ep Steps: 1022 | Epsilon: 0.090 | SPS: 454.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -20.80 ---
+[Eval] Step: 250000 | Eval Reward: -20.80 | Epsilon: 0.089
+Ep: 248 | Step: 250777 | Ep Reward: -19.0 | Ep Steps: 948 | Epsilon: 0.086 | SPS: 442.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 249 | Step: 251887 | Ep Reward: -20.0 | Ep Steps: 1110 | Epsilon: 0.082 | SPS: 442.58
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 250 | Step: 252711 | Ep Reward: -21.0 | Ep Steps: 824 | Epsilon: 0.078 | SPS: 442.77
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 251 | Step: 253670 | Ep Reward: -20.0 | Ep Steps: 959 | Epsilon: 0.075 | SPS: 442.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 252 | Step: 254543 | Ep Reward: -21.0 | Ep Steps: 873 | Epsilon: 0.071 | SPS: 443.16
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 253 | Step: 255610 | Ep Reward: -20.0 | Ep Steps: 1067 | Epsilon: 0.067 | SPS: 443.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 254 | Step: 256504 | Ep Reward: -21.0 | Ep Steps: 894 | Epsilon: 0.063 | SPS: 443.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 255 | Step: 257552 | Ep Reward: -20.0 | Ep Steps: 1048 | Epsilon: 0.059 | SPS: 443.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 256 | Step: 258547 | Ep Reward: -19.0 | Ep Steps: 995 | Epsilon: 0.055 | SPS: 443.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 257 | Step: 259687 | Ep Reward: -19.0 | Ep Steps: 1140 | Epsilon: 0.051 | SPS: 443.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 258 | Step: 260813 | Ep Reward: -18.0 | Ep Steps: 1126 | Epsilon: 0.046 | SPS: 444.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 259 | Step: 261959 | Ep Reward: -20.0 | Ep Steps: 1146 | Epsilon: 0.042 | SPS: 444.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 260 | Step: 263195 | Ep Reward: -18.0 | Ep Steps: 1236 | Epsilon: 0.037 | SPS: 444.55
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 261 | Step: 264437 | Ep Reward: -20.0 | Ep Steps: 1242 | Epsilon: 0.032 | SPS: 444.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 262 | Step: 265481 | Ep Reward: -21.0 | Ep Steps: 1044 | Epsilon: 0.028 | SPS: 444.72
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 263 | Step: 266624 | Ep Reward: -19.0 | Ep Steps: 1143 | Epsilon: 0.023 | SPS: 444.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 264 | Step: 267732 | Ep Reward: -19.0 | Ep Steps: 1108 | Epsilon: 0.019 | SPS: 445.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 265 | Step: 268692 | Ep Reward: -21.0 | Ep Steps: 960 | Epsilon: 0.015 | SPS: 445.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 266 | Step: 269545 | Ep Reward: -21.0 | Ep Steps: 853 | Epsilon: 0.012 | SPS: 445.48
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 267 | Step: 270485 | Ep Reward: -21.0 | Ep Steps: 940 | Epsilon: 0.010 | SPS: 445.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 268 | Step: 271652 | Ep Reward: -19.0 | Ep Steps: 1167 | Epsilon: 0.010 | SPS: 445.58
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 269 | Step: 272988 | Ep Reward: -18.0 | Ep Steps: 1336 | Epsilon: 0.010 | SPS: 445.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 270 | Step: 273987 | Ep Reward: -21.0 | Ep Steps: 999 | Epsilon: 0.010 | SPS: 446.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -20.50 ---
+[Eval] Step: 275000 | Eval Reward: -20.50 | Epsilon: 0.010
+Ep: 271 | Step: 275039 | Ep Reward: -19.0 | Ep Steps: 1052 | Epsilon: 0.010 | SPS: 435.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 272 | Step: 275988 | Ep Reward: -19.0 | Ep Steps: 949 | Epsilon: 0.010 | SPS: 435.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 273 | Step: 277578 | Ep Reward: -16.0 | Ep Steps: 1590 | Epsilon: 0.010 | SPS: 435.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 274 | Step: 278684 | Ep Reward: -19.0 | Ep Steps: 1106 | Epsilon: 0.010 | SPS: 436.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 275 | Step: 279790 | Ep Reward: -19.0 | Ep Steps: 1106 | Epsilon: 0.010 | SPS: 436.33
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 276 | Step: 280972 | Ep Reward: -19.0 | Ep Steps: 1182 | Epsilon: 0.010 | SPS: 436.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 277 | Step: 281986 | Ep Reward: -20.0 | Ep Steps: 1014 | Epsilon: 0.010 | SPS: 436.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 278 | Step: 283003 | Ep Reward: -19.0 | Ep Steps: 1017 | Epsilon: 0.010 | SPS: 436.74
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 279 | Step: 284304 | Ep Reward: -19.0 | Ep Steps: 1301 | Epsilon: 0.010 | SPS: 437.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 280 | Step: 285479 | Ep Reward: -20.0 | Ep Steps: 1175 | Epsilon: 0.010 | SPS: 437.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 281 | Step: 286782 | Ep Reward: -18.0 | Ep Steps: 1303 | Epsilon: 0.010 | SPS: 437.42
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 282 | Step: 288040 | Ep Reward: -18.0 | Ep Steps: 1258 | Epsilon: 0.010 | SPS: 437.41
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 283 | Step: 289405 | Ep Reward: -17.0 | Ep Steps: 1365 | Epsilon: 0.010 | SPS: 437.67
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 284 | Step: 290750 | Ep Reward: -18.0 | Ep Steps: 1345 | Epsilon: 0.010 | SPS: 437.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 285 | Step: 291848 | Ep Reward: -20.0 | Ep Steps: 1098 | Epsilon: 0.010 | SPS: 438.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 286 | Step: 293224 | Ep Reward: -20.0 | Ep Steps: 1376 | Epsilon: 0.010 | SPS: 438.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 287 | Step: 294398 | Ep Reward: -18.0 | Ep Steps: 1174 | Epsilon: 0.010 | SPS: 438.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 288 | Step: 295942 | Ep Reward: -15.0 | Ep Steps: 1544 | Epsilon: 0.010 | SPS: 438.81
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 289 | Step: 297026 | Ep Reward: -21.0 | Ep Steps: 1084 | Epsilon: 0.010 | SPS: 439.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 290 | Step: 298250 | Ep Reward: -19.0 | Ep Steps: 1224 | Epsilon: 0.010 | SPS: 439.15
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 291 | Step: 299925 | Ep Reward: -17.0 | Ep Steps: 1675 | Epsilon: 0.010 | SPS: 439.31
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -17.70 ---
+[Eval] Step: 300000 | Eval Reward: -17.70 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -17.70 ***
+Ep: 292 | Step: 301277 | Ep Reward: -18.0 | Ep Steps: 1352 | Epsilon: 0.010 | SPS: 423.07
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 293 | Step: 302734 | Ep Reward: -20.0 | Ep Steps: 1457 | Epsilon: 0.010 | SPS: 423.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 294 | Step: 304141 | Ep Reward: -18.0 | Ep Steps: 1407 | Epsilon: 0.010 | SPS: 423.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 295 | Step: 305663 | Ep Reward: -17.0 | Ep Steps: 1522 | Epsilon: 0.010 | SPS: 424.06
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 296 | Step: 307116 | Ep Reward: -17.0 | Ep Steps: 1453 | Epsilon: 0.010 | SPS: 424.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 297 | Step: 308109 | Ep Reward: -20.0 | Ep Steps: 993 | Epsilon: 0.010 | SPS: 424.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 298 | Step: 309351 | Ep Reward: -19.0 | Ep Steps: 1242 | Epsilon: 0.010 | SPS: 424.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 299 | Step: 310575 | Ep Reward: -19.0 | Ep Steps: 1224 | Epsilon: 0.010 | SPS: 424.93
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 300 | Step: 311955 | Ep Reward: -20.0 | Ep Steps: 1380 | Epsilon: 0.010 | SPS: 425.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 301 | Step: 313349 | Ep Reward: -18.0 | Ep Steps: 1394 | Epsilon: 0.010 | SPS: 425.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 302 | Step: 314988 | Ep Reward: -15.0 | Ep Steps: 1639 | Epsilon: 0.010 | SPS: 425.49
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 303 | Step: 316588 | Ep Reward: -18.0 | Ep Steps: 1600 | Epsilon: 0.010 | SPS: 425.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 304 | Step: 317934 | Ep Reward: -18.0 | Ep Steps: 1346 | Epsilon: 0.010 | SPS: 426.16
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 305 | Step: 319418 | Ep Reward: -16.0 | Ep Steps: 1484 | Epsilon: 0.010 | SPS: 426.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 306 | Step: 321026 | Ep Reward: -17.0 | Ep Steps: 1608 | Epsilon: 0.010 | SPS: 426.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 307 | Step: 322433 | Ep Reward: -17.0 | Ep Steps: 1407 | Epsilon: 0.010 | SPS: 426.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 308 | Step: 324239 | Ep Reward: -15.0 | Ep Steps: 1806 | Epsilon: 0.010 | SPS: 427.28
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -17.45 ---
+[Eval] Step: 325000 | Eval Reward: -17.45 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -17.45 ***
+Ep: 309 | Step: 326117 | Ep Reward: -15.0 | Ep Steps: 1878 | Epsilon: 0.010 | SPS: 412.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 310 | Step: 327800 | Ep Reward: -16.0 | Ep Steps: 1683 | Epsilon: 0.010 | SPS: 412.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 311 | Step: 329405 | Ep Reward: -16.0 | Ep Steps: 1605 | Epsilon: 0.010 | SPS: 412.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 312 | Step: 331197 | Ep Reward: -18.0 | Ep Steps: 1792 | Epsilon: 0.010 | SPS: 413.14
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 313 | Step: 332892 | Ep Reward: -14.0 | Ep Steps: 1695 | Epsilon: 0.010 | SPS: 413.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 314 | Step: 334772 | Ep Reward: -17.0 | Ep Steps: 1880 | Epsilon: 0.010 | SPS: 413.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 315 | Step: 336352 | Ep Reward: -17.0 | Ep Steps: 1580 | Epsilon: 0.010 | SPS: 414.14
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 316 | Step: 337777 | Ep Reward: -18.0 | Ep Steps: 1425 | Epsilon: 0.010 | SPS: 414.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 317 | Step: 339470 | Ep Reward: -14.0 | Ep Steps: 1693 | Epsilon: 0.010 | SPS: 414.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 318 | Step: 341133 | Ep Reward: -17.0 | Ep Steps: 1663 | Epsilon: 0.010 | SPS: 414.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 319 | Step: 342795 | Ep Reward: -18.0 | Ep Steps: 1662 | Epsilon: 0.010 | SPS: 415.31
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 320 | Step: 344280 | Ep Reward: -19.0 | Ep Steps: 1485 | Epsilon: 0.010 | SPS: 415.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 321 | Step: 346067 | Ep Reward: -19.0 | Ep Steps: 1787 | Epsilon: 0.010 | SPS: 415.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 322 | Step: 347679 | Ep Reward: -18.0 | Ep Steps: 1612 | Epsilon: 0.010 | SPS: 416.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 323 | Step: 349032 | Ep Reward: -18.0 | Ep Steps: 1353 | Epsilon: 0.010 | SPS: 416.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -16.60 ---
+[Eval] Step: 350000 | Eval Reward: -16.60 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -16.60 ***
+Ep: 324 | Step: 350178 | Ep Reward: -19.0 | Ep Steps: 1146 | Epsilon: 0.010 | SPS: 402.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 325 | Step: 351843 | Ep Reward: -15.0 | Ep Steps: 1665 | Epsilon: 0.010 | SPS: 402.77
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 326 | Step: 353665 | Ep Reward: -17.0 | Ep Steps: 1822 | Epsilon: 0.010 | SPS: 403.20
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 327 | Step: 355331 | Ep Reward: -18.0 | Ep Steps: 1666 | Epsilon: 0.010 | SPS: 403.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 328 | Step: 356899 | Ep Reward: -14.0 | Ep Steps: 1568 | Epsilon: 0.010 | SPS: 403.81
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 329 | Step: 358763 | Ep Reward: -16.0 | Ep Steps: 1864 | Epsilon: 0.010 | SPS: 404.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 330 | Step: 360315 | Ep Reward: -17.0 | Ep Steps: 1552 | Epsilon: 0.010 | SPS: 404.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 331 | Step: 362097 | Ep Reward: -18.0 | Ep Steps: 1782 | Epsilon: 0.010 | SPS: 404.93
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 332 | Step: 363502 | Ep Reward: -19.0 | Ep Steps: 1405 | Epsilon: 0.010 | SPS: 405.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 333 | Step: 364880 | Ep Reward: -18.0 | Ep Steps: 1378 | Epsilon: 0.010 | SPS: 405.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 334 | Step: 366480 | Ep Reward: -18.0 | Ep Steps: 1600 | Epsilon: 0.010 | SPS: 405.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 335 | Step: 368049 | Ep Reward: -16.0 | Ep Steps: 1569 | Epsilon: 0.010 | SPS: 405.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 336 | Step: 369662 | Ep Reward: -15.0 | Ep Steps: 1613 | Epsilon: 0.010 | SPS: 406.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 337 | Step: 371566 | Ep Reward: -15.0 | Ep Steps: 1904 | Epsilon: 0.010 | SPS: 406.77
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 338 | Step: 373229 | Ep Reward: -17.0 | Ep Steps: 1663 | Epsilon: 0.010 | SPS: 406.98
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -16.05 ---
+[Eval] Step: 375000 | Eval Reward: -16.05 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -16.05 ***
+Ep: 339 | Step: 375193 | Ep Reward: -14.0 | Ep Steps: 1964 | Epsilon: 0.010 | SPS: 393.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 340 | Step: 376768 | Ep Reward: -18.0 | Ep Steps: 1575 | Epsilon: 0.010 | SPS: 393.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 341 | Step: 378276 | Ep Reward: -15.0 | Ep Steps: 1508 | Epsilon: 0.010 | SPS: 394.27
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 342 | Step: 380171 | Ep Reward: -16.0 | Ep Steps: 1895 | Epsilon: 0.010 | SPS: 394.67
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 343 | Step: 382151 | Ep Reward: -15.0 | Ep Steps: 1980 | Epsilon: 0.010 | SPS: 395.05
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 344 | Step: 383950 | Ep Reward: -15.0 | Ep Steps: 1799 | Epsilon: 0.010 | SPS: 395.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 345 | Step: 385546 | Ep Reward: -19.0 | Ep Steps: 1596 | Epsilon: 0.010 | SPS: 395.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 346 | Step: 387097 | Ep Reward: -16.0 | Ep Steps: 1551 | Epsilon: 0.010 | SPS: 396.05
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 347 | Step: 388968 | Ep Reward: -15.0 | Ep Steps: 1871 | Epsilon: 0.010 | SPS: 396.41
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 348 | Step: 390723 | Ep Reward: -16.0 | Ep Steps: 1755 | Epsilon: 0.010 | SPS: 396.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 349 | Step: 392355 | Ep Reward: -17.0 | Ep Steps: 1632 | Epsilon: 0.010 | SPS: 397.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 350 | Step: 394147 | Ep Reward: -14.0 | Ep Steps: 1792 | Epsilon: 0.010 | SPS: 397.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 351 | Step: 395853 | Ep Reward: -16.0 | Ep Steps: 1706 | Epsilon: 0.010 | SPS: 397.71
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 352 | Step: 397322 | Ep Reward: -18.0 | Ep Steps: 1469 | Epsilon: 0.010 | SPS: 398.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 353 | Step: 398687 | Ep Reward: -18.0 | Ep Steps: 1365 | Epsilon: 0.010 | SPS: 398.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -14.55 ---
+[Eval] Step: 400000 | Eval Reward: -14.55 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -14.55 ***
+Saved Task 3 snapshot: ./results\LAB5_qe00dah0_task3_pong400000.pt
+Ep: 354 | Step: 400302 | Ep Reward: -16.0 | Ep Steps: 1615 | Epsilon: 0.010 | SPS: 385.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 355 | Step: 402145 | Ep Reward: -20.0 | Ep Steps: 1843 | Epsilon: 0.010 | SPS: 386.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 356 | Step: 403897 | Ep Reward: -14.0 | Ep Steps: 1752 | Epsilon: 0.010 | SPS: 386.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 357 | Step: 405739 | Ep Reward: -15.0 | Ep Steps: 1842 | Epsilon: 0.010 | SPS: 386.86
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 358 | Step: 407414 | Ep Reward: -16.0 | Ep Steps: 1675 | Epsilon: 0.010 | SPS: 387.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 359 | Step: 408941 | Ep Reward: -17.0 | Ep Steps: 1527 | Epsilon: 0.010 | SPS: 387.57
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 360 | Step: 411131 | Ep Reward: -15.0 | Ep Steps: 2190 | Epsilon: 0.010 | SPS: 387.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 361 | Step: 413204 | Ep Reward: -15.0 | Ep Steps: 2073 | Epsilon: 0.010 | SPS: 388.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 362 | Step: 414778 | Ep Reward: -19.0 | Ep Steps: 1574 | Epsilon: 0.010 | SPS: 388.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 363 | Step: 416872 | Ep Reward: -13.0 | Ep Steps: 2094 | Epsilon: 0.010 | SPS: 389.06
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 364 | Step: 418887 | Ep Reward: -13.0 | Ep Steps: 2015 | Epsilon: 0.010 | SPS: 389.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 365 | Step: 420766 | Ep Reward: -16.0 | Ep Steps: 1879 | Epsilon: 0.010 | SPS: 389.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 366 | Step: 422325 | Ep Reward: -19.0 | Ep Steps: 1559 | Epsilon: 0.010 | SPS: 390.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 367 | Step: 423962 | Ep Reward: -18.0 | Ep Steps: 1637 | Epsilon: 0.010 | SPS: 390.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -16.75 ---
+[Eval] Step: 425000 | Eval Reward: -16.75 | Epsilon: 0.010
+Ep: 368 | Step: 425904 | Ep Reward: -15.0 | Ep Steps: 1942 | Epsilon: 0.010 | SPS: 379.41
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 369 | Step: 427700 | Ep Reward: -15.0 | Ep Steps: 1796 | Epsilon: 0.010 | SPS: 379.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 370 | Step: 429842 | Ep Reward: -13.0 | Ep Steps: 2142 | Epsilon: 0.010 | SPS: 380.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 371 | Step: 432222 | Ep Reward: -14.0 | Ep Steps: 2380 | Epsilon: 0.010 | SPS: 380.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 372 | Step: 433914 | Ep Reward: -14.0 | Ep Steps: 1692 | Epsilon: 0.010 | SPS: 380.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 373 | Step: 435541 | Ep Reward: -17.0 | Ep Steps: 1627 | Epsilon: 0.010 | SPS: 381.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 374 | Step: 437946 | Ep Reward: -9.0 | Ep Steps: 2405 | Epsilon: 0.010 | SPS: 381.89
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 375 | Step: 440106 | Ep Reward: -18.0 | Ep Steps: 2160 | Epsilon: 0.010 | SPS: 382.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 376 | Step: 442085 | Ep Reward: -16.0 | Ep Steps: 1979 | Epsilon: 0.010 | SPS: 382.61
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 377 | Step: 443872 | Ep Reward: -16.0 | Ep Steps: 1787 | Epsilon: 0.010 | SPS: 382.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 378 | Step: 445679 | Ep Reward: -15.0 | Ep Steps: 1807 | Epsilon: 0.010 | SPS: 383.21
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 379 | Step: 447971 | Ep Reward: -12.0 | Ep Steps: 2292 | Epsilon: 0.010 | SPS: 383.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -13.60 ---
+[Eval] Step: 450000 | Eval Reward: -13.60 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -13.60 ***
+Ep: 380 | Step: 450154 | Ep Reward: -19.0 | Ep Steps: 2183 | Epsilon: 0.010 | SPS: 369.83
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 381 | Step: 452410 | Ep Reward: -16.0 | Ep Steps: 2256 | Epsilon: 0.010 | SPS: 370.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 382 | Step: 454957 | Ep Reward: -12.0 | Ep Steps: 2547 | Epsilon: 0.010 | SPS: 370.82
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 383 | Step: 457220 | Ep Reward: -12.0 | Ep Steps: 2263 | Epsilon: 0.010 | SPS: 371.25
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 384 | Step: 459548 | Ep Reward: -13.0 | Ep Steps: 2328 | Epsilon: 0.010 | SPS: 371.65
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 385 | Step: 461878 | Ep Reward: -14.0 | Ep Steps: 2330 | Epsilon: 0.010 | SPS: 372.14
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 386 | Step: 463971 | Ep Reward: -17.0 | Ep Steps: 2093 | Epsilon: 0.010 | SPS: 372.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 387 | Step: 465971 | Ep Reward: -17.0 | Ep Steps: 2000 | Epsilon: 0.010 | SPS: 372.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 388 | Step: 467966 | Ep Reward: -16.0 | Ep Steps: 1995 | Epsilon: 0.010 | SPS: 373.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 389 | Step: 470235 | Ep Reward: -14.0 | Ep Steps: 2269 | Epsilon: 0.010 | SPS: 373.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 390 | Step: 472180 | Ep Reward: -13.0 | Ep Steps: 1945 | Epsilon: 0.010 | SPS: 374.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 391 | Step: 474348 | Ep Reward: -13.0 | Ep Steps: 2168 | Epsilon: 0.010 | SPS: 374.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -16.05 ---
+[Eval] Step: 475000 | Eval Reward: -16.05 | Epsilon: 0.010
+Ep: 392 | Step: 476293 | Ep Reward: -15.0 | Ep Steps: 1945 | Epsilon: 0.010 | SPS: 363.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 393 | Step: 478394 | Ep Reward: -16.0 | Ep Steps: 2101 | Epsilon: 0.010 | SPS: 363.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 394 | Step: 480334 | Ep Reward: -12.0 | Ep Steps: 1940 | Epsilon: 0.010 | SPS: 364.23
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 395 | Step: 482314 | Ep Reward: -15.0 | Ep Steps: 1980 | Epsilon: 0.010 | SPS: 364.58
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 396 | Step: 484736 | Ep Reward: -10.0 | Ep Steps: 2422 | Epsilon: 0.010 | SPS: 365.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 397 | Step: 487145 | Ep Reward: -14.0 | Ep Steps: 2409 | Epsilon: 0.010 | SPS: 365.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 398 | Step: 489192 | Ep Reward: -19.0 | Ep Steps: 2047 | Epsilon: 0.010 | SPS: 365.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 399 | Step: 491108 | Ep Reward: -18.0 | Ep Steps: 1916 | Epsilon: 0.010 | SPS: 366.33
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 400 | Step: 493089 | Ep Reward: -17.0 | Ep Steps: 1981 | Epsilon: 0.010 | SPS: 366.63
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 401 | Step: 494941 | Ep Reward: -16.0 | Ep Steps: 1852 | Epsilon: 0.010 | SPS: 367.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 402 | Step: 496744 | Ep Reward: -18.0 | Ep Steps: 1803 | Epsilon: 0.010 | SPS: 367.33
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 403 | Step: 498943 | Ep Reward: -15.0 | Ep Steps: 2199 | Epsilon: 0.010 | SPS: 367.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -15.35 ---
+[Eval] Step: 500000 | Eval Reward: -15.35 | Epsilon: 0.010
+Ep: 404 | Step: 500714 | Ep Reward: -19.0 | Ep Steps: 1771 | Epsilon: 0.010 | SPS: 358.10
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 405 | Step: 502625 | Ep Reward: -16.0 | Ep Steps: 1911 | Epsilon: 0.010 | SPS: 358.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 406 | Step: 505188 | Ep Reward: -13.0 | Ep Steps: 2563 | Epsilon: 0.010 | SPS: 359.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 407 | Step: 507531 | Ep Reward: -17.0 | Ep Steps: 2343 | Epsilon: 0.010 | SPS: 359.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 408 | Step: 509379 | Ep Reward: -16.0 | Ep Steps: 1848 | Epsilon: 0.010 | SPS: 359.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 409 | Step: 512487 | Ep Reward: -10.0 | Ep Steps: 3108 | Epsilon: 0.010 | SPS: 360.35
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 410 | Step: 515343 | Ep Reward: -10.0 | Ep Steps: 2856 | Epsilon: 0.010 | SPS: 360.87
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 411 | Step: 517188 | Ep Reward: -19.0 | Ep Steps: 1845 | Epsilon: 0.010 | SPS: 361.14
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 412 | Step: 519442 | Ep Reward: -18.0 | Ep Steps: 2254 | Epsilon: 0.010 | SPS: 361.61
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 413 | Step: 521593 | Ep Reward: -17.0 | Ep Steps: 2151 | Epsilon: 0.010 | SPS: 361.99
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 414 | Step: 523524 | Ep Reward: -16.0 | Ep Steps: 1931 | Epsilon: 0.010 | SPS: 362.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -14.35 ---
+[Eval] Step: 525000 | Eval Reward: -14.35 | Epsilon: 0.010
+Ep: 415 | Step: 525350 | Ep Reward: -17.0 | Ep Steps: 1826 | Epsilon: 0.010 | SPS: 351.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 416 | Step: 526799 | Ep Reward: -18.0 | Ep Steps: 1449 | Epsilon: 0.010 | SPS: 351.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 417 | Step: 529472 | Ep Reward: -12.0 | Ep Steps: 2673 | Epsilon: 0.010 | SPS: 352.31
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 418 | Step: 531316 | Ep Reward: -18.0 | Ep Steps: 1844 | Epsilon: 0.010 | SPS: 352.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 419 | Step: 534163 | Ep Reward: -11.0 | Ep Steps: 2847 | Epsilon: 0.010 | SPS: 353.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 420 | Step: 537157 | Ep Reward: -12.0 | Ep Steps: 2994 | Epsilon: 0.010 | SPS: 353.65
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 421 | Step: 539959 | Ep Reward: -10.0 | Ep Steps: 2802 | Epsilon: 0.010 | SPS: 354.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 422 | Step: 542336 | Ep Reward: -13.0 | Ep Steps: 2377 | Epsilon: 0.010 | SPS: 354.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 423 | Step: 544386 | Ep Reward: -17.0 | Ep Steps: 2050 | Epsilon: 0.010 | SPS: 354.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 424 | Step: 546054 | Ep Reward: -18.0 | Ep Steps: 1668 | Epsilon: 0.010 | SPS: 355.27
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 425 | Step: 548875 | Ep Reward: -11.0 | Ep Steps: 2821 | Epsilon: 0.010 | SPS: 355.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -16.15 ---
+[Eval] Step: 550000 | Eval Reward: -16.15 | Epsilon: 0.010
+Ep: 426 | Step: 551122 | Ep Reward: -13.0 | Ep Steps: 2247 | Epsilon: 0.010 | SPS: 348.28
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 427 | Step: 553592 | Ep Reward: -14.0 | Ep Steps: 2470 | Epsilon: 0.010 | SPS: 348.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 428 | Step: 555644 | Ep Reward: -16.0 | Ep Steps: 2052 | Epsilon: 0.010 | SPS: 349.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 429 | Step: 558124 | Ep Reward: -13.0 | Ep Steps: 2480 | Epsilon: 0.010 | SPS: 349.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 430 | Step: 560571 | Ep Reward: -15.0 | Ep Steps: 2447 | Epsilon: 0.010 | SPS: 350.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 431 | Step: 563349 | Ep Reward: -13.0 | Ep Steps: 2778 | Epsilon: 0.010 | SPS: 350.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 432 | Step: 565683 | Ep Reward: -15.0 | Ep Steps: 2334 | Epsilon: 0.010 | SPS: 350.90
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 433 | Step: 567513 | Ep Reward: -17.0 | Ep Steps: 1830 | Epsilon: 0.010 | SPS: 351.24
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 434 | Step: 570063 | Ep Reward: -10.0 | Ep Steps: 2550 | Epsilon: 0.010 | SPS: 351.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 435 | Step: 572399 | Ep Reward: -13.0 | Ep Steps: 2336 | Epsilon: 0.010 | SPS: 352.06
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -15.25 ---
+[Eval] Step: 575000 | Eval Reward: -15.25 | Epsilon: 0.010
+Ep: 436 | Step: 575040 | Ep Reward: -12.0 | Ep Steps: 2641 | Epsilon: 0.010 | SPS: 344.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 437 | Step: 577670 | Ep Reward: -14.0 | Ep Steps: 2630 | Epsilon: 0.010 | SPS: 344.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 438 | Step: 580752 | Ep Reward: -15.0 | Ep Steps: 3082 | Epsilon: 0.010 | SPS: 345.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 439 | Step: 582452 | Ep Reward: -18.0 | Ep Steps: 1700 | Epsilon: 0.010 | SPS: 345.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 440 | Step: 586145 | Ep Reward: -10.0 | Ep Steps: 3693 | Epsilon: 0.010 | SPS: 346.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 441 | Step: 588252 | Ep Reward: -16.0 | Ep Steps: 2107 | Epsilon: 0.010 | SPS: 346.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 442 | Step: 590723 | Ep Reward: -16.0 | Ep Steps: 2471 | Epsilon: 0.010 | SPS: 346.80
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 443 | Step: 593966 | Ep Reward: -10.0 | Ep Steps: 3243 | Epsilon: 0.010 | SPS: 347.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 444 | Step: 596177 | Ep Reward: -15.0 | Ep Steps: 2211 | Epsilon: 0.010 | SPS: 347.67
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 445 | Step: 599008 | Ep Reward: -14.0 | Ep Steps: 2831 | Epsilon: 0.010 | SPS: 348.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -12.15 ---
+[Eval] Step: 600000 | Eval Reward: -12.15 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -12.15 ***
+Saved Task 3 snapshot: ./results\LAB5_qe00dah0_task3_pong600000.pt
+Ep: 446 | Step: 602402 | Ep Reward: -8.0 | Ep Steps: 3394 | Epsilon: 0.010 | SPS: 338.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 447 | Step: 604550 | Ep Reward: -15.0 | Ep Steps: 2148 | Epsilon: 0.010 | SPS: 339.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 448 | Step: 606976 | Ep Reward: -15.0 | Ep Steps: 2426 | Epsilon: 0.010 | SPS: 339.61
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 449 | Step: 609150 | Ep Reward: -13.0 | Ep Steps: 2174 | Epsilon: 0.010 | SPS: 340.03
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 450 | Step: 611673 | Ep Reward: -13.0 | Ep Steps: 2523 | Epsilon: 0.010 | SPS: 340.47
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 451 | Step: 614794 | Ep Reward: -9.0 | Ep Steps: 3121 | Epsilon: 0.010 | SPS: 340.98
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 452 | Step: 617174 | Ep Reward: -12.0 | Ep Steps: 2380 | Epsilon: 0.010 | SPS: 341.36
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 453 | Step: 618801 | Ep Reward: -18.0 | Ep Steps: 1627 | Epsilon: 0.010 | SPS: 341.63
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 454 | Step: 622825 | Ep Reward: -8.0 | Ep Steps: 4024 | Epsilon: 0.010 | SPS: 342.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -13.30 ---
+[Eval] Step: 625000 | Eval Reward: -13.30 | Epsilon: 0.010
+Ep: 455 | Step: 625815 | Ep Reward: -8.0 | Ep Steps: 2990 | Epsilon: 0.010 | SPS: 333.91
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 456 | Step: 627987 | Ep Reward: -19.0 | Ep Steps: 2172 | Epsilon: 0.010 | SPS: 334.32
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 457 | Step: 630712 | Ep Reward: -11.0 | Ep Steps: 2725 | Epsilon: 0.010 | SPS: 334.75
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 458 | Step: 633396 | Ep Reward: -11.0 | Ep Steps: 2684 | Epsilon: 0.010 | SPS: 335.23
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 459 | Step: 635595 | Ep Reward: -17.0 | Ep Steps: 2199 | Epsilon: 0.010 | SPS: 335.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 460 | Step: 638394 | Ep Reward: -12.0 | Ep Steps: 2799 | Epsilon: 0.010 | SPS: 336.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 461 | Step: 641366 | Ep Reward: -9.0 | Ep Steps: 2972 | Epsilon: 0.010 | SPS: 336.54
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 462 | Step: 644190 | Ep Reward: -16.0 | Ep Steps: 2824 | Epsilon: 0.010 | SPS: 336.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 463 | Step: 647492 | Ep Reward: -9.0 | Ep Steps: 3302 | Epsilon: 0.010 | SPS: 337.48
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 464 | Step: 649707 | Ep Reward: -18.0 | Ep Steps: 2215 | Epsilon: 0.010 | SPS: 337.85
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -14.75 ---
+[Eval] Step: 650000 | Eval Reward: -14.75 | Epsilon: 0.010
+Ep: 465 | Step: 651733 | Ep Reward: -17.0 | Ep Steps: 2026 | Epsilon: 0.010 | SPS: 329.10
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 466 | Step: 655323 | Ep Reward: -10.0 | Ep Steps: 3590 | Epsilon: 0.010 | SPS: 329.73
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 467 | Step: 658501 | Ep Reward: -12.0 | Ep Steps: 3178 | Epsilon: 0.010 | SPS: 330.25
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 468 | Step: 660702 | Ep Reward: -17.0 | Ep Steps: 2201 | Epsilon: 0.010 | SPS: 330.61
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 469 | Step: 664718 | Ep Reward: -8.0 | Ep Steps: 4016 | Epsilon: 0.010 | SPS: 331.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 470 | Step: 667437 | Ep Reward: -16.0 | Ep Steps: 2719 | Epsilon: 0.010 | SPS: 331.71
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 471 | Step: 670155 | Ep Reward: -15.0 | Ep Steps: 2718 | Epsilon: 0.010 | SPS: 332.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 472 | Step: 673161 | Ep Reward: -13.0 | Ep Steps: 3006 | Epsilon: 0.010 | SPS: 332.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.90 ---
+[Eval] Step: 675000 | Eval Reward: -11.90 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -11.90 ***
+Ep: 473 | Step: 675397 | Ep Reward: -14.0 | Ep Steps: 2236 | Epsilon: 0.010 | SPS: 323.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 474 | Step: 677654 | Ep Reward: -14.0 | Ep Steps: 2257 | Epsilon: 0.010 | SPS: 323.46
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 475 | Step: 681023 | Ep Reward: -10.0 | Ep Steps: 3369 | Epsilon: 0.010 | SPS: 324.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 476 | Step: 683059 | Ep Reward: -17.0 | Ep Steps: 2036 | Epsilon: 0.010 | SPS: 324.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 477 | Step: 687246 | Ep Reward: -8.0 | Ep Steps: 4187 | Epsilon: 0.010 | SPS: 325.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 478 | Step: 691234 | Ep Reward: -10.0 | Ep Steps: 3988 | Epsilon: 0.010 | SPS: 325.60
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 479 | Step: 694986 | Ep Reward: -10.0 | Ep Steps: 3752 | Epsilon: 0.010 | SPS: 326.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 480 | Step: 698138 | Ep Reward: -13.0 | Ep Steps: 3152 | Epsilon: 0.010 | SPS: 326.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.55 ---
+[Eval] Step: 700000 | Eval Reward: -11.55 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -11.55 ***
+Ep: 481 | Step: 701326 | Ep Reward: -9.0 | Ep Steps: 3188 | Epsilon: 0.010 | SPS: 318.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 482 | Step: 703624 | Ep Reward: -17.0 | Ep Steps: 2298 | Epsilon: 0.010 | SPS: 319.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 483 | Step: 706254 | Ep Reward: -12.0 | Ep Steps: 2630 | Epsilon: 0.010 | SPS: 319.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 484 | Step: 709782 | Ep Reward: -12.0 | Ep Steps: 3528 | Epsilon: 0.010 | SPS: 320.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 485 | Step: 712252 | Ep Reward: -17.0 | Ep Steps: 2470 | Epsilon: 0.010 | SPS: 320.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 486 | Step: 715120 | Ep Reward: -12.0 | Ep Steps: 2868 | Epsilon: 0.010 | SPS: 320.88
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 487 | Step: 719249 | Ep Reward: -8.0 | Ep Steps: 4129 | Epsilon: 0.010 | SPS: 321.51
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 488 | Step: 721651 | Ep Reward: -16.0 | Ep Steps: 2402 | Epsilon: 0.010 | SPS: 321.86
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 489 | Step: 724179 | Ep Reward: -15.0 | Ep Steps: 2528 | Epsilon: 0.010 | SPS: 322.22
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -13.10 ---
+[Eval] Step: 725000 | Eval Reward: -13.10 | Epsilon: 0.010
+Ep: 490 | Step: 726783 | Ep Reward: -14.0 | Ep Steps: 2604 | Epsilon: 0.010 | SPS: 314.76
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 491 | Step: 729553 | Ep Reward: -13.0 | Ep Steps: 2770 | Epsilon: 0.010 | SPS: 315.23
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 492 | Step: 731530 | Ep Reward: -18.0 | Ep Steps: 1977 | Epsilon: 0.010 | SPS: 315.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 493 | Step: 734876 | Ep Reward: -15.0 | Ep Steps: 3346 | Epsilon: 0.010 | SPS: 316.04
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 494 | Step: 738192 | Ep Reward: -12.0 | Ep Steps: 3316 | Epsilon: 0.010 | SPS: 316.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 495 | Step: 740938 | Ep Reward: -12.0 | Ep Steps: 2746 | Epsilon: 0.010 | SPS: 316.97
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 496 | Step: 743804 | Ep Reward: -16.0 | Ep Steps: 2866 | Epsilon: 0.010 | SPS: 317.39
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 497 | Step: 747591 | Ep Reward: -10.0 | Ep Steps: 3787 | Epsilon: 0.010 | SPS: 317.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -15.55 ---
+[Eval] Step: 750000 | Eval Reward: -15.55 | Epsilon: 0.010
+Ep: 498 | Step: 751233 | Ep Reward: -12.0 | Ep Steps: 3642 | Epsilon: 0.010 | SPS: 312.12
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 499 | Step: 754902 | Ep Reward: -12.0 | Ep Steps: 3669 | Epsilon: 0.010 | SPS: 312.71
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 500 | Step: 757571 | Ep Reward: -19.0 | Ep Steps: 2669 | Epsilon: 0.010 | SPS: 313.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 501 | Step: 760369 | Ep Reward: -14.0 | Ep Steps: 2798 | Epsilon: 0.010 | SPS: 313.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 502 | Step: 764431 | Ep Reward: -7.0 | Ep Steps: 4062 | Epsilon: 0.010 | SPS: 314.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 503 | Step: 766799 | Ep Reward: -16.0 | Ep Steps: 2368 | Epsilon: 0.010 | SPS: 314.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 504 | Step: 769389 | Ep Reward: -14.0 | Ep Steps: 2590 | Epsilon: 0.010 | SPS: 314.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 505 | Step: 771631 | Ep Reward: -17.0 | Ep Steps: 2242 | Epsilon: 0.010 | SPS: 315.16
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.00 ---
+[Eval] Step: 775000 | Eval Reward: -11.00 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -11.00 ***
+Ep: 506 | Step: 775302 | Ep Reward: -14.0 | Ep Steps: 3671 | Epsilon: 0.010 | SPS: 307.30
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 507 | Step: 778389 | Ep Reward: -12.0 | Ep Steps: 3087 | Epsilon: 0.010 | SPS: 307.77
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 508 | Step: 780645 | Ep Reward: -17.0 | Ep Steps: 2256 | Epsilon: 0.010 | SPS: 308.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 509 | Step: 783574 | Ep Reward: -12.0 | Ep Steps: 2929 | Epsilon: 0.010 | SPS: 308.51
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 510 | Step: 787035 | Ep Reward: -11.0 | Ep Steps: 3461 | Epsilon: 0.010 | SPS: 308.98
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 511 | Step: 791255 | Ep Reward: -5.0 | Ep Steps: 4220 | Epsilon: 0.010 | SPS: 309.59
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 512 | Step: 795298 | Ep Reward: -7.0 | Ep Steps: 4043 | Epsilon: 0.010 | SPS: 310.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 513 | Step: 798291 | Ep Reward: -14.0 | Ep Steps: 2993 | Epsilon: 0.010 | SPS: 310.56
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -10.85 ---
+[Eval] Step: 800000 | Eval Reward: -10.85 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -10.85 ***
+Saved Task 3 snapshot: ./results\LAB5_qe00dah0_task3_pong800000.pt
+Ep: 514 | Step: 801228 | Ep Reward: -11.0 | Ep Steps: 2937 | Epsilon: 0.010 | SPS: 303.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 515 | Step: 804303 | Ep Reward: -11.0 | Ep Steps: 3075 | Epsilon: 0.010 | SPS: 304.26
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 516 | Step: 806182 | Ep Reward: -17.0 | Ep Steps: 1879 | Epsilon: 0.010 | SPS: 304.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 517 | Step: 809994 | Ep Reward: -11.0 | Ep Steps: 3812 | Epsilon: 0.010 | SPS: 305.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 518 | Step: 812658 | Ep Reward: -17.0 | Ep Steps: 2664 | Epsilon: 0.010 | SPS: 305.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 519 | Step: 816069 | Ep Reward: -10.0 | Ep Steps: 3411 | Epsilon: 0.010 | SPS: 305.94
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 520 | Step: 819105 | Ep Reward: -11.0 | Ep Steps: 3036 | Epsilon: 0.010 | SPS: 306.37
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 521 | Step: 821538 | Ep Reward: -16.0 | Ep Steps: 2433 | Epsilon: 0.010 | SPS: 306.72
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -12.35 ---
+[Eval] Step: 825000 | Eval Reward: -12.35 | Epsilon: 0.010
+Ep: 522 | Step: 825287 | Ep Reward: -11.0 | Ep Steps: 3749 | Epsilon: 0.010 | SPS: 300.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 523 | Step: 829120 | Ep Reward: -9.0 | Ep Steps: 3833 | Epsilon: 0.010 | SPS: 300.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 524 | Step: 832439 | Ep Reward: -10.0 | Ep Steps: 3319 | Epsilon: 0.010 | SPS: 301.29
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 525 | Step: 834522 | Ep Reward: -17.0 | Ep Steps: 2083 | Epsilon: 0.010 | SPS: 301.61
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 526 | Step: 837401 | Ep Reward: -12.0 | Ep Steps: 2879 | Epsilon: 0.010 | SPS: 302.01
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 527 | Step: 839987 | Ep Reward: -16.0 | Ep Steps: 2586 | Epsilon: 0.010 | SPS: 302.34
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 528 | Step: 843029 | Ep Reward: -11.0 | Ep Steps: 3042 | Epsilon: 0.010 | SPS: 302.79
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 529 | Step: 847432 | Ep Reward: -8.0 | Ep Steps: 4403 | Epsilon: 0.010 | SPS: 303.38
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -9.25 ---
+[Eval] Step: 850000 | Eval Reward: -9.25 | Epsilon: 0.010
+*** Saved new best model to ./results\best_model.pt with reward -9.25 ***
+Ep: 530 | Step: 850469 | Ep Reward: -13.0 | Ep Steps: 3037 | Epsilon: 0.010 | SPS: 295.45
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 531 | Step: 854658 | Ep Reward: -6.0 | Ep Steps: 4189 | Epsilon: 0.010 | SPS: 296.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 532 | Step: 857944 | Ep Reward: -14.0 | Ep Steps: 3286 | Epsilon: 0.010 | SPS: 296.53
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 533 | Step: 861501 | Ep Reward: -15.0 | Ep Steps: 3557 | Epsilon: 0.010 | SPS: 297.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 534 | Step: 865257 | Ep Reward: -9.0 | Ep Steps: 3756 | Epsilon: 0.010 | SPS: 297.56
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 535 | Step: 869250 | Ep Reward: -7.0 | Ep Steps: 3993 | Epsilon: 0.010 | SPS: 298.11
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 536 | Step: 871563 | Ep Reward: -15.0 | Ep Steps: 2313 | Epsilon: 0.010 | SPS: 298.44
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 537 | Step: 874605 | Ep Reward: -9.0 | Ep Steps: 3042 | Epsilon: 0.010 | SPS: 298.84
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.85 ---
+[Eval] Step: 875000 | Eval Reward: -11.85 | Epsilon: 0.010
+Ep: 538 | Step: 877490 | Ep Reward: -13.0 | Ep Steps: 2885 | Epsilon: 0.010 | SPS: 293.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 539 | Step: 879309 | Ep Reward: -19.0 | Ep Steps: 1819 | Epsilon: 0.010 | SPS: 293.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 540 | Step: 881882 | Ep Reward: -15.0 | Ep Steps: 2573 | Epsilon: 0.010 | SPS: 294.13
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 541 | Step: 884749 | Ep Reward: -12.0 | Ep Steps: 2867 | Epsilon: 0.010 | SPS: 294.51
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 542 | Step: 888412 | Ep Reward: -10.0 | Ep Steps: 3663 | Epsilon: 0.010 | SPS: 295.03
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 543 | Step: 892070 | Ep Reward: -9.0 | Ep Steps: 3658 | Epsilon: 0.010 | SPS: 295.52
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 544 | Step: 895646 | Ep Reward: -12.0 | Ep Steps: 3576 | Epsilon: 0.010 | SPS: 296.00
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 545 | Step: 898948 | Ep Reward: -13.0 | Ep Steps: 3302 | Epsilon: 0.010 | SPS: 296.43
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.35 ---
+[Eval] Step: 900000 | Eval Reward: -11.35 | Epsilon: 0.010
+Ep: 546 | Step: 902432 | Ep Reward: -13.0 | Ep Steps: 3484 | Epsilon: 0.010 | SPS: 290.64
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 547 | Step: 906268 | Ep Reward: -10.0 | Ep Steps: 3836 | Epsilon: 0.010 | SPS: 291.12
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 548 | Step: 910405 | Ep Reward: -8.0 | Ep Steps: 4137 | Epsilon: 0.010 | SPS: 291.69
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 549 | Step: 912925 | Ep Reward: -16.0 | Ep Steps: 2520 | Epsilon: 0.010 | SPS: 292.02
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 550 | Step: 916617 | Ep Reward: -10.0 | Ep Steps: 3692 | Epsilon: 0.010 | SPS: 292.50
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 551 | Step: 919904 | Ep Reward: -15.0 | Ep Steps: 3287 | Epsilon: 0.010 | SPS: 292.92
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 552 | Step: 923642 | Ep Reward: -10.0 | Ep Steps: 3738 | Epsilon: 0.010 | SPS: 293.40
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -11.10 ---
+[Eval] Step: 925000 | Eval Reward: -11.10 | Epsilon: 0.010
+Ep: 553 | Step: 926617 | Ep Reward: -16.0 | Ep Steps: 2975 | Epsilon: 0.010 | SPS: 288.08
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 554 | Step: 931700 | Ep Reward: -2.0 | Ep Steps: 5083 | Epsilon: 0.010 | SPS: 288.72
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 555 | Step: 937013 | Ep Reward: -1.0 | Ep Steps: 5313 | Epsilon: 0.010 | SPS: 289.42
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 556 | Step: 942310 | Ep Reward: -6.0 | Ep Steps: 5297 | Epsilon: 0.010 | SPS: 290.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 557 | Step: 946712 | Ep Reward: -9.0 | Ep Steps: 4402 | Epsilon: 0.010 | SPS: 290.62
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -10.85 ---
+[Eval] Step: 950000 | Eval Reward: -10.85 | Epsilon: 0.010
+Ep: 558 | Step: 951062 | Ep Reward: -8.0 | Ep Steps: 4350 | Epsilon: 0.010 | SPS: 284.70
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 559 | Step: 954632 | Ep Reward: -18.0 | Ep Steps: 3570 | Epsilon: 0.010 | SPS: 285.17
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 560 | Step: 959074 | Ep Reward: -6.0 | Ep Steps: 4442 | Epsilon: 0.010 | SPS: 285.71
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 561 | Step: 961217 | Ep Reward: -18.0 | Ep Steps: 2143 | Epsilon: 0.010 | SPS: 285.96
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 562 | Step: 964784 | Ep Reward: -10.0 | Ep Steps: 3567 | Epsilon: 0.010 | SPS: 286.41
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 563 | Step: 967935 | Ep Reward: -13.0 | Ep Steps: 3151 | Epsilon: 0.010 | SPS: 286.82
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 564 | Step: 970900 | Ep Reward: -12.0 | Ep Steps: 2965 | Epsilon: 0.010 | SPS: 287.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 565 | Step: 974748 | Ep Reward: -6.0 | Ep Steps: 3848 | Epsilon: 0.010 | SPS: 287.66
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -10.30 ---
+[Eval] Step: 975000 | Eval Reward: -10.30 | Epsilon: 0.010
+Ep: 566 | Step: 977930 | Ep Reward: -11.0 | Ep Steps: 3182 | Epsilon: 0.010 | SPS: 282.27
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 567 | Step: 982130 | Ep Reward: -4.0 | Ep Steps: 4200 | Epsilon: 0.010 | SPS: 282.78
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 568 | Step: 985267 | Ep Reward: -12.0 | Ep Steps: 3137 | Epsilon: 0.010 | SPS: 283.18
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 569 | Step: 988897 | Ep Reward: -7.0 | Ep Steps: 3630 | Epsilon: 0.010 | SPS: 283.62
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 570 | Step: 992874 | Ep Reward: -8.0 | Ep Steps: 3977 | Epsilon: 0.010 | SPS: 284.09
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+Ep: 571 | Step: 996700 | Ep Reward: -9.0 | Ep Steps: 3826 | Epsilon: 0.010 | SPS: 284.55
+Saved best model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt
+--- Starting Evaluation ---
+--- Evaluation Complete | Average Reward: -10.80 ---
+[Eval] Step: 1000000 | Eval Reward: -10.80 | Epsilon: 0.010
+Saved Task 3 snapshot: ./results\LAB5_qe00dah0_task3_pong1000000.pt
+Saved final model to ./results\Task2-Pong-Vanilla_final_model.pt
+Saved BEST model snapshot for Task 2: ./results\LAB5_qe00dah0_task2_pong.pt

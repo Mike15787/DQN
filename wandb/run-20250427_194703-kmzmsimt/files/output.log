@@ -1,0 +1,27 @@
+Using device: cuda
+[Ep 1] R=-20.0  Steps=1018  ε=0.9601
+[Ep 2] R=-20.0  Steps=2027  ε=0.9221
+[Ep 3] R=-21.0  Steps=2858  ε=0.8920
+[Ep 4] R=-20.0  Steps=3701  ε=0.8624
+[Ep 5] R=-20.0  Steps=4539  ε=0.8340
+[Ep 6] R=-19.0  Steps=5551  ε=0.8009
+[Ep 7] R=-21.0  Steps=6362  ε=0.7753
+[Ep 8] R=-20.0  Steps=7317  ε=0.7463
+[Ep 9] R=-20.0  Steps=8324  ε=0.7168
+*** (avg_R=-21.00) ***
+[Ep 10] R=-20.0  Steps=9356  ε=0.6878
+[Ep 11] R=-20.0  Steps=10319  ε=0.6618
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 332, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 208, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 281, in train
+    loss.backward()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

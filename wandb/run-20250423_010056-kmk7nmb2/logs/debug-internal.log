@@ -1,0 +1,17 @@
+{"time":"2025-04-23T01:00:56.8525437+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250423_010056-kmk7nmb2\\logs\\debug-core.log"}
+{"time":"2025-04-23T01:00:57.1774688+08:00","level":"INFO","msg":"created new stream","id":"kmk7nmb2"}
+{"time":"2025-04-23T01:00:57.1774688+08:00","level":"INFO","msg":"stream: started","id":"kmk7nmb2"}
+{"time":"2025-04-23T01:00:57.1774688+08:00","level":"INFO","msg":"sender: started","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:00:57.1774688+08:00","level":"INFO","msg":"handler: started","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:00:57.1774688+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:00:57.500019+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-23T01:00:57.5010655+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-23T01:02:30.8270156+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-23T01:02:30.8270156+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-23T01:02:31.8352832+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5451672,"progress":"136.7KB/136.7KB"}],"total_operations":1}}
+{"time":"2025-04-23T01:02:32.00915+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-23T01:02:32.3671236+08:00","level":"INFO","msg":"stream: closing","id":"kmk7nmb2"}
+{"time":"2025-04-23T01:02:32.3671236+08:00","level":"INFO","msg":"handler: closed","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:02:32.3671236+08:00","level":"INFO","msg":"sender: closed","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:02:32.3671236+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kmk7nmb2"}
+{"time":"2025-04-23T01:02:32.3671236+08:00","level":"INFO","msg":"stream: closed","id":"kmk7nmb2"}

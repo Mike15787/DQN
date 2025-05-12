@@ -1,0 +1,28 @@
+Using device: cuda
+[Ep 0] R=-20.0  Steps=978  ε=0.9768
+[Ep 1] R=-21.0  Steps=1804  ε=0.9576
+[Ep 2] R=-19.0  Steps=2783  ε=0.9354
+[Ep 3] R=-21.0  Steps=3576  ε=0.9178
+[Ep 4] R=-20.0  Steps=4583  ε=0.8958
+[Ep 5] R=-19.0  Steps=5625  ε=0.8737
+[Ep 6] R=-21.0  Steps=6473  ε=0.8561
+[Ep 7] R=-21.0  Steps=7414  ε=0.8370
+[Ep 8] R=-21.0  Steps=8239  ε=0.8206
+[Ep 9] R=-21.0  Steps=9089  ε=0.8040
+[Ep 10] R=-20.0  Steps=9951  ε=0.7876
+[Ep 11] R=-20.0  Steps=10881  ε=0.7702
+[Ep 12] R=-20.0  Steps=11851  ε=0.7524
+[Ep 13] R=-19.0  Steps=12970  ε=0.7325
+[Ep 14] R=-20.0  Steps=14051  ε=0.7137
+[Ep 15] R=-17.0  Steps=15418  ε=0.6907
+[Ep 16] R=-19.0  Steps=16451  ε=0.6738
+[Ep 17] R=-20.0  Steps=17293  ε=0.6603
+[Ep 18] R=-21.0  Steps=18264  ε=0.6451
+[Ep 19] R=-18.0  Steps=19518  ε=0.6260
+*** (avg_R=-21.00) ***
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 336, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 235, in run
+    if avg_r > self.best_eval_reward:
+AttributeError: 'DQNAgent' object has no attribute 'best_eval_reward'

@@ -1,0 +1,276 @@
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import numpy as np
+import random
+import gymnasium as gym
+import cv2
+import ale_py
+import os
+from collections import deque
+import wandb
+import argparse
+
+gym.register_envs(ale_py)
+
+def init_weights(m):
+    if isinstance(m, nn.Conv2d) or isinstance(m, nn.Linear):
+        nn.init.kaiming_uniform_(m.weight, nonlinearity='relu')
+        if m.bias is not None:
+            nn.init.constant_(m.bias, 0)
+
+class DQN(nn.Module):
+    """
+    Q-network: default MLP for low-dimensional (CartPole).
+    CNN override is done in DQNAgent when is_atari=True.
+    """
+    def __init__(self, num_actions):
+        super(DQN, self).__init__()
+        self.network = nn.Sequential(
+            nn.Flatten(),
+            nn.Linear(4, 128), nn.ReLU(),
+            nn.Linear(128, 128), nn.ReLU(),
+            nn.Linear(128, num_actions)
+        )
+
+    def forward(self, x):
+        # x is either (batch,4) or (batch,4,84,84); MLP expects 1D input, CNN override will handle 4D
+        return self.network(x)
+
+class AtariPreprocessor:
+    """
+    Preprocess Atari frames: grayscale, resize to 84x84, stack frames
+    """
+    def __init__(self, frame_stack=4):
+        self.frame_stack = frame_stack
+        self.frames = deque(maxlen=frame_stack)
+
+    def preprocess(self, obs):
+        gray = cv2.cvtColor(obs, cv2.COLOR_RGB2GRAY)
+        return cv2.resize(gray, (84,84), interpolation=cv2.INTER_AREA)
+
+    def reset(self, obs):
+        frame = self.preprocess(obs)
+        self.frames = deque([frame]*self.frame_stack, maxlen=self.frame_stack)
+        return np.stack(self.frames, axis=0)
+
+    def step(self, obs):
+        frame = self.preprocess(obs)
+        self.frames.append(frame)
+        return np.stack(self.frames, axis=0)
+
+class PrioritizedReplayBuffer:
+    """
+    Prioritized Experience Replay buffer
+    """
+    def __init__(self, capacity, alpha=0.6, beta=0.4):
+        self.capacity = capacity
+        self.alpha = alpha
+        self.beta = beta
+        self.buffer = []
+        self.priorities = np.zeros((capacity,), dtype=np.float32)
+        self.pos = 0
+
+    def add(self, transition, error):
+        prio = (abs(error) + 1e-6) ** self.alpha
+        if len(self.buffer) < self.capacity:
+            self.buffer.append(transition)
+        else:
+            self.buffer[self.pos] = transition
+        self.priorities[self.pos] = prio
+        self.pos = (self.pos + 1) % self.capacity
+
+    def sample(self, batch_size):
+        length = len(self.buffer)
+        prios = self.priorities[:length]
+        probs = prios / prios.sum()
+        indices = np.random.choice(length, batch_size, p=probs)
+        samples = [self.buffer[i] for i in indices]
+        weights = (length * probs[indices]) ** (-self.beta)
+        weights /= weights.max()
+        return indices, samples, weights
+
+    def update_priorities(self, indices, errors):
+        for idx, err in zip(indices, errors):
+            self.priorities[idx] = (abs(err) + 1e-6) ** self.alpha
+
+class DQNAgent:
+    def __init__(self, env_name, args):
+        # Environments
+        self.env = gym.make(env_name, render_mode="rgb_array")
+        self.test_env = gym.make(env_name, render_mode="rgb_array")
+        self.is_atari = 'Pong' in env_name
+        self.preprocessor = AtariPreprocessor() if self.is_atari else None
+        self.num_actions = self.env.action_space.n
+
+        # Device and networks
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Default MLP
+        self.q_net = DQN(self.num_actions).to(self.device)
+        self.target_net = DQN(self.num_actions).to(self.device)
+        # Override CNN if Atari
+        if self.is_atari:
+            cnn = nn.Sequential(
+                nn.Conv2d(4,32,8,4), nn.ReLU(),
+                nn.Conv2d(32,64,4,2), nn.ReLU(),
+                nn.Conv2d(64,64,3,1), nn.ReLU(),
+                nn.Flatten(),
+                nn.Linear(64*7*7,512), nn.ReLU(),
+                nn.Linear(512,self.num_actions)
+            )
+            self.q_net.network = cnn
+            self.target_net.network = cnn
+        self.q_net.apply(init_weights)
+        self.target_net.load_state_dict(self.q_net.state_dict())
+        self.optimizer = optim.Adam(self.q_net.parameters(), lr=args.lr)
+
+        # Replay buffer
+        self.use_per = args.use_per
+        if self.use_per:
+            self.buffer = PrioritizedReplayBuffer(args.memory_size)
+        else:
+            self.buffer = deque(maxlen=args.memory_size)
+        # N-step buffer
+        self.n_step = args.n_step
+        self.n_step_buffer = deque(maxlen=self.n_step)
+
+        # Hyperparams
+        self.batch_size = args.batch_size
+        self.gamma = args.discount_factor
+        self.epsilon = args.epsilon_start
+        self.epsilon_decay = args.epsilon_decay
+        self.epsilon_min = args.epsilon_min
+        self.use_ddqn = args.use_ddqn
+        self.use_multistep = args.use_multistep
+        self.replay_start_size = args.replay_start_size
+        self.target_update_freq = args.target_update_frequency
+        self.train_per_step = args.train_per_step
+        self.max_steps = args.max_episode_steps
+        self.save_dir = args.save_dir
+        os.makedirs(self.save_dir, exist_ok=True)
+
+        self.env_steps = 0
+        self.train_steps = 0
+        self.best_reward = -float('inf')
+
+    def select_action(self, state):
+        if random.random() < self.epsilon:
+            return random.randrange(self.num_actions)
+        st = torch.from_numpy(state).float().unsqueeze(0).to(self.device)
+        with torch.no_grad():
+            qv = self.q_net(st)
+        return qv.argmax().item()
+
+    def store(self, transition, error=0):
+        if self.use_per:
+            self.buffer.add(transition, error)
+        else:
+            self.buffer.append(transition)
+
+    def sample(self):
+        if self.use_per:
+            idxs, batch, weights = self.buffer.sample(self.batch_size)
+            return idxs, batch, torch.tensor(weights, device=self.device)
+        else:
+            batch = random.sample(self.buffer, self.batch_size)
+            return None, batch, None
+
+    def update_epsilon(self):
+        self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
+
+    def train(self):
+        buf = self.buffer
+        if self.use_per:
+            length = len(buf.buffer)
+        else:
+            length = len(buf)
+        if length < self.replay_start_size:
+            return
+        self.train_steps += 1
+        idxs, batch, weights = self.sample()
+        s, a, r, ns, d = zip(*batch)
+        s = torch.tensor(np.array(s), device=self.device, dtype=torch.float32)
+        a = torch.tensor(a, device=self.device).unsqueeze(1)
+        r = torch.tensor(r, device=self.device)
+        ns = torch.tensor(np.array(ns), device=self.device, dtype=torch.float32)
+        d = torch.tensor(d, device=self.device, dtype=torch.float32)
+
+        q = self.q_net(s).gather(1, a).squeeze(1)
+        with torch.no_grad():
+            if self.use_ddqn:
+                a_sel = self.q_net(ns).argmax(1, keepdim=True)
+                q_next = self.target_net(ns).gather(1, a_sel).squeeze(1)
+            else:
+                q_next = self.target_net(ns).max(1)[0]
+            target = r + self.gamma * q_next * (1 - d)
+
+        td = target - q
+        if self.use_per:
+            buf.update_priorities(idxs, td.abs().cpu().numpy())
+            loss = (weights * td.pow(2)).mean()
+        else:
+            loss = td.pow(2).mean()
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+
+        if self.train_steps % self.target_update_freq == 0:
+            self.target_net.load_state_dict(self.q_net.state_dict())
+
+    def run(self):
+        for ep in range(1000):
+            obs, _ = self.env.reset()
+            state = self.preprocessor.reset(obs) if self.is_atari else obs
+            done = False
+            total_r = 0
+            steps = 0
+            self.n_step_buffer.clear()
+            while not done and steps < self.max_steps:
+                action = self.select_action(state)
+                next_obs, reward, term, trunc, _ = self.env.step(action)
+                done = term or trunc
+                next_state = self.preprocessor.step(next_obs) if self.is_atari else next_obs
+                # multi-step buffering
+                self.n_step_buffer.append((state, action, reward, next_state, done))
+                if self.use_multistep and len(self.n_step_buffer) == self.n_step:
+                    R = sum(self.gamma**i * self.n_step_buffer[i][2] for i in range(self.n_step))
+                    s0, a0, *_ = self.n_step_buffer[0]
+                    sn, dn = self.n_step_buffer[-1][3], self.n_step_buffer[-1][4]
+                    self.store((s0, a0, R, sn, dn), error=R)
+                else:
+                    self.store((state, action, reward, next_state, done), error=reward)
+                state = next_state
+                total_r += reward
+                steps += 1
+                self.env_steps += 1
+                for _ in range(self.train_per_step):
+                    self.train()
+                self.update_epsilon()
+            print(f"Ep {ep} | Reward: {total_r}")
+            # evaluation and saving logic omitted
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--task", choices=["Task1","Task2","Task3"], default="Task1")
+    parser.add_argument("--use-ddqn", action="store_true")
+    parser.add_argument("--use-per", action="store_true")
+    parser.add_argument("--use-multistep", action="store_true")
+    parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--memory-size", type=int, default=100000)
+    parser.add_argument("--n-step", type=int, default=4)
+    parser.add_argument("--lr", type=float, default=5e-4)
+    parser.add_argument("--discount-factor", type=float, default=0.99)
+    parser.add_argument("--epsilon-start", type=float, default=1.0)
+    parser.add_argument("--epsilon-decay", type=float, default=0.999999)
+    parser.add_argument("--epsilon-min", type=float, default=0.01)
+    parser.add_argument("--target-update-frequency", type=int, default=500)
+    parser.add_argument("--replay-start-size", type=int, default=50000)
+    parser.add_argument("--max-episode-steps", type=int, default=10000)
+    parser.add_argument("--train-per-step", type=int, default=1)
+    parser.add_argument("--wandb-run-name", type=str, default="dqn_run")
+    parser.add_argument("--save-dir", type=str, default="./results")
+    args = parser.parse_args()
+    wandb.init(project="DLP-Lab5-DQN", name=args.wandb_run_name)
+    env_map = {"Task1":"CartPole-v1","Task2":"ALE/Pong-v5","Task3":"ALE/Pong-v5"}
+    agent = DQNAgent(env_map[args.task], args)
+    agent.run()

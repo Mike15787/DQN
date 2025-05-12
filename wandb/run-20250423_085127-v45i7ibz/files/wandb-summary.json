@@ -1,0 +1,1 @@
+{"Loss":0.0017441841773688793,"_timestamp":1.745376795982502e+09,"_step":1999999,"Epsilon":0.1,"_wandb":{"runtime":7308},"Reward/Train":-4,"_runtime":7308.436371,"Episode":1024,"Buffer Size":100000,"Env Step":1997874,"Train Step":1990000,"Reward/Eval":-0.55}

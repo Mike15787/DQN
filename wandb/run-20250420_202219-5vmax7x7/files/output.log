@@ -1,0 +1,331 @@
+Using device: cuda
+Classic Control State Shape: (4,)
+Number of Actions: 2
+Networks initialized:
+Q-Network: DQN(
+  (network): Sequential(
+    (0): Linear(in_features=4, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=128, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=128, out_features=2, bias=True)
+  )
+)
+Using Standard Experience Replay
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 9.40
+
+Step 1000: New best model saved with reward 9.40
+[Eval] Step: 1000 | Eval Reward: 9.40 (New Best)
+[Progress] Step: 1000/50000 | Ep: 50 | Eps: 0.8040 | Avg Reward (100ep): 20.08 | Steps/sec: 4922.90
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 9.20
+
+[Eval] Step: 2000 | Eval Reward: 9.20
+[Progress] Step: 2000/50000 | Ep: 115 | Eps: 0.6080 | Avg Reward (100ep): 16.88 | Steps/sec: 2271.94
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 14.70
+
+Step 3000: New best model saved with reward 14.70
+[Eval] Step: 3000 | Eval Reward: 14.70 (New Best)
+[Progress] Step: 3000/50000 | Ep: 166 | Eps: 0.4120 | Avg Reward (100ep): 17.56 | Steps/sec: 2269.02
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 81.80
+
+Step 4000: New best model saved with reward 81.80
+[Eval] Step: 4000 | Eval Reward: 81.80 (New Best)
+[Progress] Step: 4000/50000 | Ep: 192 | Eps: 0.2160 | Avg Reward (100ep): 23.51 | Steps/sec: 1765.45
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 9.80
+
+[Eval] Step: 5000 | Eval Reward: 9.80
+Step 5000: Model checkpoint saved to ./results_cartpole\model_step5000.pt
+[Progress] Step: 5000/50000 | Ep: 198 | Eps: 0.0200 | Avg Reward (100ep): 32.11 | Steps/sec: 2118.74
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 91.00
+
+Step 6000: New best model saved with reward 91.00
+[Eval] Step: 6000 | Eval Reward: 91.00 (New Best)
+[Progress] Step: 6000/50000 | Ep: 211 | Eps: 0.0200 | Avg Reward (100ep): 40.73 | Steps/sec: 1631.66
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 193.50
+
+Step 7000: New best model saved with reward 193.50
+[Eval] Step: 7000 | Eval Reward: 193.50 (New Best)
+[Progress] Step: 7000/50000 | Ep: 219 | Eps: 0.0200 | Avg Reward (100ep): 47.39 | Steps/sec: 1280.73
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 113.50
+
+[Eval] Step: 8000 | Eval Reward: 113.50
+[Progress] Step: 8000/50000 | Ep: 229 | Eps: 0.0200 | Avg Reward (100ep): 57.00 | Steps/sec: 1549.11
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 174.90
+
+[Eval] Step: 9000 | Eval Reward: 174.90
+[Progress] Step: 9000/50000 | Ep: 234 | Eps: 0.0200 | Avg Reward (100ep): 65.46 | Steps/sec: 1324.10
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 150.40
+
+[Eval] Step: 10000 | Eval Reward: 150.40
+Step 10000: Model checkpoint saved to ./results_cartpole\model_step10000.pt
+[Progress] Step: 10000/50000 | Ep: 241 | Eps: 0.0200 | Avg Reward (100ep): 74.07 | Steps/sec: 1380.81
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 148.10
+
+[Eval] Step: 11000 | Eval Reward: 148.10
+[Progress] Step: 11000/50000 | Ep: 248 | Eps: 0.0200 | Avg Reward (100ep): 83.93 | Steps/sec: 1376.37
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 151.50
+
+[Eval] Step: 12000 | Eval Reward: 151.50
+[Progress] Step: 12000/50000 | Ep: 253 | Eps: 0.0200 | Avg Reward (100ep): 90.98 | Steps/sec: 1381.29
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 114.10
+
+[Eval] Step: 13000 | Eval Reward: 114.10
+[Progress] Step: 13000/50000 | Ep: 260 | Eps: 0.0200 | Avg Reward (100ep): 100.69 | Steps/sec: 1470.43
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 156.00
+
+[Eval] Step: 14000 | Eval Reward: 156.00
+[Progress] Step: 14000/50000 | Ep: 268 | Eps: 0.0200 | Avg Reward (100ep): 108.36 | Steps/sec: 1308.21
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 155.70
+
+[Eval] Step: 15000 | Eval Reward: 155.70
+Step 15000: Model checkpoint saved to ./results_cartpole\model_step15000.pt
+[Progress] Step: 15000/50000 | Ep: 273 | Eps: 0.0200 | Avg Reward (100ep): 116.73 | Steps/sec: 1246.47
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 223.00
+
+Step 16000: New best model saved with reward 223.00
+[Eval] Step: 16000 | Eval Reward: 223.00 (New Best)
+[Progress] Step: 16000/50000 | Ep: 279 | Eps: 0.0200 | Avg Reward (100ep): 125.10 | Steps/sec: 1087.53
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 141.80
+
+[Eval] Step: 17000 | Eval Reward: 141.80
+[Progress] Step: 17000/50000 | Ep: 285 | Eps: 0.0200 | Avg Reward (100ep): 131.95 | Steps/sec: 1337.55
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 208.30
+
+[Eval] Step: 18000 | Eval Reward: 208.30
+[Progress] Step: 18000/50000 | Ep: 292 | Eps: 0.0200 | Avg Reward (100ep): 139.57 | Steps/sec: 1148.28
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 40.10
+
+[Eval] Step: 19000 | Eval Reward: 40.10
+[Progress] Step: 19000/50000 | Ep: 304 | Eps: 0.0200 | Avg Reward (100ep): 137.15 | Steps/sec: 1762.00
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 41.50
+
+[Eval] Step: 20000 | Eval Reward: 41.50
+Step 20000: Model checkpoint saved to ./results_cartpole\model_step20000.pt
+[Progress] Step: 20000/50000 | Ep: 314 | Eps: 0.0200 | Avg Reward (100ep): 137.35 | Steps/sec: 1745.90
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 161.60
+
+[Eval] Step: 21000 | Eval Reward: 161.60
+[Progress] Step: 21000/50000 | Ep: 321 | Eps: 0.0200 | Avg Reward (100ep): 137.14 | Steps/sec: 1236.64
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 110.40
+
+[Eval] Step: 22000 | Eval Reward: 110.40
+[Progress] Step: 22000/50000 | Ep: 328 | Eps: 0.0200 | Avg Reward (100ep): 141.12 | Steps/sec: 1377.80
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 173.50
+
+[Eval] Step: 23000 | Eval Reward: 173.50
+[Progress] Step: 23000/50000 | Ep: 335 | Eps: 0.0200 | Avg Reward (100ep): 139.06 | Steps/sec: 1205.17
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 94.40
+
+[Eval] Step: 24000 | Eval Reward: 94.40
+[Progress] Step: 24000/50000 | Ep: 345 | Eps: 0.0200 | Avg Reward (100ep): 134.86 | Steps/sec: 1453.18
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 164.60
+
+[Eval] Step: 25000 | Eval Reward: 164.60
+Step 25000: Model checkpoint saved to ./results_cartpole\model_step25000.pt
+[Progress] Step: 25000/50000 | Ep: 351 | Eps: 0.0200 | Avg Reward (100ep): 133.97 | Steps/sec: 1230.93
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 143.50
+
+[Eval] Step: 26000 | Eval Reward: 143.50
+[Progress] Step: 26000/50000 | Ep: 362 | Eps: 0.0200 | Avg Reward (100ep): 126.68 | Steps/sec: 1293.16
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 115.70
+
+[Eval] Step: 27000 | Eval Reward: 115.70
+[Progress] Step: 27000/50000 | Ep: 374 | Eps: 0.0200 | Avg Reward (100ep): 118.76 | Steps/sec: 1360.74
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 99.00
+
+[Eval] Step: 28000 | Eval Reward: 99.00
+[Progress] Step: 28000/50000 | Ep: 385 | Eps: 0.0200 | Avg Reward (100ep): 111.53 | Steps/sec: 1464.54
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 131.50
+
+[Eval] Step: 29000 | Eval Reward: 131.50
+[Progress] Step: 29000/50000 | Ep: 394 | Eps: 0.0200 | Avg Reward (100ep): 107.18 | Steps/sec: 1355.88
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 155.10
+
+[Eval] Step: 30000 | Eval Reward: 155.10
+Step 30000: Model checkpoint saved to ./results_cartpole\model_step30000.pt
+[Progress] Step: 30000/50000 | Ep: 402 | Eps: 0.0200 | Avg Reward (100ep): 112.15 | Steps/sec: 1261.47
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 143.30
+
+[Eval] Step: 31000 | Eval Reward: 143.30
+[Progress] Step: 31000/50000 | Ep: 412 | Eps: 0.0200 | Avg Reward (100ep): 111.66 | Steps/sec: 1298.56
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 137.20
+
+[Eval] Step: 32000 | Eval Reward: 137.20
+[Progress] Step: 32000/50000 | Ep: 420 | Eps: 0.0200 | Avg Reward (100ep): 110.63 | Steps/sec: 1318.73
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 74.30
+
+[Eval] Step: 33000 | Eval Reward: 74.30
+[Progress] Step: 33000/50000 | Ep: 432 | Eps: 0.0200 | Avg Reward (100ep): 105.18 | Steps/sec: 1545.08
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 123.00
+
+[Eval] Step: 34000 | Eval Reward: 123.00
+[Progress] Step: 34000/50000 | Ep: 440 | Eps: 0.0200 | Avg Reward (100ep): 103.66 | Steps/sec: 1347.62
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 78.80
+
+[Eval] Step: 35000 | Eval Reward: 78.80
+Step 35000: Model checkpoint saved to ./results_cartpole\model_step35000.pt
+[Progress] Step: 35000/50000 | Ep: 451 | Eps: 0.0200 | Avg Reward (100ep): 100.73 | Steps/sec: 1520.27
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 108.40
+
+[Eval] Step: 36000 | Eval Reward: 108.40
+[Progress] Step: 36000/50000 | Ep: 460 | Eps: 0.0200 | Avg Reward (100ep): 102.44 | Steps/sec: 1416.35
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 107.40
+
+[Eval] Step: 37000 | Eval Reward: 107.40
+[Progress] Step: 37000/50000 | Ep: 471 | Eps: 0.0200 | Avg Reward (100ep): 102.76 | Steps/sec: 1425.32
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 95.00
+
+[Eval] Step: 38000 | Eval Reward: 95.00
+[Progress] Step: 38000/50000 | Ep: 482 | Eps: 0.0200 | Avg Reward (100ep): 103.59 | Steps/sec: 1443.37
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 92.80
+
+[Eval] Step: 39000 | Eval Reward: 92.80
+[Progress] Step: 39000/50000 | Ep: 492 | Eps: 0.0200 | Avg Reward (100ep): 102.61 | Steps/sec: 1461.45
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 118.80
+
+[Eval] Step: 40000 | Eval Reward: 118.80
+Step 40000: Model checkpoint saved to ./results_cartpole\model_step40000.pt
+[Progress] Step: 40000/50000 | Ep: 502 | Eps: 0.0200 | Avg Reward (100ep): 99.92 | Steps/sec: 1361.16
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 123.90
+
+[Eval] Step: 41000 | Eval Reward: 123.90
+[Progress] Step: 41000/50000 | Ep: 512 | Eps: 0.0200 | Avg Reward (100ep): 100.27 | Steps/sec: 1345.33
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 102.00
+
+[Eval] Step: 42000 | Eval Reward: 102.00
+[Progress] Step: 42000/50000 | Ep: 521 | Eps: 0.0200 | Avg Reward (100ep): 99.64 | Steps/sec: 1365.94
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 40.10
+
+[Eval] Step: 43000 | Eval Reward: 40.10
+[Progress] Step: 43000/50000 | Ep: 533 | Eps: 0.0200 | Avg Reward (100ep): 99.11 | Steps/sec: 1718.11
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 58.50
+
+[Eval] Step: 44000 | Eval Reward: 58.50
+[Progress] Step: 44000/50000 | Ep: 541 | Eps: 0.0200 | Avg Reward (100ep): 99.28 | Steps/sec: 1650.24
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 55.40
+
+[Eval] Step: 45000 | Eval Reward: 55.40
+Step 45000: Model checkpoint saved to ./results_cartpole\model_step45000.pt
+[Progress] Step: 45000/50000 | Ep: 553 | Eps: 0.0200 | Avg Reward (100ep): 98.21 | Steps/sec: 1655.32
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 74.50
+
+[Eval] Step: 46000 | Eval Reward: 74.50
+[Progress] Step: 46000/50000 | Ep: 568 | Eps: 0.0200 | Avg Reward (100ep): 91.86 | Steps/sec: 1568.31
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 95.80
+
+[Eval] Step: 47000 | Eval Reward: 95.80
+[Progress] Step: 47000/50000 | Ep: 583 | Eps: 0.0200 | Avg Reward (100ep): 88.91 | Steps/sec: 1463.55
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 96.40
+
+[Eval] Step: 48000 | Eval Reward: 96.40
+[Progress] Step: 48000/50000 | Ep: 594 | Eps: 0.0200 | Avg Reward (100ep): 87.36 | Steps/sec: 1438.74
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 89.30
+
+[Eval] Step: 49000 | Eval Reward: 89.30
+[Progress] Step: 49000/50000 | Ep: 619 | Eps: 0.0200 | Avg Reward (100ep): 71.71 | Steps/sec: 1475.97
+
+--- Starting Evaluation (10 episodes) ---
+--- Evaluation Complete --- Avg Reward: 22.70
+
+[Eval] Step: 50000 | Eval Reward: 22.70
+Step 50000: Model checkpoint saved to ./results_cartpole\model_step50000.pt
+[Progress] Step: 50000/50000 | Ep: 659 | Eps: 0.0200 | Avg Reward (100ep): 46.71 | Steps/sec: 1821.81
+Training finished.

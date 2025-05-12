@@ -1,0 +1,63 @@
+Using device: cuda
+[Eval] Ep: 0 Total Reward: 20.0 SC: 20 UC: 0 Eps: 1.0000
+Saved model checkpoint to ./results\model_ep0.pt
+Saved new best model to ./results\best_model.pt with reward 9.0
+[TrueEval] Ep: 0 Eval Reward: 9.00 SC: 20 UC: 0
+[Eval] Ep: 1 Total Reward: 8.0 SC: 28 UC: 0 Eps: 1.0000
+[Eval] Ep: 2 Total Reward: 9.0 SC: 37 UC: 0 Eps: 1.0000
+[Eval] Ep: 3 Total Reward: 56.0 SC: 93 UC: 0 Eps: 1.0000
+[Eval] Ep: 4 Total Reward: 14.0 SC: 107 UC: 0 Eps: 1.0000
+[Eval] Ep: 5 Total Reward: 63.0 SC: 170 UC: 0 Eps: 1.0000
+[Eval] Ep: 6 Total Reward: 39.0 SC: 209 UC: 0 Eps: 1.0000
+[Eval] Ep: 7 Total Reward: 24.0 SC: 233 UC: 0 Eps: 1.0000
+[Eval] Ep: 8 Total Reward: 28.0 SC: 261 UC: 0 Eps: 1.0000
+[Eval] Ep: 9 Total Reward: 19.0 SC: 280 UC: 0 Eps: 1.0000
+[Eval] Ep: 10 Total Reward: 29.0 SC: 309 UC: 0 Eps: 1.0000
+[Eval] Ep: 11 Total Reward: 26.0 SC: 335 UC: 0 Eps: 1.0000
+[Eval] Ep: 12 Total Reward: 15.0 SC: 350 UC: 0 Eps: 1.0000
+[Eval] Ep: 13 Total Reward: 18.0 SC: 368 UC: 0 Eps: 1.0000
+[Eval] Ep: 14 Total Reward: 31.0 SC: 399 UC: 0 Eps: 1.0000
+[Eval] Ep: 15 Total Reward: 16.0 SC: 415 UC: 0 Eps: 1.0000
+[Eval] Ep: 16 Total Reward: 10.0 SC: 425 UC: 0 Eps: 1.0000
+[Eval] Ep: 17 Total Reward: 11.0 SC: 436 UC: 0 Eps: 1.0000
+[Eval] Ep: 18 Total Reward: 19.0 SC: 455 UC: 0 Eps: 1.0000
+[Eval] Ep: 19 Total Reward: 19.0 SC: 474 UC: 0 Eps: 1.0000
+[Eval] Ep: 20 Total Reward: 26.0 SC: 500 UC: 0 Eps: 1.0000
+[TrueEval] Ep: 20 Eval Reward: 9.00 SC: 500 UC: 0
+[Eval] Ep: 21 Total Reward: 16.0 SC: 516 UC: 0 Eps: 1.0000
+[Eval] Ep: 22 Total Reward: 18.0 SC: 534 UC: 0 Eps: 1.0000
+[Eval] Ep: 23 Total Reward: 30.0 SC: 564 UC: 0 Eps: 1.0000
+[Eval] Ep: 24 Total Reward: 13.0 SC: 577 UC: 0 Eps: 1.0000
+[Eval] Ep: 25 Total Reward: 15.0 SC: 592 UC: 0 Eps: 1.0000
+[Eval] Ep: 26 Total Reward: 21.0 SC: 613 UC: 0 Eps: 1.0000
+[Eval] Ep: 27 Total Reward: 13.0 SC: 626 UC: 0 Eps: 1.0000
+[Eval] Ep: 28 Total Reward: 26.0 SC: 652 UC: 0 Eps: 1.0000
+[Eval] Ep: 29 Total Reward: 15.0 SC: 667 UC: 0 Eps: 1.0000
+[Eval] Ep: 30 Total Reward: 14.0 SC: 681 UC: 0 Eps: 1.0000
+[Eval] Ep: 31 Total Reward: 12.0 SC: 693 UC: 0 Eps: 1.0000
+[Eval] Ep: 32 Total Reward: 13.0 SC: 706 UC: 0 Eps: 1.0000
+[Eval] Ep: 33 Total Reward: 28.0 SC: 734 UC: 0 Eps: 1.0000
+[Eval] Ep: 34 Total Reward: 14.0 SC: 748 UC: 0 Eps: 1.0000
+[Eval] Ep: 35 Total Reward: 10.0 SC: 758 UC: 0 Eps: 1.0000
+[Eval] Ep: 36 Total Reward: 18.0 SC: 776 UC: 0 Eps: 1.0000
+[Eval] Ep: 37 Total Reward: 15.0 SC: 791 UC: 0 Eps: 1.0000
+[Eval] Ep: 38 Total Reward: 15.0 SC: 806 UC: 0 Eps: 1.0000
+[Eval] Ep: 39 Total Reward: 10.0 SC: 816 UC: 0 Eps: 1.0000
+[Eval] Ep: 40 Total Reward: 22.0 SC: 838 UC: 0 Eps: 1.0000
+Saved new best model to ./results\best_model.pt with reward 10.0
+[TrueEval] Ep: 40 Eval Reward: 10.00 SC: 838 UC: 0
+[Eval] Ep: 41 Total Reward: 22.0 SC: 860 UC: 0 Eps: 1.0000
+[Eval] Ep: 42 Total Reward: 18.0 SC: 878 UC: 0 Eps: 1.0000
+[Eval] Ep: 43 Total Reward: 8.0 SC: 886 UC: 0 Eps: 1.0000
+[Eval] Ep: 44 Total Reward: 14.0 SC: 900 UC: 0 Eps: 1.0000
+[Eval] Ep: 45 Total Reward: 19.0 SC: 919 UC: 0 Eps: 1.0000
+[Eval] Ep: 46 Total Reward: 18.0 SC: 937 UC: 0 Eps: 1.0000
+[Eval] Ep: 47 Total Reward: 28.0 SC: 965 UC: 0 Eps: 1.0000
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 290, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 149, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 248, in train
+    q_sa = self.q(s).gather(1, a.unsqueeze(1)).squeeze(1)
+AttributeError: 'DQNAgent' object has no attribute 'q'

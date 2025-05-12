@@ -1,0 +1,11 @@
+Using device: cuda
+[Eval] Ep: 0 Total Reward: 17.0 SC: 17 UC: 0 Eps: 1.0000
+Saved model checkpoint to ./results\model_ep0.pt
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 290, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 187, in run
+    eval_reward = self.evaluate()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 202, in evaluate
+    state = self.preprocessor.reset(obs)
+AttributeError: 'DQNAgent' object has no attribute 'preprocessor'

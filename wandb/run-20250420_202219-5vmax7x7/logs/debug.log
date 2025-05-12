@@ -1,0 +1,29 @@
+2025-04-20 20:22:19,440 INFO    MainThread:32044 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-20 20:22:19,441 INFO    MainThread:32044 [wandb_setup.py:_flush():67] Configure stats pid to 32044
+2025-04-20 20:22:19,441 INFO    MainThread:32044 [wandb_setup.py:_flush():67] Loading settings from C:\Users\USER\.config\wandb\settings
+2025-04-20 20:22:19,441 INFO    MainThread:32044 [wandb_setup.py:_flush():67] Loading settings from C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\settings
+2025-04-20 20:22:19,441 INFO    MainThread:32044 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-20 20:22:19,441 INFO    MainThread:32044 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\run-20250420_202219-5vmax7x7\logs\debug.log
+2025-04-20 20:22:19,443 INFO    MainThread:32044 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\run-20250420_202219-5vmax7x7\logs\debug-internal.log
+2025-04-20 20:22:19,443 INFO    MainThread:32044 [wandb_init.py:init():781] calling init triggers
+2025-04-20 20:22:19,443 INFO    MainThread:32044 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'env_name': 'CartPole-v1', 'render': False, 'total_env_steps': 50000, 'train_frequency': 4, 'replay_start_size': 1000, 'batch_size': 32, 'target_update_frequency': 500, 'max_episode_steps': 10000, 'lr': 0.0005, 'discount_factor': 0.99, 'memory_size': 10000, 'epsilon_start': 1.0, 'epsilon_min': 0.02, 'epsilon_decay_frames': 5000, 'use_ddqn': False, 'use_per': False, 'per_alpha': 0.6, 'per_beta': 0.4, 'n_steps': 1, 'wandb_project': 'DLP-Lab5-DQN', 'wandb_run_name': 'cartpole-vanilla', 'save_dir': './results_cartpole', 'eval_frequency': 1000, 'save_frequency': 5000, 'seed': 42, '_wandb': {'code_path': 'code/gemini_dqn.py'}}
+2025-04-20 20:22:19,443 INFO    MainThread:32044 [wandb_init.py:init():809] starting backend
+2025-04-20 20:22:19,443 INFO    MainThread:32044 [wandb_init.py:init():813] sending inform_init request
+2025-04-20 20:22:19,455 INFO    MainThread:32044 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-20 20:22:19,455 INFO    MainThread:32044 [wandb_init.py:init():823] backend started and connected
+2025-04-20 20:22:19,456 INFO    MainThread:32044 [wandb_init.py:init():915] updated telemetry
+2025-04-20 20:22:19,458 INFO    MainThread:32044 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-20 20:22:20,220 INFO    MainThread:32044 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-20 20:22:20,260 INFO    MainThread:32044 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-20 20:22:20,261 INFO    MainThread:32044 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-20 20:22:20,261 INFO    MainThread:32044 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-20 20:22:20,261 INFO    MainThread:32044 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-20 20:22:20,264 INFO    MainThread:32044 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-20 20:22:55,444 INFO    MainThread:32044 [wandb_run.py:_finish():2189] finishing run x546hjm65-no/DLP-Lab5-DQN/5vmax7x7
+2025-04-20 20:22:55,444 INFO    MainThread:32044 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-20 20:22:55,445 INFO    MainThread:32044 [wandb_run.py:_restore():2401] restore
+2025-04-20 20:22:55,445 INFO    MainThread:32044 [wandb_run.py:_restore():2407] restore done
+2025-04-20 20:22:56,842 INFO    MainThread:32044 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-20 20:22:56,843 INFO    MainThread:32044 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-20 20:22:56,847 INFO    MainThread:32044 [wandb_run.py:_footer_sync_info():4025] logging synced files

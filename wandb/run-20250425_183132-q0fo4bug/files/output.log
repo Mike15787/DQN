@@ -1,0 +1,7 @@
+Using device: cuda
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 289, in <module>
+    agent = DQNAgent(args=args)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 103, in __init__
+    self.memory = deque(maxlen=args.mem_size)
+AttributeError: 'Namespace' object has no attribute 'mem_size'

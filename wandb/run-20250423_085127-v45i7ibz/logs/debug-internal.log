@@ -1,0 +1,17 @@
+{"time":"2025-04-23T08:51:27.5533094+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250423_085127-v45i7ibz\\logs\\debug-core.log"}
+{"time":"2025-04-23T08:51:27.9127004+08:00","level":"INFO","msg":"created new stream","id":"v45i7ibz"}
+{"time":"2025-04-23T08:51:27.9132695+08:00","level":"INFO","msg":"stream: started","id":"v45i7ibz"}
+{"time":"2025-04-23T08:51:27.9132695+08:00","level":"INFO","msg":"handler: started","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T08:51:27.9138253+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T08:51:27.9143534+08:00","level":"INFO","msg":"sender: started","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T08:51:28.2103554+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-23T08:51:28.2134436+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-23T10:53:15.987546+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-23T10:53:15.987546+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-23T10:53:17.0105214+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.48782,"progress":"63.4KB/63.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.2481179,"progress":"1.5KB/1.5KB"}],"total_operations":2}}
+{"time":"2025-04-23T10:53:17.0848894+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-23T10:53:17.3640764+08:00","level":"INFO","msg":"stream: closing","id":"v45i7ibz"}
+{"time":"2025-04-23T10:53:17.3640764+08:00","level":"INFO","msg":"handler: closed","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T10:53:17.3640764+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T10:53:17.3640764+08:00","level":"INFO","msg":"sender: closed","stream_id":"v45i7ibz"}
+{"time":"2025-04-23T10:53:17.3640764+08:00","level":"INFO","msg":"stream: closed","id":"v45i7ibz"}

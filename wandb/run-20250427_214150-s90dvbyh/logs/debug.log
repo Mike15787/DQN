@@ -1,0 +1,23 @@
+2025-04-27 21:41:50,635 INFO    MainThread:51100 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-27 21:41:50,635 INFO    MainThread:51100 [wandb_setup.py:_flush():67] Configure stats pid to 51100
+2025-04-27 21:41:50,635 INFO    MainThread:51100 [wandb_setup.py:_flush():67] Loading settings from C:\Users\USER\.config\wandb\settings
+2025-04-27 21:41:50,635 INFO    MainThread:51100 [wandb_setup.py:_flush():67] Loading settings from C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\settings
+2025-04-27 21:41:50,635 INFO    MainThread:51100 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-27 21:41:50,636 INFO    MainThread:51100 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\run-20250427_214150-s90dvbyh\logs\debug.log
+2025-04-27 21:41:50,638 INFO    MainThread:51100 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\wandb\run-20250427_214150-s90dvbyh\logs\debug-internal.log
+2025-04-27 21:41:50,638 INFO    MainThread:51100 [wandb_init.py:init():781] calling init triggers
+2025-04-27 21:41:50,638 INFO    MainThread:51100 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {'code_path': 'code/task3_gpt.py'}}
+2025-04-27 21:41:50,638 INFO    MainThread:51100 [wandb_init.py:init():809] starting backend
+2025-04-27 21:41:50,638 INFO    MainThread:51100 [wandb_init.py:init():813] sending inform_init request
+2025-04-27 21:41:50,651 INFO    MainThread:51100 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-27 21:41:50,651 INFO    MainThread:51100 [wandb_init.py:init():823] backend started and connected
+2025-04-27 21:41:50,651 INFO    MainThread:51100 [wandb_init.py:init():915] updated telemetry
+2025-04-27 21:41:50,653 INFO    MainThread:51100 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-27 21:41:51,342 INFO    MainThread:51100 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-27 21:41:51,387 INFO    MainThread:51100 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-27 21:41:51,387 INFO    MainThread:51100 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-27 21:41:51,387 INFO    MainThread:51100 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-27 21:41:51,387 INFO    MainThread:51100 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-27 21:41:51,389 INFO    MainThread:51100 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-27 22:50:08,637 INFO    MsgRouterThr:51100 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

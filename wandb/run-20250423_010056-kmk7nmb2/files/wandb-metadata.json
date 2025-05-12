@@ -1,0 +1,74 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.10.11",
+  "startedAt": "2025-04-22T17:00:56.850976Z",
+  "args": [
+    "--task",
+    "1",
+    "--total-steps",
+    "50000",
+    "--lr",
+    "0.0005",
+    "--memory-size",
+    "50000",
+    "--replay-start-size",
+    "1000",
+    "--target-update-frequency",
+    "500",
+    "--epsilon-decay-steps",
+    "20000",
+    "--epsilon-min",
+    "0.05",
+    "--train-frequency",
+    "1",
+    "--eval-frequency",
+    "2000",
+    "--max-episode-steps",
+    "500",
+    "--save-frequency",
+    "10000",
+    "--eval-episodes",
+    "20",
+    "--batch-size",
+    "32",
+    "--discount-factor",
+    "0.99",
+    "--grad-clip-norm",
+    "10.0",
+    "--seed",
+    "42"
+  ],
+  "program": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\gemini_2_dqn.py",
+  "codePath": "gemini_2_dqn.py",
+  "email": "x546hjm65@gmail.com",
+  "root": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5",
+  "host": "DESKTOP-TAK3S5T",
+  "executable": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "gemini_2_dqn.py",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1022933786624",
+      "used": "461055143936"
+    }
+  },
+  "memory": {
+    "total": "34088460288"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "memoryTotal": "12878610432",
+      "cudaCores": 7168,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

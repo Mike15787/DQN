@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        code_path: code/gemini_2_dqn.py
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.11
+            "5": 0.19.9
+            "8":
+                - 3
+                - 5
+            "12": 0.19.9
+            "13": windows-amd64
+batch_size:
+    value: 32
+discount_factor:
+    value: 0.99
+environment_name:
+    value: ALE/Pong-v5
+epsilon_decay_steps:
+    value: 1000000
+epsilon_min:
+    value: 0.1
+epsilon_start:
+    value: 1
+eval_frequency:
+    value: 50
+frame_stack:
+    value: 4
+gradient_clip_norm:
+    value: 10
+lr:
+    value: 0.0001
+max_episode_steps:
+    value: 10000
+memory_size:
+    value: 100000
+n_step:
+    value: 3
+num_eval_episodes:
+    value: 20
+per_alpha:
+    value: 0.6
+per_beta_frames:
+    value: null
+per_beta_start:
+    value: 0.4
+render:
+    value: false
+replay_start_size:
+    value: 10000
+save_dir:
+    value: ./results_task2
+save_interval:
+    value: 200000
+seed:
+    value: 42
+target_update_frequency:
+    value: 1000
+task:
+    value: Task2
+total_env_steps:
+    value: 2000000
+train_per_env_step:
+    value: 1
+use_ddqn:
+    value: false
+use_multistep:
+    value: false
+use_per:
+    value: false
+wandb_project_name:
+    value: DLP-Lab5-DQN
+wandb_run_name:
+    value: dqn_pong_vanilla

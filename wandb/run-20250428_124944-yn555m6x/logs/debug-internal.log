@@ -1,0 +1,18 @@
+{"time":"2025-04-28T12:49:44.0785455+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250428_124944-yn555m6x\\logs\\debug-core.log"}
+{"time":"2025-04-28T12:49:44.5126533+08:00","level":"INFO","msg":"created new stream","id":"yn555m6x"}
+{"time":"2025-04-28T12:49:44.5126533+08:00","level":"INFO","msg":"stream: started","id":"yn555m6x"}
+{"time":"2025-04-28T12:49:44.5126533+08:00","level":"INFO","msg":"handler: started","stream_id":"yn555m6x"}
+{"time":"2025-04-28T12:49:44.5126533+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"yn555m6x"}
+{"time":"2025-04-28T12:49:44.5126533+08:00","level":"INFO","msg":"sender: started","stream_id":"yn555m6x"}
+{"time":"2025-04-28T12:49:44.7738177+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T12:49:44.7775373+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-28T16:57:01.5105058+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x546hjm65-no/DLP-Lab5-DQN-Pong/yn555m6x/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-28T16:57:03.9779449+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/x546hjm65-no/DLP-Lab5-DQN-Pong/yn555m6x/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-28T17:32:44.0774386+08:00","level":"INFO","msg":"stream: closing","id":"yn555m6x"}
+{"time":"2025-04-28T17:32:44.0774386+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T17:32:44.0774386+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T17:32:44.8234397+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T17:32:45.3791909+08:00","level":"INFO","msg":"handler: closed","stream_id":"yn555m6x"}
+{"time":"2025-04-28T17:32:45.3791909+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yn555m6x"}
+{"time":"2025-04-28T17:32:45.3791909+08:00","level":"INFO","msg":"sender: closed","stream_id":"yn555m6x"}
+{"time":"2025-04-28T17:32:45.3798298+08:00","level":"INFO","msg":"stream: closed","id":"yn555m6x"}

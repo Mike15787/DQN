@@ -1,0 +1,62 @@
+Using device: cuda
+[Eval] Ep: 0 Total Reward: 24.0 SC: 24 UC: 0 Eps: 1.0000
+Saved model checkpoint to ./results\model_ep0.pt
+Saved new best model to ./results\best_model.pt with reward 9.0
+[TrueEval] Ep: 0 Eval Reward: 9.00 SC: 24 UC: 0
+[Eval] Ep: 1 Total Reward: 32.0 SC: 56 UC: 0 Eps: 1.0000
+[Eval] Ep: 2 Total Reward: 12.0 SC: 68 UC: 0 Eps: 1.0000
+[Eval] Ep: 3 Total Reward: 20.0 SC: 88 UC: 0 Eps: 1.0000
+[Eval] Ep: 4 Total Reward: 44.0 SC: 132 UC: 0 Eps: 1.0000
+[Eval] Ep: 5 Total Reward: 12.0 SC: 144 UC: 0 Eps: 1.0000
+[Eval] Ep: 6 Total Reward: 23.0 SC: 167 UC: 0 Eps: 1.0000
+[Eval] Ep: 7 Total Reward: 12.0 SC: 179 UC: 0 Eps: 1.0000
+[Eval] Ep: 8 Total Reward: 13.0 SC: 192 UC: 0 Eps: 1.0000
+[Eval] Ep: 9 Total Reward: 20.0 SC: 212 UC: 0 Eps: 1.0000
+[Eval] Ep: 10 Total Reward: 20.0 SC: 232 UC: 0 Eps: 1.0000
+[Eval] Ep: 11 Total Reward: 46.0 SC: 278 UC: 0 Eps: 1.0000
+[Eval] Ep: 12 Total Reward: 13.0 SC: 291 UC: 0 Eps: 1.0000
+[Eval] Ep: 13 Total Reward: 14.0 SC: 305 UC: 0 Eps: 1.0000
+[Eval] Ep: 14 Total Reward: 18.0 SC: 323 UC: 0 Eps: 1.0000
+[Eval] Ep: 15 Total Reward: 7.0 SC: 330 UC: 0 Eps: 1.0000
+[Eval] Ep: 16 Total Reward: 30.0 SC: 360 UC: 0 Eps: 1.0000
+[Eval] Ep: 17 Total Reward: 10.0 SC: 370 UC: 0 Eps: 1.0000
+[Eval] Ep: 18 Total Reward: 11.0 SC: 381 UC: 0 Eps: 1.0000
+[Eval] Ep: 19 Total Reward: 27.0 SC: 408 UC: 0 Eps: 1.0000
+[Eval] Ep: 20 Total Reward: 35.0 SC: 443 UC: 0 Eps: 1.0000
+[TrueEval] Ep: 20 Eval Reward: 9.00 SC: 443 UC: 0
+[Eval] Ep: 21 Total Reward: 74.0 SC: 517 UC: 0 Eps: 1.0000
+[Eval] Ep: 22 Total Reward: 20.0 SC: 537 UC: 0 Eps: 1.0000
+[Eval] Ep: 23 Total Reward: 11.0 SC: 548 UC: 0 Eps: 1.0000
+[Eval] Ep: 24 Total Reward: 49.0 SC: 597 UC: 0 Eps: 1.0000
+[Eval] Ep: 25 Total Reward: 13.0 SC: 610 UC: 0 Eps: 1.0000
+[Eval] Ep: 26 Total Reward: 15.0 SC: 625 UC: 0 Eps: 1.0000
+[Eval] Ep: 27 Total Reward: 13.0 SC: 638 UC: 0 Eps: 1.0000
+[Eval] Ep: 28 Total Reward: 13.0 SC: 651 UC: 0 Eps: 1.0000
+[Eval] Ep: 29 Total Reward: 36.0 SC: 687 UC: 0 Eps: 1.0000
+[Eval] Ep: 30 Total Reward: 18.0 SC: 705 UC: 0 Eps: 1.0000
+[Eval] Ep: 31 Total Reward: 15.0 SC: 720 UC: 0 Eps: 1.0000
+[Eval] Ep: 32 Total Reward: 27.0 SC: 747 UC: 0 Eps: 1.0000
+[Eval] Ep: 33 Total Reward: 9.0 SC: 756 UC: 0 Eps: 1.0000
+[Eval] Ep: 34 Total Reward: 14.0 SC: 770 UC: 0 Eps: 1.0000
+[Eval] Ep: 35 Total Reward: 18.0 SC: 788 UC: 0 Eps: 1.0000
+[Eval] Ep: 36 Total Reward: 28.0 SC: 816 UC: 0 Eps: 1.0000
+[Eval] Ep: 37 Total Reward: 14.0 SC: 830 UC: 0 Eps: 1.0000
+[Eval] Ep: 38 Total Reward: 14.0 SC: 844 UC: 0 Eps: 1.0000
+[Eval] Ep: 39 Total Reward: 33.0 SC: 877 UC: 0 Eps: 1.0000
+[Eval] Ep: 40 Total Reward: 16.0 SC: 893 UC: 0 Eps: 1.0000
+Saved new best model to ./results\best_model.pt with reward 10.0
+[TrueEval] Ep: 40 Eval Reward: 10.00 SC: 893 UC: 0
+[Eval] Ep: 41 Total Reward: 17.0 SC: 910 UC: 0 Eps: 1.0000
+[Eval] Ep: 42 Total Reward: 18.0 SC: 928 UC: 0 Eps: 1.0000
+[Eval] Ep: 43 Total Reward: 8.0 SC: 936 UC: 0 Eps: 1.0000
+[Eval] Ep: 44 Total Reward: 19.0 SC: 955 UC: 0 Eps: 1.0000
+[Eval] Ep: 45 Total Reward: 17.0 SC: 972 UC: 0 Eps: 1.0000
+[Eval] Ep: 46 Total Reward: 10.0 SC: 982 UC: 0 Eps: 1.0000
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 290, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 149, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 229, in train
+    batch = random.sample(self.memory, self.batch)
+AttributeError: 'DQNAgent' object has no attribute 'batch'

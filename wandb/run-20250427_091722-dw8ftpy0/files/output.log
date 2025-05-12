@@ -1,0 +1,11 @@
+Using device: cuda
+[Ep 0] R=-20.0  Steps=962  ε=1.0000
+--- Evaluation Result (Ep 0, Step 962) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 2.96s)
+--------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 262, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 171, in run
+    if avg_eval_reward > self.best_eval_reward:
+AttributeError: 'DQNAgent' object has no attribute 'best_eval_reward'

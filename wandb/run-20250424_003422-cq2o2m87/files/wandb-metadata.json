@@ -1,0 +1,48 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.10.11",
+  "startedAt": "2025-04-23T16:34:22.922061Z",
+  "args": [
+    "--task",
+    "Task2",
+    "--wandb-run-name",
+    "dqn_pong_vanilla",
+    "--save-dir",
+    "./results_task2",
+    "--total-env-steps",
+    "2000000"
+  ],
+  "program": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\dqn.py",
+  "codePath": "dqn.py",
+  "email": "x546hjm65@gmail.com",
+  "root": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5",
+  "host": "DESKTOP-TAK3S5T",
+  "executable": "C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "dqn.py",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 4070 SUPER",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1022933786624",
+      "used": "462531411968"
+    }
+  },
+  "memory": {
+    "total": "34088460288"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070 SUPER",
+      "memoryTotal": "12878610432",
+      "cudaCores": 7168,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

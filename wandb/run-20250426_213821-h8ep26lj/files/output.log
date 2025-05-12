@@ -1,0 +1,93 @@
+Using device: cuda
+[Ep 0] R=-21.0  Steps=880  ε=1.0000
+[TrueEval] Ep: 0 Eval Reward: -21.00 SC: 880 UC: 0
+Saved model checkpoint to ./results_pong\model_ep0.pt
+[Ep 1] R=-21.0  Steps=1644  ε=1.0000
+[Ep 2] R=-21.0  Steps=2467  ε=1.0000
+[Ep 3] R=-21.0  Steps=3291  ε=1.0000
+[Ep 4] R=-21.0  Steps=4134  ε=1.0000
+[Ep 5] R=-21.0  Steps=4986  ε=1.0000
+[Ep 6] R=-21.0  Steps=5901  ε=1.0000
+[Ep 7] R=-19.0  Steps=6877  ε=1.0000
+[Ep 8] R=-19.0  Steps=7950  ε=1.0000
+[Ep 9] R=-20.0  Steps=8900  ε=1.0000
+[Ep 10] R=-21.0  Steps=9784  ε=1.0000
+[Ep 11] R=-19.0  Steps=10886  ε=1.0000
+[Ep 12] R=-20.0  Steps=11833  ε=1.0000
+[Ep 13] R=-21.0  Steps=12717  ε=1.0000
+[Ep 14] R=-21.0  Steps=13481  ε=1.0000
+[Ep 15] R=-19.0  Steps=14689  ε=1.0000
+[Ep 16] R=-20.0  Steps=15608  ε=1.0000
+[Ep 17] R=-20.0  Steps=16538  ε=1.0000
+[Ep 18] R=-19.0  Steps=17562  ε=1.0000
+[Ep 19] R=-19.0  Steps=18588  ε=1.0000
+[Ep 20] R=-19.0  Steps=19631  ε=1.0000
+[TrueEval] Ep: 20 Eval Reward: -21.00 SC: 19631 UC: 0
+[Ep 21] R=-21.0  Steps=20441  ε=1.0000
+[Ep 22] R=-20.0  Steps=21284  ε=1.0000
+[Ep 23] R=-21.0  Steps=22137  ε=1.0000
+[Ep 24] R=-20.0  Steps=23156  ε=1.0000
+[Ep 25] R=-19.0  Steps=24226  ε=1.0000
+[Ep 26] R=-21.0  Steps=25137  ε=1.0000
+[Ep 27] R=-21.0  Steps=25963  ε=1.0000
+[Ep 28] R=-21.0  Steps=26872  ε=1.0000
+[Ep 29] R=-20.0  Steps=27776  ε=1.0000
+[Ep 30] R=-21.0  Steps=28722  ε=1.0000
+[Ep 31] R=-20.0  Steps=29654  ε=1.0000
+[Ep 32] R=-21.0  Steps=30586  ε=1.0000
+[Ep 33] R=-20.0  Steps=31552  ε=1.0000
+[Ep 34] R=-20.0  Steps=32483  ε=1.0000
+[Ep 35] R=-21.0  Steps=33417  ε=1.0000
+[Ep 36] R=-21.0  Steps=34361  ε=1.0000
+[Ep 37] R=-21.0  Steps=35214  ε=1.0000
+[Ep 38] R=-20.0  Steps=36191  ε=1.0000
+[Ep 39] R=-21.0  Steps=36985  ε=1.0000
+[Ep 40] R=-19.0  Steps=38165  ε=1.0000
+[TrueEval] Ep: 40 Eval Reward: -21.00 SC: 38165 UC: 0
+[Ep 41] R=-21.0  Steps=39017  ε=1.0000
+[Ep 42] R=-21.0  Steps=40053  ε=1.0000
+[Ep 43] R=-21.0  Steps=40817  ε=1.0000
+[Ep 44] R=-21.0  Steps=41791  ε=1.0000
+[Ep 45] R=-19.0  Steps=42833  ε=1.0000
+[Ep 46] R=-21.0  Steps=43794  ε=1.0000
+[Ep 47] R=-21.0  Steps=44678  ε=1.0000
+[Ep 48] R=-21.0  Steps=45500  ε=1.0000
+[Ep 49] R=-20.0  Steps=46393  ε=1.0000
+[Ep 50] R=-20.0  Steps=47383  ε=1.0000
+[Ep 51] R=-21.0  Steps=48267  ε=1.0000
+[Ep 52] R=-21.0  Steps=49031  ε=1.0000
+[Ep 53] R=-21.0  Steps=49855  ε=1.0000
+[Ep 54] R=-21.0  Steps=50656  ε=0.9979
+[Ep 55] R=-21.0  Steps=51420  ε=0.9955
+[Ep 56] R=-19.0  Steps=52463  ε=0.9921
+[Train 10000] loss=0.0020
+[Ep 57] R=-21.0  Steps=53407  ε=0.9892
+[Ep 58] R=-21.0  Steps=54261  ε=0.9865
+[Train 20000] loss=0.0045
+[Ep 59] R=-21.0  Steps=55099  ε=0.9838
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 265, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 149, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 222, in train
+    next_q = self.target_net(next_states).max(1)[0]
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\test_task2.py", line 48, in forward
+    return self.network(x)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

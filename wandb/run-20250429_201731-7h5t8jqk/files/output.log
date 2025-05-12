@@ -1,0 +1,68 @@
+Using device: cuda
+[Ep 0] R=-21.0  Steps=976  ε=0.9617
+[Ep 1] R=-21.0  Steps=1768  ε=0.9317
+[Ep 2] R=-21.0  Steps=2588  ε=0.9017
+[Ep 3] R=-21.0  Steps=3371  ε=0.8739
+[Ep 4] R=-19.0  Steps=4449  ε=0.8370
+[Ep 5] R=-20.0  Steps=5351  ε=0.8073
+[Ep 6] R=-20.0  Steps=6289  ε=0.7776
+[Ep 7] R=-20.0  Steps=7127  ε=0.7519
+[Ep 8] R=-20.0  Steps=7997  ε=0.7262
+[Ep 9] R=-20.0  Steps=8835  ε=0.7023
+[Ep 10] R=-20.0  Steps=9673  ε=0.6791
+[Ep 11] R=-20.0  Steps=10511  ε=0.6568
+[Ep 12] R=-20.0  Steps=11353  ε=0.6350
+[Ep 13] R=-20.0  Steps=12219  ε=0.6134
+[Ep 14] R=-21.0  Steps=13002  ε=0.5945
+[Ep 15] R=-20.0  Steps=13844  ε=0.5748
+[Ep 16] R=-20.0  Steps=14686  ε=0.5557
+[Ep 17] R=-20.0  Steps=15524  ε=0.5374
+[Ep 18] R=-21.0  Steps=16348  ε=0.5200
+[Ep 19] R=-20.0  Steps=17190  ε=0.5028
+*** (avg_R=-21.00) ***
+*** New best model saved: LAB5_B11017015_task3_pong_17190.pt ***
+[Ep 20] R=-21.0  Steps=18015  ε=0.4865
+[Ep 21] R=-21.0  Steps=18841  ε=0.4706
+[Ep 22] R=-20.0  Steps=19683  ε=0.4551
+[Ep 23] R=-20.0  Steps=20525  ε=0.4400
+[Ep 24] R=-20.0  Steps=21367  ε=0.4254
+[Ep 25] R=-21.0  Steps=22191  ε=0.4116
+[Ep 26] R=-21.0  Steps=22974  ε=0.3989
+[Ep 27] R=-21.0  Steps=23757  ε=0.3866
+[Ep 28] R=-21.0  Steps=24581  ε=0.3741
+[Ep 29] R=-20.0  Steps=25419  ε=0.3618
+[Ep 30] R=-20.0  Steps=26257  ε=0.3498
+[Ep 31] R=-20.0  Steps=27095  ε=0.3383
+[Ep 32] R=-20.0  Steps=27937  ε=0.3271
+[Ep 33] R=-20.0  Steps=28775  ε=0.3163
+[Ep 34] R=-20.0  Steps=29641  ε=0.3055
+[Ep 35] R=-20.0  Steps=30483  ε=0.2954
+[Ep 36] R=-21.0  Steps=31266  ε=0.2863
+[Ep 37] R=-20.0  Steps=32103  ε=0.2769
+[Ep 38] R=-20.0  Steps=32941  ε=0.2678
+[Ep 39] R=-21.0  Steps=33724  ε=0.2595
+*** (avg_R=-21.00) ***
+[Ep 40] R=-21.0  Steps=34548  ε=0.2511
+[Ep 41] R=-21.0  Steps=35312  ε=0.2435
+[Ep 42] R=-21.0  Steps=36104  ε=0.2359
+[Ep 43] R=-20.0  Steps=36942  ε=0.2282
+[Ep 44] R=-20.0  Steps=37842  ε=0.2201
+[Ep 45] R=-20.0  Steps=38684  ε=0.2128
+[Ep 46] R=-21.0  Steps=39476  ε=0.2062
+[Ep 47] R=-21.0  Steps=40259  ε=0.1998
+[Ep 48] R=-20.0  Steps=41101  ε=0.1932
+[Ep 49] R=-20.0  Steps=41971  ε=0.1866
+[Ep 50] R=-20.0  Steps=42841  ε=0.1802
+[Ep 51] R=-21.0  Steps=43624  ε=0.1746
+[Ep 52] R=-21.0  Steps=44448  ε=0.1690
+[Ep 53] R=-20.0  Steps=45286  ε=0.1634
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 342, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 191, in run
+    act = self.select_action(state)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 171, in select_action
+    return self.q_net(s).argmax().item()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\.venv\lib\site-packages\torch\nn\modules\module.py", line 1735, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+KeyboardInterrupt

@@ -1,0 +1,131 @@
+Using device: cuda
+[Ep 0] R=-21.0  Steps=764  ε=0.9818
+[Ep 1] R=-21.0  Steps=1588  ε=0.9626
+[Ep 2] R=-21.0  Steps=2352  ε=0.9451
+[Ep 3] R=-20.0  Steps=3423  ε=0.9211
+[Ep 4] R=-21.0  Steps=4187  ε=0.9044
+[Ep 5] R=-21.0  Steps=4951  ε=0.8880
+[Ep 6] R=-21.0  Steps=5715  ε=0.8718
+[Ep 7] R=-21.0  Steps=6567  ε=0.8542
+[Ep 8] R=-21.0  Steps=7499  ε=0.8353
+[Ep 9] R=-21.0  Steps=8292  ε=0.8195
+[Ep 10] R=-20.0  Steps=9243  ε=0.8010
+[Ep 11] R=-21.0  Steps=10007  ε=0.7865
+[Ep 12] R=-21.0  Steps=10771  ε=0.7722
+[Ep 13] R=-21.0  Steps=11535  ε=0.7582
+[Ep 14] R=-21.0  Steps=12299  ε=0.7444
+[Ep 15] R=-20.0  Steps=13202  ε=0.7284
+[Ep 16] R=-21.0  Steps=13966  ε=0.7152
+[Ep 17] R=-21.0  Steps=14730  ε=0.7022
+[Ep 18] R=-21.0  Steps=15494  ε=0.6895
+[Ep 19] R=-21.0  Steps=16320  ε=0.6759
+*** (avg_R=-21.00) ***
+*** New best model saved: LAB5_B11017015_task3_pong_16320.pt ***
+[Ep 20] R=-21.0  Steps=17084  ε=0.6636
+[Ep 21] R=-21.0  Steps=17848  ε=0.6516
+[Ep 22] R=-21.0  Steps=18612  ε=0.6397
+[Ep 23] R=-21.0  Steps=19376  ε=0.6281
+[Ep 24] R=-21.0  Steps=20140  ε=0.6167
+[Ep 25] R=-21.0  Steps=20904  ε=0.6055
+[Ep 26] R=-21.0  Steps=21668  ε=0.5945
+[Ep 27] R=-21.0  Steps=22432  ε=0.5837
+[Ep 28] R=-21.0  Steps=23196  ε=0.5731
+[Ep 29] R=-21.0  Steps=23960  ε=0.5627
+[Ep 30] R=-21.0  Steps=24724  ε=0.5525
+[Ep 31] R=-21.0  Steps=25488  ε=0.5424
+[Ep 32] R=-21.0  Steps=26252  ε=0.5326
+[Ep 33] R=-21.0  Steps=27016  ε=0.5229
+[Ep 34] R=-21.0  Steps=27780  ε=0.5134
+[Ep 35] R=-21.0  Steps=28544  ε=0.5041
+[Ep 36] R=-21.0  Steps=29308  ε=0.4949
+[Ep 37] R=-21.0  Steps=30072  ε=0.4859
+[Ep 38] R=-21.0  Steps=30836  ε=0.4771
+[Ep 39] R=-21.0  Steps=31600  ε=0.4684
+*** (avg_R=-21.00) ***
+[Ep 40] R=-21.0  Steps=32364  ε=0.4599
+[Ep 41] R=-21.0  Steps=33128  ε=0.4515
+[Ep 42] R=-21.0  Steps=33892  ε=0.4433
+[Ep 43] R=-21.0  Steps=34656  ε=0.4353
+[Ep 44] R=-21.0  Steps=35420  ε=0.4274
+[Ep 45] R=-21.0  Steps=36184  ε=0.4196
+[Ep 46] R=-21.0  Steps=36948  ε=0.4120
+[Ep 47] R=-21.0  Steps=37712  ε=0.4045
+[Ep 48] R=-21.0  Steps=38476  ε=0.3972
+[Ep 49] R=-21.0  Steps=39240  ε=0.3899
+[Ep 50] R=-21.0  Steps=40004  ε=0.3829
+[Ep 51] R=-21.0  Steps=40768  ε=0.3759
+[Ep 52] R=-21.0  Steps=41532  ε=0.3691
+[Ep 53] R=-21.0  Steps=42296  ε=0.3624
+[Ep 54] R=-21.0  Steps=43060  ε=0.3558
+[Ep 55] R=-21.0  Steps=43824  ε=0.3493
+[Ep 56] R=-21.0  Steps=44588  ε=0.3430
+[Ep 57] R=-21.0  Steps=45352  ε=0.3367
+[Ep 58] R=-21.0  Steps=46116  ε=0.3306
+[Ep 59] R=-21.0  Steps=46880  ε=0.3246
+*** (avg_R=-21.00) ***
+[Ep 60] R=-21.0  Steps=47644  ε=0.3187
+[Ep 61] R=-21.0  Steps=48408  ε=0.3129
+[Ep 62] R=-21.0  Steps=49172  ε=0.3072
+[Ep 63] R=-21.0  Steps=49936  ε=0.3017
+[Ep 64] R=-21.0  Steps=50728  ε=0.2960
+[Ep 65] R=-19.0  Steps=51695  ε=0.2892
+[Train 10000] loss=0.0072
+[Ep 66] R=-20.0  Steps=52686  ε=0.2824
+[Ep 67] R=-21.0  Steps=53493  ε=0.2770
+[Ep 68] R=-19.0  Steps=54472  ε=0.2705
+[Train 20000] loss=0.0071
+[Ep 69] R=-18.0  Steps=55990  ε=0.2609
+[Ep 70] R=-18.0  Steps=57221  ε=0.2533
+[Train 30000] loss=0.0078
+[Ep 71] R=-20.0  Steps=58612  ε=0.2449
+[Train 40000] loss=0.0138
+[Ep 72] R=-16.0  Steps=60375  ε=0.2348
+[Ep 73] R=-20.0  Steps=61405  ε=0.2291
+[Train 50000] loss=0.0144
+[Ep 74] R=-18.0  Steps=62933  ε=0.2208
+[Ep 75] R=-20.0  Steps=64153  ε=0.2144
+[Train 60000] loss=0.0037
+[Ep 76] R=-19.0  Steps=65647  ε=0.2069
+[Ep 77] R=-18.0  Steps=67001  ε=0.2003
+[Train 70000] loss=0.0054
+[Ep 78] R=-17.0  Steps=68451  ε=0.1934
+[Ep 79] R=-19.0  Steps=69786  ε=0.1873
+*** (avg_R=-16.95) ***
+*** New best model saved: LAB5_B11017015_task3_pong_69786.pt ***
+[Train 80000] loss=0.0103
+[Ep 80] R=-19.0  Steps=71161  ε=0.1812
+[Train 90000] loss=0.0096
+[Ep 81] R=-16.0  Steps=73003  ε=0.1734
+[Ep 82] R=-20.0  Steps=74438  ε=0.1675
+[Train 100000] loss=0.0056
+[Ep 83] R=-17.0  Steps=76164  ε=0.1607
+[Ep 84] R=-19.0  Steps=77431  ε=0.1559
+[Train 110000] loss=0.0149
+[Ep 85] R=-18.0  Steps=79139  ε=0.1497
+[Train 120000] loss=0.0093
+[Ep 86] R=-17.0  Steps=80935  ε=0.1434
+[Train 130000] loss=0.0011
+[Ep 87] R=-19.0  Steps=82507  ε=0.1380
+[Ep 88] R=-15.0  Steps=84271  ε=0.1323
+[Train 140000] loss=0.0040
+[Ep 89] R=-18.0  Steps=85732  ε=0.1278
+[Ep 90] R=-18.0  Steps=87145  ε=0.1235
+[Train 150000] loss=0.0123
+[Ep 91] R=-19.0  Steps=88546  ε=0.1194
+[Train 160000] loss=0.0059
+[Ep 92] R=-20.0  Steps=90503  ε=0.1139
+[Ep 93] R=-17.0  Steps=91991  ε=0.1099
+[Train 170000] loss=0.0078
+[Ep 94] R=-20.0  Steps=93427  ε=0.1062
+[Ep 95] R=-17.0  Steps=94982  ε=0.1023
+[Train 180000] loss=0.0092
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 336, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 208, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 265, in train
+    batch, indices, w = self.buffer.sample(self.args.batch_size)
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\task3_gpt.py", line 107, in sample
+    indices = np.random.choice(self.size, batch_size, p=probs)
+KeyboardInterrupt

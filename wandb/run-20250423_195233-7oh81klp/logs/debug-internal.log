@@ -1,0 +1,17 @@
+{"time":"2025-04-23T19:52:33.2458841+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250423_195233-7oh81klp\\logs\\debug-core.log"}
+{"time":"2025-04-23T19:52:33.5534117+08:00","level":"INFO","msg":"created new stream","id":"7oh81klp"}
+{"time":"2025-04-23T19:52:33.5539196+08:00","level":"INFO","msg":"stream: started","id":"7oh81klp"}
+{"time":"2025-04-23T19:52:33.5539283+08:00","level":"INFO","msg":"handler: started","stream_id":"7oh81klp"}
+{"time":"2025-04-23T19:52:33.5539373+08:00","level":"INFO","msg":"sender: started","stream_id":"7oh81klp"}
+{"time":"2025-04-23T19:52:33.5539373+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7oh81klp"}
+{"time":"2025-04-23T19:52:33.9014647+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-23T19:52:33.9024645+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-23T21:30:54.8956443+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-23T21:30:54.8956443+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-23T21:30:55.9245385+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.57277,"progress":"30.3KB/30.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3590241,"progress":"1.5KB/1.5KB"}],"total_operations":2}}
+{"time":"2025-04-23T21:30:56.137103+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-23T21:30:56.5624354+08:00","level":"INFO","msg":"stream: closing","id":"7oh81klp"}
+{"time":"2025-04-23T21:30:56.5624354+08:00","level":"INFO","msg":"handler: closed","stream_id":"7oh81klp"}
+{"time":"2025-04-23T21:30:56.5624354+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7oh81klp"}
+{"time":"2025-04-23T21:30:56.5624354+08:00","level":"INFO","msg":"sender: closed","stream_id":"7oh81klp"}
+{"time":"2025-04-23T21:30:56.5624354+08:00","level":"INFO","msg":"stream: closed","id":"7oh81klp"}

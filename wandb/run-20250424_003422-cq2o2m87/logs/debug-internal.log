@@ -1,0 +1,18 @@
+{"time":"2025-04-24T00:34:22.9241236+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250424_003422-cq2o2m87\\logs\\debug-core.log"}
+{"time":"2025-04-24T00:34:23.3442705+08:00","level":"INFO","msg":"created new stream","id":"cq2o2m87"}
+{"time":"2025-04-24T00:34:23.3442705+08:00","level":"INFO","msg":"stream: started","id":"cq2o2m87"}
+{"time":"2025-04-24T00:34:23.3442705+08:00","level":"INFO","msg":"handler: started","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T00:34:23.3442705+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T00:34:23.3442705+08:00","level":"INFO","msg":"sender: started","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T00:34:23.6835151+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-24T00:34:23.6840452+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-24T02:23:54.5643874+08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/x546hjm65-no/DLP-Lab5-DQN/cq2o2m87/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-04-24T07:48:15.712427+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-24T07:48:15.712936+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-24T07:48:16.7708365+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5658141,"progress":"74.1KB/74.1KB"}],"total_operations":1}}
+{"time":"2025-04-24T07:48:16.8233488+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-24T07:48:17.3006536+08:00","level":"INFO","msg":"stream: closing","id":"cq2o2m87"}
+{"time":"2025-04-24T07:48:17.3006536+08:00","level":"INFO","msg":"handler: closed","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T07:48:17.3006536+08:00","level":"INFO","msg":"sender: closed","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T07:48:17.3006536+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cq2o2m87"}
+{"time":"2025-04-24T07:48:17.3006536+08:00","level":"INFO","msg":"stream: closed","id":"cq2o2m87"}

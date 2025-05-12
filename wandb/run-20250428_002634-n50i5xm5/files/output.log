@@ -1,0 +1,2081 @@
+Using device: cuda
+[Ep 0] R=-20.0  Steps=899  ε=1.0000
+--- Evaluation Result (Ep 0, Step 899) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.09s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 1] R=-19.0  Steps=1922  ε=1.0000
+[Ep 2] R=-20.0  Steps=2822  ε=1.0000
+[Ep 3] R=-21.0  Steps=3632  ε=1.0000
+[Ep 4] R=-21.0  Steps=4396  ε=1.0000
+[Ep 5] R=-20.0  Steps=5267  ε=1.0000
+[Ep 6] R=-20.0  Steps=6321  ε=1.0000
+[Ep 7] R=-20.0  Steps=7224  ε=1.0000
+[Ep 8] R=-21.0  Steps=8050  ε=1.0000
+[Ep 9] R=-17.0  Steps=9166  ε=1.0000
+[Ep 10] R=-21.0  Steps=9930  ε=1.0000
+--- Evaluation Result (Ep 10, Step 9930) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.34s)
+--------------------------------------------------
+[Ep 11] R=-20.0  Steps=10768  ε=1.0000
+[Ep 12] R=-21.0  Steps=11743  ε=1.0000
+[Ep 13] R=-20.0  Steps=12662  ε=1.0000
+[Ep 14] R=-20.0  Steps=13565  ε=1.0000
+[Ep 15] R=-21.0  Steps=14329  ε=1.0000
+[Ep 16] R=-20.0  Steps=15280  ε=1.0000
+[Ep 17] R=-20.0  Steps=16122  ε=1.0000
+[Ep 18] R=-20.0  Steps=17081  ε=1.0000
+[Ep 19] R=-21.0  Steps=17968  ε=1.0000
+[Ep 20] R=-20.0  Steps=18838  ε=1.0000
+--- Evaluation Result (Ep 20, Step 18838) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.71s)
+--------------------------------------------------
+[Ep 21] R=-21.0  Steps=19664  ε=1.0000
+[Ep 22] R=-21.0  Steps=20545  ε=1.0000
+[Ep 23] R=-21.0  Steps=21477  ε=1.0000
+[Ep 24] R=-21.0  Steps=22298  ε=1.0000
+[Ep 25] R=-21.0  Steps=23304  ε=1.0000
+[Ep 26] R=-21.0  Steps=24087  ε=1.0000
+[Ep 27] R=-19.0  Steps=25133  ε=1.0000
+[Ep 28] R=-20.0  Steps=26005  ε=1.0000
+[Ep 29] R=-21.0  Steps=26917  ε=1.0000
+[Ep 30] R=-21.0  Steps=27799  ε=1.0000
+--- Evaluation Result (Ep 30, Step 27799) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.12s)
+--------------------------------------------------
+[Ep 31] R=-21.0  Steps=28662  ε=1.0000
+[Ep 32] R=-21.0  Steps=29514  ε=1.0000
+[Ep 33] R=-21.0  Steps=30368  ε=1.0000
+[Ep 34] R=-20.0  Steps=31266  ε=1.0000
+[Ep 35] R=-19.0  Steps=32315  ε=1.0000
+[Ep 36] R=-21.0  Steps=33195  ε=1.0000
+[Ep 37] R=-20.0  Steps=34143  ε=1.0000
+[Ep 38] R=-21.0  Steps=34967  ε=1.0000
+[Ep 39] R=-20.0  Steps=35935  ε=1.0000
+[Ep 40] R=-21.0  Steps=36774  ε=1.0000
+--- Evaluation Result (Ep 40, Step 36774) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.31s)
+--------------------------------------------------
+[Ep 41] R=-21.0  Steps=37538  ε=1.0000
+[Ep 42] R=-21.0  Steps=38534  ε=1.0000
+[Ep 43] R=-21.0  Steps=39389  ε=1.0000
+[Ep 44] R=-20.0  Steps=40294  ε=1.0000
+[Ep 45] R=-21.0  Steps=41176  ε=1.0000
+[Ep 46] R=-21.0  Steps=42000  ε=1.0000
+[Ep 47] R=-20.0  Steps=42857  ε=1.0000
+[Ep 48] R=-17.0  Steps=44254  ε=1.0000
+[Ep 49] R=-21.0  Steps=45106  ε=1.0000
+[Ep 50] R=-20.0  Steps=45977  ε=1.0000
+--- Evaluation Result (Ep 50, Step 45977) ---
+Avg Reward over 10 episodes: -21.00 (Duration: 3.84s)
+--------------------------------------------------
+[Ep 51] R=-21.0  Steps=46741  ε=1.0000
+[Ep 52] R=-21.0  Steps=47505  ε=1.0000
+[Ep 53] R=-20.0  Steps=48467  ε=1.0000
+[Ep 54] R=-20.0  Steps=49473  ε=1.0000
+[Ep 55] R=-21.0  Steps=50265  ε=0.9991
+[Ep 56] R=-19.0  Steps=51263  ε=0.9960
+[Ep 57] R=-20.0  Steps=52162  ε=0.9931
+[Train 10000] loss=0.0051
+[Ep 58] R=-17.0  Steps=53428  ε=0.9891
+[Ep 59] R=-20.0  Steps=54330  ε=0.9862
+[Train 20000] loss=0.0072
+[Ep 60] R=-21.0  Steps=55214  ε=0.9835
+--- Evaluation Result (Ep 60, Step 55214) ---
+Avg Reward over 10 episodes: -20.20 (Duration: 3.20s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 61] R=-21.0  Steps=56096  ε=0.9807
+[Ep 62] R=-20.0  Steps=57104  ε=0.9775
+[Train 30000] loss=0.0090
+[Ep 63] R=-21.0  Steps=58123  ε=0.9743
+[Ep 64] R=-21.0  Steps=58943  ε=0.9718
+[Ep 65] R=-20.0  Steps=59951  ε=0.9687
+[Train 40000] loss=0.0054
+[Ep 66] R=-21.0  Steps=60743  ε=0.9662
+[Ep 67] R=-20.0  Steps=61725  ε=0.9632
+[Train 50000] loss=0.0125
+[Ep 68] R=-20.0  Steps=62880  ε=0.9596
+[Ep 69] R=-20.0  Steps=63964  ε=0.9563
+[Ep 70] R=-20.0  Steps=64919  ε=0.9534
+--- Evaluation Result (Ep 70, Step 64919) ---
+Avg Reward over 10 episodes: -20.00 (Duration: 3.60s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 60000] loss=0.0018
+[Ep 71] R=-21.0  Steps=65799  ε=0.9507
+[Ep 72] R=-20.0  Steps=66689  ε=0.9480
+[Train 70000] loss=0.0039
+[Ep 73] R=-21.0  Steps=67603  ε=0.9452
+[Ep 74] R=-20.0  Steps=68581  ε=0.9423
+[Ep 75] R=-20.0  Steps=69470  ε=0.9396
+[Train 80000] loss=0.0034
+[Ep 76] R=-19.0  Steps=70436  ε=0.9367
+[Ep 77] R=-19.0  Steps=71557  ε=0.9333
+[Train 90000] loss=0.0042
+[Ep 78] R=-21.0  Steps=72558  ε=0.9304
+[Ep 79] R=-20.0  Steps=73486  ε=0.9276
+[Ep 80] R=-20.0  Steps=74511  ε=0.9246
+--- Evaluation Result (Ep 80, Step 74511) ---
+Avg Reward over 10 episodes: -17.60 (Duration: 5.34s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 100000] loss=0.0043
+[Ep 81] R=-21.0  Steps=75303  ε=0.9222
+[Ep 82] R=-17.0  Steps=76486  ε=0.9187
+[Train 110000] loss=0.0182
+[Ep 83] R=-20.0  Steps=77589  ε=0.9155
+[Ep 84] R=-18.0  Steps=78775  ε=0.9120
+[Ep 85] R=-19.0  Steps=79790  ε=0.9091
+[Train 120000] loss=0.0093
+[Ep 86] R=-20.0  Steps=80805  ε=0.9061
+[Ep 87] R=-19.0  Steps=81909  ε=0.9029
+[Train 130000] loss=0.0035
+[Ep 88] R=-20.0  Steps=82895  ε=0.9001
+[Ep 89] R=-21.0  Steps=84053  ε=0.8968
+[Train 140000] loss=0.0030
+[Ep 90] R=-19.0  Steps=85183  ε=0.8935
+--- Evaluation Result (Ep 90, Step 85183) ---
+Avg Reward over 10 episodes: -16.00 (Duration: 7.33s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 91] R=-19.0  Steps=86404  ε=0.8900
+[Ep 92] R=-20.0  Steps=87395  ε=0.8872
+[Train 150000] loss=0.0036
+[Ep 93] R=-20.0  Steps=88563  ε=0.8839
+[Ep 94] R=-19.0  Steps=89622  ε=0.8809
+[Train 160000] loss=0.0064
+[Ep 95] R=-19.0  Steps=90753  ε=0.8777
+[Ep 96] R=-20.0  Steps=91954  ε=0.8744
+[Train 170000] loss=0.0079
+[Ep 97] R=-21.0  Steps=92827  ε=0.8719
+[Ep 98] R=-21.0  Steps=93852  ε=0.8691
+[Ep 99] R=-20.0  Steps=94918  ε=0.8661
+[Train 180000] loss=0.0060
+[Ep 100] R=-21.0  Steps=95862  ε=0.8635
+--- Evaluation Result (Ep 100, Step 95862) ---
+Avg Reward over 10 episodes: -16.00 (Duration: 8.28s)
+--------------------------------------------------
+[Ep 101] R=-20.0  Steps=97084  ε=0.8601
+[Train 190000] loss=0.0106
+[Ep 102] R=-21.0  Steps=97970  ε=0.8577
+[Ep 103] R=-19.0  Steps=99201  ε=0.8543
+[Train 200000] loss=0.0034
+[Ep 104] R=-21.0  Steps=100175  ε=0.8517
+[Ep 105] R=-21.0  Steps=101091  ε=0.8492
+[Ep 106] R=-20.0  Steps=102037  ε=0.8466
+[Train 210000] loss=0.0043
+[Ep 107] R=-21.0  Steps=102908  ε=0.8442
+[Ep 108] R=-20.0  Steps=103925  ε=0.8415
+[Ep 109] R=-18.0  Steps=104985  ε=0.8387
+[Train 220000] loss=0.0191
+[Ep 110] R=-19.0  Steps=106187  ε=0.8354
+--- Evaluation Result (Ep 110, Step 106187) ---
+Avg Reward over 10 episodes: -15.60 (Duration: 7.88s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 111] R=-19.0  Steps=107298  ε=0.8325
+[Train 230000] loss=0.0014
+[Ep 112] R=-19.0  Steps=108281  ε=0.8299
+[Ep 113] R=-17.0  Steps=109503  ε=0.8266
+[Train 240000] loss=0.0114
+[Ep 114] R=-20.0  Steps=110600  ε=0.8237
+[Ep 115] R=-20.0  Steps=111608  ε=0.8211
+[Ep 116] R=-21.0  Steps=112479  ε=0.8188
+[Train 250000] loss=0.0046
+[Ep 117] R=-20.0  Steps=113379  ε=0.8164
+[Ep 118] R=-21.0  Steps=114282  ε=0.8141
+[Train 260000] loss=0.0083
+[Ep 119] R=-21.0  Steps=115222  ε=0.8116
+[Ep 120] R=-20.0  Steps=116476  ε=0.8084
+--- Evaluation Result (Ep 120, Step 116476) ---
+Avg Reward over 10 episodes: -13.20 (Duration: 10.83s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 270000] loss=0.0037
+[Ep 121] R=-20.0  Steps=117692  ε=0.8052
+[Ep 122] R=-19.0  Steps=118741  ε=0.8025
+[Ep 123] R=-20.0  Steps=119770  ε=0.7999
+[Train 280000] loss=0.0079
+[Ep 124] R=-18.0  Steps=121125  ε=0.7964
+[Ep 125] R=-19.0  Steps=122218  ε=0.7937
+[Train 290000] loss=0.0074
+[Ep 126] R=-18.0  Steps=123564  ε=0.7902
+[Train 300000] loss=0.0040
+[Ep 127] R=-18.0  Steps=125009  ε=0.7866
+[Ep 128] R=-20.0  Steps=126229  ε=0.7835
+[Ep 129] R=-19.0  Steps=127301  ε=0.7809
+[Train 310000] loss=0.0105
+[Ep 130] R=-20.0  Steps=128196  ε=0.7786
+--- Evaluation Result (Ep 130, Step 128196) ---
+Avg Reward over 10 episodes: -16.00 (Duration: 8.15s)
+--------------------------------------------------
+[Ep 131] R=-19.0  Steps=129283  ε=0.7759
+[Train 320000] loss=0.0032
+[Ep 132] R=-21.0  Steps=130311  ε=0.7734
+[Ep 133] R=-21.0  Steps=131123  ε=0.7714
+[Ep 134] R=-21.0  Steps=132171  ε=0.7688
+[Train 330000] loss=0.0052
+[Ep 135] R=-21.0  Steps=133386  ε=0.7658
+[Ep 136] R=-19.0  Steps=134711  ε=0.7626
+[Train 340000] loss=0.0040
+[Ep 137] R=-18.0  Steps=135996  ε=0.7594
+[Ep 138] R=-18.0  Steps=137176  ε=0.7566
+[Train 350000] loss=0.0137
+[Ep 139] R=-20.0  Steps=138269  ε=0.7539
+[Ep 140] R=-18.0  Steps=139506  ε=0.7509
+--- Evaluation Result (Ep 140, Step 139506) ---
+Avg Reward over 10 episodes: -14.20 (Duration: 11.17s)
+--------------------------------------------------
+[Train 360000] loss=0.0074
+[Ep 141] R=-20.0  Steps=140432  ε=0.7487
+[Ep 142] R=-20.0  Steps=141540  ε=0.7461
+[Train 370000] loss=0.0071
+[Ep 143] R=-20.0  Steps=142562  ε=0.7436
+[Ep 144] R=-19.0  Steps=143660  ε=0.7410
+[Train 380000] loss=0.0084
+[Ep 145] R=-18.0  Steps=145129  ε=0.7376
+[Ep 146] R=-19.0  Steps=146309  ε=0.7348
+[Ep 147] R=-20.0  Steps=147479  ε=0.7320
+[Train 390000] loss=0.0087
+[Ep 148] R=-20.0  Steps=148601  ε=0.7294
+[Ep 149] R=-19.0  Steps=149703  ε=0.7268
+[Train 400000] loss=0.0060
+[Ep 150] R=-17.0  Steps=151169  ε=0.7234
+--- Evaluation Result (Ep 150, Step 151169) ---
+Avg Reward over 10 episodes: -13.40 (Duration: 10.94s)
+--------------------------------------------------
+[Ep 151] R=-19.0  Steps=152316  ε=0.7208
+[Train 410000] loss=0.0044
+[Ep 152] R=-19.0  Steps=153444  ε=0.7182
+[Ep 153] R=-21.0  Steps=154551  ε=0.7156
+[Train 420000] loss=0.0080
+[Ep 154] R=-20.0  Steps=155952  ε=0.7124
+[Ep 155] R=-21.0  Steps=157000  ε=0.7101
+[Train 430000] loss=0.0050
+[Ep 156] R=-21.0  Steps=158163  ε=0.7074
+[Ep 157] R=-19.0  Steps=159278  ε=0.7049
+[Train 440000] loss=0.0041
+[Ep 158] R=-20.0  Steps=160240  ε=0.7027
+[Ep 159] R=-19.0  Steps=161437  ε=0.7001
+[Train 450000] loss=0.0093
+[Ep 160] R=-19.0  Steps=162604  ε=0.6974
+--- Evaluation Result (Ep 160, Step 162604) ---
+Avg Reward over 10 episodes: -14.00 (Duration: 10.09s)
+--------------------------------------------------
+[Ep 161] R=-16.0  Steps=164053  ε=0.6942
+[Train 460000] loss=0.0022
+[Ep 162] R=-18.0  Steps=165330  ε=0.6914
+[Ep 163] R=-18.0  Steps=166623  ε=0.6885
+[Train 470000] loss=0.0036
+[Ep 164] R=-18.0  Steps=168183  ε=0.6851
+[Ep 165] R=-21.0  Steps=169035  ε=0.6832
+[Train 480000] loss=0.0095
+[Ep 166] R=-20.0  Steps=170210  ε=0.6807
+[Ep 167] R=-19.0  Steps=171406  ε=0.6781
+[Ep 168] R=-21.0  Steps=172492  ε=0.6757
+[Train 490000] loss=0.0049
+[Ep 169] R=-20.0  Steps=173394  ε=0.6738
+[Ep 170] R=-20.0  Steps=174359  ε=0.6717
+--- Evaluation Result (Ep 170, Step 174359) ---
+Avg Reward over 10 episodes: -13.00 (Duration: 9.67s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 500000] loss=0.0059
+[Ep 171] R=-18.0  Steps=175913  ε=0.6684
+[Ep 172] R=-19.0  Steps=177203  ε=0.6656
+[Train 510000] loss=0.0046
+[Ep 173] R=-20.0  Steps=178505  ε=0.6628
+[Ep 174] R=-20.0  Steps=179913  ε=0.6599
+[Train 520000] loss=0.0083
+[Ep 175] R=-17.0  Steps=181507  ε=0.6565
+[Train 530000] loss=0.0066
+[Ep 176] R=-20.0  Steps=182741  ε=0.6539
+[Ep 177] R=-16.0  Steps=184273  ε=0.6507
+[Train 540000] loss=0.0057
+[Ep 178] R=-19.0  Steps=185675  ε=0.6478
+[Ep 179] R=-19.0  Steps=186908  ε=0.6453
+[Train 550000] loss=0.0045
+[Ep 180] R=-21.0  Steps=188003  ε=0.6430
+--- Evaluation Result (Ep 180, Step 188003) ---
+Avg Reward over 10 episodes: -12.20 (Duration: 9.72s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Ep 181] R=-19.0  Steps=189122  ε=0.6407
+[Ep 182] R=-21.0  Steps=189944  ε=0.6390
+[Train 560000] loss=0.0030
+[Ep 183] R=-19.0  Steps=191321  ε=0.6362
+[Train 570000] loss=0.0068
+[Ep 184] R=-19.0  Steps=192678  ε=0.6335
+[Ep 185] R=-18.0  Steps=194046  ε=0.6307
+[Train 580000] loss=0.0022
+[Ep 186] R=-20.0  Steps=195125  ε=0.6285
+[Ep 187] R=-18.0  Steps=196612  ε=0.6255
+[Train 590000] loss=0.0062
+[Ep 188] R=-20.0  Steps=197847  ε=0.6231
+[Ep 189] R=-20.0  Steps=198879  ε=0.6210
+[Train 600000] loss=0.0047
+[Ep 190] R=-18.0  Steps=200369  ε=0.6181
+--- Evaluation Result (Ep 190, Step 200369) ---
+Avg Reward over 10 episodes: -14.40 (Duration: 10.27s)
+--------------------------------------------------
+[Ep 191] R=-19.0  Steps=201706  ε=0.6154
+[Train 610000] loss=0.0152
+[Ep 192] R=-17.0  Steps=203069  ε=0.6127
+[Ep 193] R=-20.0  Steps=204177  ε=0.6106
+[Train 620000] loss=0.0174
+[Ep 194] R=-20.0  Steps=205315  ε=0.6083
+[Ep 195] R=-18.0  Steps=206607  ε=0.6058
+[Train 630000] loss=0.0026
+[Ep 196] R=-17.0  Steps=208164  ε=0.6028
+[Ep 197] R=-18.0  Steps=209687  ε=0.5999
+[Train 640000] loss=0.0083
+[Ep 198] R=-19.0  Steps=211077  ε=0.5972
+[Train 650000] loss=0.0071
+[Ep 199] R=-17.0  Steps=212513  ε=0.5945
+[Ep 200] R=-14.0  Steps=214377  ε=0.5910
+--- Evaluation Result (Ep 200, Step 214377) ---
+Avg Reward over 10 episodes: -14.40 (Duration: 10.29s)
+--------------------------------------------------
+[Train 660000] loss=0.0045
+[Ep 201] R=-20.0  Steps=215475  ε=0.5889
+[Ep 202] R=-21.0  Steps=216470  ε=0.5870
+[Train 670000] loss=0.0140
+[Ep 203] R=-19.0  Steps=217717  ε=0.5847
+[Ep 204] R=-19.0  Steps=219339  ε=0.5816
+[Train 680000] loss=0.0169
+[Ep 205] R=-18.0  Steps=220679  ε=0.5792
+[Ep 206] R=-20.0  Steps=221718  ε=0.5772
+[Train 690000] loss=0.0184
+[Ep 207] R=-19.0  Steps=223165  ε=0.5746
+[Ep 208] R=-17.0  Steps=224588  ε=0.5720
+[Train 700000] loss=0.0152
+[Ep 209] R=-21.0  Steps=225773  ε=0.5698
+[Ep 210] R=-19.0  Steps=227140  ε=0.5673
+--- Evaluation Result (Ep 210, Step 227140) ---
+Avg Reward over 10 episodes: -10.80 (Duration: 11.11s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 710000] loss=0.0182
+[Ep 211] R=-16.0  Steps=228755  ε=0.5644
+[Ep 212] R=-20.0  Steps=229920  ε=0.5623
+[Train 720000] loss=0.0110
+[Ep 213] R=-17.0  Steps=231528  ε=0.5594
+[Train 730000] loss=0.0062
+[Ep 214] R=-21.0  Steps=232642  ε=0.5574
+[Ep 215] R=-17.0  Steps=234221  ε=0.5546
+[Train 740000] loss=0.0102
+[Ep 216] R=-17.0  Steps=235591  ε=0.5522
+[Ep 217] R=-17.0  Steps=236889  ε=0.5499
+[Train 750000] loss=0.0080
+[Ep 218] R=-19.0  Steps=238176  ε=0.5476
+[Ep 219] R=-17.0  Steps=239795  ε=0.5448
+[Train 760000] loss=0.0062
+[Ep 220] R=-16.0  Steps=241285  ε=0.5422
+--- Evaluation Result (Ep 220, Step 241285) ---
+Avg Reward over 10 episodes: -15.40 (Duration: 10.66s)
+--------------------------------------------------
+[Train 770000] loss=0.0115
+[Ep 221] R=-19.0  Steps=242928  ε=0.5394
+[Ep 222] R=-18.0  Steps=244403  ε=0.5368
+[Train 780000] loss=0.0183
+[Ep 223] R=-17.0  Steps=245765  ε=0.5345
+[Ep 224] R=-20.0  Steps=247097  ε=0.5322
+[Train 790000] loss=0.0089
+[Ep 225] R=-15.0  Steps=248692  ε=0.5295
+[Train 800000] loss=0.0238
+[Ep 226] R=-20.0  Steps=250009  ε=0.5273
+[Ep 227] R=-20.0  Steps=251314  ε=0.5251
+[Train 810000] loss=0.0069
+[Ep 228] R=-20.0  Steps=252640  ε=0.5229
+[Ep 229] R=-19.0  Steps=253773  ε=0.5210
+[Train 820000] loss=0.0134
+[Ep 230] R=-16.0  Steps=255291  ε=0.5184
+--- Evaluation Result (Ep 230, Step 255291) ---
+Avg Reward over 10 episodes: -15.80 (Duration: 10.94s)
+--------------------------------------------------
+[Ep 231] R=-18.0  Steps=256833  ε=0.5159
+[Train 830000] loss=0.0056
+[Ep 232] R=-20.0  Steps=258130  ε=0.5137
+[Ep 233] R=-18.0  Steps=259526  ε=0.5115
+[Train 840000] loss=0.0285
+[Ep 234] R=-17.0  Steps=261039  ε=0.5090
+[Train 850000] loss=0.0146
+[Ep 235] R=-18.0  Steps=262500  ε=0.5066
+[Ep 236] R=-18.0  Steps=263907  ε=0.5043
+[Train 860000] loss=0.0147
+[Ep 237] R=-20.0  Steps=265464  ε=0.5018
+[Ep 238] R=-20.0  Steps=266665  ε=0.4999
+[Train 870000] loss=0.0151
+[Ep 239] R=-19.0  Steps=268055  ε=0.4977
+[Ep 240] R=-19.0  Steps=269733  ε=0.4950
+--- Evaluation Result (Ep 240, Step 269733) ---
+Avg Reward over 10 episodes: -15.80 (Duration: 9.48s)
+--------------------------------------------------
+[Train 880000] loss=0.0115
+[Ep 241] R=-17.0  Steps=271537  ε=0.4922
+[Train 890000] loss=0.0649
+[Ep 242] R=-15.0  Steps=273437  ε=0.4892
+[Ep 243] R=-20.0  Steps=274623  ε=0.4873
+[Train 900000] loss=0.0300
+[Ep 244] R=-17.0  Steps=276259  ε=0.4848
+[Train 910000] loss=0.0308
+[Ep 245] R=-16.0  Steps=277878  ε=0.4823
+[Ep 246] R=-18.0  Steps=279288  ε=0.4801
+[Train 920000] loss=0.0075
+[Ep 247] R=-16.0  Steps=280838  ε=0.4777
+[Ep 248] R=-18.0  Steps=282447  ε=0.4753
+[Train 930000] loss=0.0106
+[Ep 249] R=-19.0  Steps=283953  ε=0.4730
+[Train 940000] loss=0.0073
+[Ep 250] R=-19.0  Steps=285369  ε=0.4709
+--- Evaluation Result (Ep 250, Step 285369) ---
+Avg Reward over 10 episodes: -14.80 (Duration: 9.41s)
+--------------------------------------------------
+[Ep 251] R=-17.0  Steps=286917  ε=0.4685
+[Train 950000] loss=0.0245
+[Ep 252] R=-18.0  Steps=288131  ε=0.4667
+[Ep 253] R=-18.0  Steps=289897  ε=0.4641
+[Train 960000] loss=0.0278
+[Ep 254] R=-17.0  Steps=291544  ε=0.4617
+[Train 970000] loss=0.0296
+[Ep 255] R=-17.0  Steps=293011  ε=0.4595
+[Train 980000] loss=0.0066
+[Ep 256] R=-15.0  Steps=295075  ε=0.4565
+[Ep 257] R=-18.0  Steps=296783  ε=0.4540
+[Train 990000] loss=0.0218
+[Ep 258] R=-17.0  Steps=298254  ε=0.4518
+[Train 1000000] loss=0.0253
+[Ep 259] R=-15.0  Steps=300046  ε=0.4493
+[Ep 260] R=-20.0  Steps=301607  ε=0.4470
+--- Evaluation Result (Ep 260, Step 301607) ---
+Avg Reward over 10 episodes: -15.00 (Duration: 9.62s)
+--------------------------------------------------
+[Train 1010000] loss=0.0392
+[Ep 261] R=-15.0  Steps=303386  ε=0.4445
+[Train 1020000] loss=0.0389
+[Ep 262] R=-14.0  Steps=305269  ε=0.4418
+[Ep 263] R=-19.0  Steps=306541  ε=0.4400
+[Train 1030000] loss=0.1755
+[Ep 264] R=-20.0  Steps=307890  ε=0.4381
+[Ep 265] R=-15.0  Steps=309629  ε=0.4357
+[Train 1040000] loss=0.0438
+[Ep 266] R=-19.0  Steps=311056  ε=0.4337
+[Ep 267] R=-20.0  Steps=312331  ε=0.4319
+[Train 1050000] loss=0.0189
+[Ep 268] R=-16.0  Steps=313838  ε=0.4299
+[Train 1060000] loss=0.0205
+[Ep 269] R=-17.0  Steps=315567  ε=0.4275
+[Ep 270] R=-21.0  Steps=316632  ε=0.4260
+--- Evaluation Result (Ep 270, Step 316632) ---
+Avg Reward over 10 episodes: -16.20 (Duration: 8.80s)
+--------------------------------------------------
+[Train 1070000] loss=0.1137
+[Ep 271] R=-18.0  Steps=318134  ε=0.4240
+[Ep 272] R=-21.0  Steps=319299  ε=0.4224
+[Train 1080000] loss=0.0325
+[Ep 273] R=-18.0  Steps=320605  ε=0.4207
+[Ep 274] R=-18.0  Steps=321983  ε=0.4188
+[Train 1090000] loss=0.0271
+[Ep 275] R=-17.0  Steps=323406  ε=0.4169
+[Ep 276] R=-17.0  Steps=324885  ε=0.4149
+[Train 1100000] loss=0.0199
+[Ep 277] R=-18.0  Steps=326480  ε=0.4128
+[Train 1110000] loss=0.0387
+[Ep 278] R=-18.0  Steps=327974  ε=0.4109
+[Ep 279] R=-17.0  Steps=329532  ε=0.4088
+[Train 1120000] loss=0.0186
+[Ep 280] R=-18.0  Steps=331085  ε=0.4068
+--- Evaluation Result (Ep 280, Step 331085) ---
+Avg Reward over 10 episodes: -14.40 (Duration: 9.73s)
+--------------------------------------------------
+[Ep 281] R=-18.0  Steps=332387  ε=0.4051
+[Train 1130000] loss=0.0096
+[Ep 282] R=-19.0  Steps=333883  ε=0.4032
+[Train 1140000] loss=0.0160
+[Ep 283] R=-19.0  Steps=335231  ε=0.4014
+[Ep 284] R=-18.0  Steps=336518  ε=0.3998
+[Train 1150000] loss=0.0127
+[Ep 285] R=-16.0  Steps=338338  ε=0.3975
+[Ep 286] R=-21.0  Steps=339513  ε=0.3960
+[Train 1160000] loss=0.0306
+[Ep 287] R=-19.0  Steps=340878  ε=0.3942
+[Train 1170000] loss=0.0621
+[Ep 288] R=-19.0  Steps=342649  ε=0.3920
+[Ep 289] R=-17.0  Steps=344241  ε=0.3900
+[Train 1180000] loss=0.1923
+[Ep 290] R=-18.0  Steps=345517  ε=0.3884
+--- Evaluation Result (Ep 290, Step 345517) ---
+Avg Reward over 10 episodes: -17.80 (Duration: 8.36s)
+--------------------------------------------------
+[Ep 291] R=-20.0  Steps=346680  ε=0.3870
+[Train 1190000] loss=0.0218
+[Ep 292] R=-18.0  Steps=348132  ε=0.3852
+[Ep 293] R=-16.0  Steps=349738  ε=0.3832
+[Train 1200000] loss=0.0104
+[Ep 294] R=-19.0  Steps=351017  ε=0.3816
+[Ep 295] R=-20.0  Steps=352305  ε=0.3801
+[Train 1210000] loss=0.0265
+[Ep 296] R=-20.0  Steps=353692  ε=0.3784
+[Train 1220000] loss=0.0159
+[Ep 297] R=-18.0  Steps=355221  ε=0.3765
+[Ep 298] R=-21.0  Steps=356322  ε=0.3752
+[Ep 299] R=-21.0  Steps=357373  ε=0.3740
+[Train 1230000] loss=0.1748
+[Ep 300] R=-16.0  Steps=358785  ε=0.3723
+--- Evaluation Result (Ep 300, Step 358785) ---
+Avg Reward over 10 episodes: -18.00 (Duration: 8.01s)
+--------------------------------------------------
+[Train 1240000] loss=0.0352
+[Ep 301] R=-17.0  Steps=360539  ε=0.3702
+[Ep 302] R=-19.0  Steps=362102  ε=0.3683
+[Train 1250000] loss=0.0267
+[Ep 303] R=-16.0  Steps=364289  ε=0.3658
+[Train 1260000] loss=0.0188
+[Ep 304] R=-18.0  Steps=366006  ε=0.3638
+[Train 1270000] loss=0.0164
+[Ep 305] R=-18.0  Steps=367644  ε=0.3619
+[Ep 306] R=-19.0  Steps=369060  ε=0.3602
+[Train 1280000] loss=0.0373
+[Ep 307] R=-21.0  Steps=370281  ε=0.3588
+[Ep 308] R=-17.0  Steps=371743  ε=0.3572
+[Train 1290000] loss=0.1131
+[Ep 309] R=-19.0  Steps=372878  ε=0.3559
+[Ep 310] R=-19.0  Steps=374252  ε=0.3543
+--- Evaluation Result (Ep 310, Step 374252) ---
+Avg Reward over 10 episodes: -16.80 (Duration: 7.79s)
+--------------------------------------------------
+[Train 1300000] loss=0.0412
+[Ep 311] R=-19.0  Steps=375523  ε=0.3529
+[Ep 312] R=-18.0  Steps=376694  ε=0.3515
+[Train 1310000] loss=0.1206
+[Ep 313] R=-19.0  Steps=377861  ε=0.3502
+[Ep 314] R=-18.0  Steps=379367  ε=0.3485
+[Train 1320000] loss=0.0222
+[Ep 315] R=-20.0  Steps=380697  ε=0.3471
+[Ep 316] R=-17.0  Steps=382005  ε=0.3456
+[Train 1330000] loss=0.0193
+[Ep 317] R=-16.0  Steps=383482  ε=0.3440
+[Train 1340000] loss=0.0352
+[Ep 318] R=-17.0  Steps=385202  ε=0.3421
+[Ep 319] R=-19.0  Steps=386510  ε=0.3407
+[Train 1350000] loss=0.0248
+[Ep 320] R=-21.0  Steps=387768  ε=0.3393
+--- Evaluation Result (Ep 320, Step 387768) ---
+Avg Reward over 10 episodes: -17.00 (Duration: 7.24s)
+--------------------------------------------------
+[Ep 321] R=-18.0  Steps=389169  ε=0.3378
+[Train 1360000] loss=0.0926
+[Ep 322] R=-18.0  Steps=390895  ε=0.3359
+[Ep 323] R=-18.0  Steps=392473  ε=0.3342
+[Train 1370000] loss=0.0087
+[Ep 324] R=-15.0  Steps=394511  ε=0.3321
+[Train 1380000] loss=0.0386
+[Ep 325] R=-20.0  Steps=395861  ε=0.3306
+[Ep 326] R=-20.0  Steps=397073  ε=0.3293
+[Train 1390000] loss=0.0219
+[Ep 327] R=-20.0  Steps=398467  ε=0.3279
+[Ep 328] R=-18.0  Steps=399912  ε=0.3264
+[Train 1400000] loss=0.6900
+[Ep 329] R=-14.0  Steps=401848  ε=0.3244
+[Train 1410000] loss=0.0176
+[Ep 330] R=-18.0  Steps=403435  ε=0.3227
+--- Evaluation Result (Ep 330, Step 403435) ---
+Avg Reward over 10 episodes: -16.80 (Duration: 7.86s)
+--------------------------------------------------
+[Train 1420000] loss=0.0614
+[Ep 331] R=-18.0  Steps=405113  ε=0.3210
+[Ep 332] R=-16.0  Steps=406708  ε=0.3193
+[Train 1430000] loss=0.0128
+[Ep 333] R=-16.0  Steps=408413  ε=0.3176
+[Ep 334] R=-20.0  Steps=409617  ε=0.3164
+[Train 1440000] loss=0.0273
+[Ep 335] R=-20.0  Steps=410790  ε=0.3152
+[Ep 336] R=-17.0  Steps=412338  ε=0.3136
+[Train 1450000] loss=0.0243
+[Ep 337] R=-18.0  Steps=413742  ε=0.3122
+[Train 1460000] loss=0.0280
+[Ep 338] R=-20.0  Steps=415043  ε=0.3109
+[Ep 339] R=-17.0  Steps=416759  ε=0.3092
+[Train 1470000] loss=0.0689
+[Ep 340] R=-18.0  Steps=418296  ε=0.3077
+--- Evaluation Result (Ep 340, Step 418296) ---
+Avg Reward over 10 episodes: -18.00 (Duration: 7.02s)
+--------------------------------------------------
+[Ep 341] R=-19.0  Steps=419500  ε=0.3065
+[Train 1480000] loss=0.0161
+[Ep 342] R=-18.0  Steps=420967  ε=0.3051
+[Ep 343] R=-18.0  Steps=422248  ε=0.3039
+[Train 1490000] loss=0.1061
+[Ep 344] R=-21.0  Steps=423707  ε=0.3024
+[Train 1500000] loss=0.0630
+[Ep 345] R=-19.0  Steps=425127  ε=0.3011
+[Ep 346] R=-19.0  Steps=426612  ε=0.2996
+[Train 1510000] loss=0.0118
+[Ep 347] R=-20.0  Steps=427985  ε=0.2983
+[Ep 348] R=-20.0  Steps=429568  ε=0.2968
+[Train 1520000] loss=0.0212
+[Ep 349] R=-17.0  Steps=431017  ε=0.2954
+[Train 1530000] loss=0.0127
+[Ep 350] R=-16.0  Steps=433063  ε=0.2935
+--- Evaluation Result (Ep 350, Step 433063) ---
+Avg Reward over 10 episodes: -19.00 (Duration: 5.90s)
+--------------------------------------------------
+[Ep 351] R=-17.0  Steps=434472  ε=0.2922
+[Train 1540000] loss=0.0244
+[Ep 352] R=-20.0  Steps=435965  ε=0.2908
+[Ep 353] R=-18.0  Steps=437330  ε=0.2895
+[Train 1550000] loss=0.0278
+[Ep 354] R=-19.0  Steps=438679  ε=0.2883
+[Train 1560000] loss=0.0260
+[Ep 355] R=-16.0  Steps=440424  ε=0.2867
+[Ep 356] R=-19.0  Steps=441788  ε=0.2854
+[Train 1570000] loss=0.0099
+[Ep 357] R=-17.0  Steps=443334  ε=0.2840
+[Train 1580000] loss=0.0083
+[Ep 358] R=-20.0  Steps=445426  ε=0.2821
+[Ep 359] R=-20.0  Steps=446703  ε=0.2810
+[Train 1590000] loss=0.0116
+[Ep 360] R=-17.0  Steps=448236  ε=0.2796
+--- Evaluation Result (Ep 360, Step 448236) ---
+Avg Reward over 10 episodes: -15.20 (Duration: 9.16s)
+--------------------------------------------------
+[Ep 361] R=-16.0  Steps=449938  ε=0.2781
+[Train 1600000] loss=0.0079
+[Ep 362] R=-20.0  Steps=451127  ε=0.2770
+[Train 1610000] loss=0.0067
+[Ep 363] R=-18.0  Steps=452641  ε=0.2757
+[Ep 364] R=-20.0  Steps=453953  ε=0.2745
+[Train 1620000] loss=0.0082
+[Ep 365] R=-15.0  Steps=455692  ε=0.2730
+[Ep 366] R=-15.0  Steps=457454  ε=0.2715
+[Train 1630000] loss=0.0325
+[Ep 367] R=-20.0  Steps=459088  ε=0.2701
+[Train 1640000] loss=0.1362
+[Ep 368] R=-19.0  Steps=460522  ε=0.2688
+[Ep 369] R=-16.0  Steps=462236  ε=0.2674
+[Train 1650000] loss=0.0087
+[Ep 370] R=-17.0  Steps=463768  ε=0.2661
+--- Evaluation Result (Ep 370, Step 463768) ---
+Avg Reward over 10 episodes: -16.80 (Duration: 8.92s)
+--------------------------------------------------
+[Train 1660000] loss=0.0228
+[Ep 371] R=-18.0  Steps=465359  ε=0.2647
+[Ep 372] R=-14.0  Steps=467256  ε=0.2631
+[Train 1670000] loss=0.6516
+[Ep 373] R=-20.0  Steps=468557  ε=0.2620
+[Ep 374] R=-21.0  Steps=469701  ε=0.2610
+[Train 1680000] loss=0.0167
+[Ep 375] R=-17.0  Steps=471307  ε=0.2597
+[Train 1690000] loss=0.0169
+[Ep 376] R=-19.0  Steps=473059  ε=0.2583
+[Ep 377] R=-14.0  Steps=474947  ε=0.2567
+[Train 1700000] loss=0.0342
+[Ep 378] R=-14.0  Steps=476851  ε=0.2551
+[Train 1710000] loss=0.0136
+[Ep 379] R=-17.0  Steps=478605  ε=0.2537
+[Train 1720000] loss=0.0102
+[Ep 380] R=-16.0  Steps=480494  ε=0.2522
+--- Evaluation Result (Ep 380, Step 480494) ---
+Avg Reward over 10 episodes: -14.60 (Duration: 8.51s)
+--------------------------------------------------
+[Ep 381] R=-16.0  Steps=482358  ε=0.2507
+[Train 1730000] loss=0.0118
+[Ep 382] R=-14.0  Steps=484274  ε=0.2492
+[Train 1740000] loss=0.0077
+[Ep 383] R=-17.0  Steps=485972  ε=0.2478
+[Train 1750000] loss=0.0262
+[Ep 384] R=-19.0  Steps=487628  ε=0.2465
+[Ep 385] R=-15.0  Steps=489684  ε=0.2449
+[Train 1760000] loss=0.0511
+[Ep 386] R=-16.0  Steps=491618  ε=0.2434
+[Train 1770000] loss=0.0059
+[Ep 387] R=-19.0  Steps=493108  ε=0.2422
+[Ep 388] R=-14.0  Steps=494981  ε=0.2408
+[Train 1780000] loss=0.0145
+[Ep 389] R=-15.0  Steps=496718  ε=0.2394
+[Train 1790000] loss=0.0144
+[Ep 390] R=-17.0  Steps=498363  ε=0.2382
+--- Evaluation Result (Ep 390, Step 498363) ---
+Avg Reward over 10 episodes: -15.80 (Duration: 8.53s)
+--------------------------------------------------
+[Train 1800000] loss=0.0063
+[Ep 391] R=-11.0  Steps=500637  ε=0.2364
+[Train 1810000] loss=0.0502
+[Ep 392] R=-14.0  Steps=502640  ε=0.2349
+[Ep 393] R=-15.0  Steps=504323  ε=0.2337
+[Train 1820000] loss=0.0113
+[Ep 394] R=-15.0  Steps=506232  ε=0.2322
+[Train 1830000] loss=0.0082
+[Ep 395] R=-16.0  Steps=508191  ε=0.2308
+[Train 1840000] loss=0.0152
+[Ep 396] R=-18.0  Steps=510027  ε=0.2294
+[Ep 397] R=-14.0  Steps=511759  ε=0.2282
+[Train 1850000] loss=0.0107
+[Ep 398] R=-15.0  Steps=513679  ε=0.2268
+[Train 1860000] loss=0.0041
+[Ep 399] R=-15.0  Steps=515455  ε=0.2255
+[Ep 400] R=-18.0  Steps=517019  ε=0.2244
+--- Evaluation Result (Ep 400, Step 517019) ---
+Avg Reward over 10 episodes: -15.60 (Duration: 9.13s)
+--------------------------------------------------
+[Train 1870000] loss=0.0094
+[Ep 401] R=-15.0  Steps=518909  ε=0.2230
+[Train 1880000] loss=0.0073
+[Ep 402] R=-14.0  Steps=520853  ε=0.2216
+[Train 1890000] loss=0.0355
+[Ep 403] R=-18.0  Steps=522606  ε=0.2204
+[Ep 404] R=-13.0  Steps=524832  ε=0.2188
+[Train 1900000] loss=0.0074
+[Ep 405] R=-15.0  Steps=527015  ε=0.2173
+[Train 1910000] loss=0.1463
+[Ep 406] R=-18.0  Steps=528394  ε=0.2163
+[Train 1920000] loss=0.0177
+[Ep 407] R=-15.0  Steps=530525  ε=0.2149
+[Ep 408] R=-17.0  Steps=532250  ε=0.2137
+[Train 1930000] loss=0.0099
+[Ep 409] R=-16.0  Steps=534304  ε=0.2123
+[Train 1940000] loss=0.0756
+[Ep 410] R=-16.0  Steps=536248  ε=0.2110
+--- Evaluation Result (Ep 410, Step 536248) ---
+Avg Reward over 10 episodes: -13.60 (Duration: 9.18s)
+--------------------------------------------------
+[Train 1950000] loss=0.0089
+[Ep 411] R=-16.0  Steps=537821  ε=0.2099
+[Ep 412] R=-14.0  Steps=539919  ε=0.2085
+[Train 1960000] loss=0.0191
+[Ep 413] R=-16.0  Steps=541801  ε=0.2073
+[Train 1970000] loss=0.0094
+[Ep 414] R=-15.0  Steps=543540  ε=0.2061
+[Train 1980000] loss=0.0057
+[Ep 415] R=-16.0  Steps=545344  ε=0.2049
+[Ep 416] R=-17.0  Steps=547069  ε=0.2038
+[Train 1990000] loss=0.0118
+[Ep 417] R=-15.0  Steps=548971  ε=0.2026
+[Train 2000000] loss=0.0053
+[Ep 418] R=-15.0  Steps=550810  ε=0.2014
+[Ep 419] R=-16.0  Steps=552380  ε=0.2004
+[Train 2010000] loss=0.0161
+[Ep 420] R=-18.0  Steps=554647  ε=0.1989
+--- Evaluation Result (Ep 420, Step 554647) ---
+Avg Reward over 10 episodes: -13.60 (Duration: 9.85s)
+--------------------------------------------------
+[Train 2020000] loss=0.0038
+[Ep 421] R=-15.0  Steps=556551  ε=0.1977
+[Train 2030000] loss=0.0150
+[Ep 422] R=-18.0  Steps=558264  ε=0.1966
+[Train 2040000] loss=0.0167
+[Ep 423] R=-15.0  Steps=560333  ε=0.1953
+[Ep 424] R=-18.0  Steps=561838  ε=0.1944
+[Train 2050000] loss=0.0068
+[Ep 425] R=-14.0  Steps=564065  ε=0.1930
+[Train 2060000] loss=0.0104
+[Ep 426] R=-14.0  Steps=565899  ε=0.1919
+[Train 2070000] loss=0.0137
+[Ep 427] R=-17.0  Steps=567514  ε=0.1909
+[Ep 428] R=-14.0  Steps=569656  ε=0.1896
+[Train 2080000] loss=0.0082
+[Ep 429] R=-15.0  Steps=571809  ε=0.1883
+[Train 2090000] loss=0.0041
+[Ep 430] R=-13.0  Steps=574034  ε=0.1870
+--- Evaluation Result (Ep 430, Step 574034) ---
+Avg Reward over 10 episodes: -13.40 (Duration: 10.23s)
+--------------------------------------------------
+[Train 2100000] loss=0.0089
+[Ep 431] R=-12.0  Steps=576585  ε=0.1854
+[Train 2110000] loss=0.0047
+[Ep 432] R=-13.0  Steps=579129  ε=0.1839
+[Train 2120000] loss=0.0031
+[Ep 433] R=-13.0  Steps=581333  ε=0.1826
+[Train 2130000] loss=0.0244
+[Ep 434] R=-11.0  Steps=583950  ε=0.1811
+[Train 2140000] loss=0.0220
+[Ep 435] R=-13.0  Steps=586456  ε=0.1797
+[Train 2150000] loss=0.0026
+[Ep 436] R=-12.0  Steps=588705  ε=0.1784
+[Train 2160000] loss=0.0064
+[Ep 437] R=-14.0  Steps=591382  ε=0.1769
+[Train 2170000] loss=0.0159
+[Ep 438] R=-14.0  Steps=593987  ε=0.1754
+[Train 2180000] loss=0.0064
+[Ep 439] R=-12.0  Steps=596569  ε=0.1739
+[Train 2190000] loss=0.0144
+[Ep 440] R=-6.0  Steps=599353  ε=0.1724
+--- Evaluation Result (Ep 440, Step 599353) ---
+Avg Reward over 10 episodes: -10.60 (Duration: 12.24s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 2200000] loss=0.0076
+[Ep 441] R=-19.0  Steps=600846  ε=0.1716
+[Train 2210000] loss=0.0098
+[Ep 442] R=-17.0  Steps=602777  ε=0.1705
+[Ep 443] R=-14.0  Steps=604998  ε=0.1693
+[Train 2220000] loss=0.0045
+[Train 2230000] loss=0.0045
+[Ep 444] R=-7.0  Steps=608240  ε=0.1676
+[Train 2240000] loss=0.0044
+[Ep 445] R=-9.0  Steps=610921  ε=0.1661
+[Train 2250000] loss=0.0069
+[Ep 446] R=-13.0  Steps=612963  ε=0.1651
+[Train 2260000] loss=0.0212
+[Ep 447] R=-13.0  Steps=615425  ε=0.1638
+[Train 2270000] loss=0.0069
+[Ep 448] R=-16.0  Steps=617515  ε=0.1627
+[Train 2280000] loss=0.0077
+[Ep 449] R=-8.0  Steps=620155  ε=0.1613
+[Train 2290000] loss=0.0061
+[Ep 450] R=-11.0  Steps=622624  ε=0.1600
+--- Evaluation Result (Ep 450, Step 622624) ---
+Avg Reward over 10 episodes: -5.20 (Duration: 13.91s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 2300000] loss=0.0095
+[Ep 451] R=-12.0  Steps=625202  ε=0.1587
+[Train 2310000] loss=0.0079
+[Ep 452] R=-13.0  Steps=627655  ε=0.1575
+[Ep 453] R=-14.0  Steps=629979  ε=0.1563
+[Train 2320000] loss=0.0212
+[Ep 454] R=-12.0  Steps=632417  ε=0.1551
+[Train 2330000] loss=0.0153
+[Ep 455] R=-12.0  Steps=634853  ε=0.1539
+[Train 2340000] loss=0.0078
+[Ep 456] R=-15.0  Steps=637277  ε=0.1527
+[Train 2350000] loss=0.0086
+[Train 2360000] loss=0.0075
+[Ep 457] R=-8.0  Steps=640401  ε=0.1512
+[Train 2370000] loss=0.0102
+[Ep 458] R=-11.0  Steps=643289  ε=0.1498
+[Train 2380000] loss=0.0154
+[Ep 459] R=-11.0  Steps=645746  ε=0.1486
+[Train 2390000] loss=0.0032
+[Ep 460] R=-10.0  Steps=648430  ε=0.1473
+--- Evaluation Result (Ep 460, Step 648430) ---
+Avg Reward over 10 episodes: -5.80 (Duration: 15.29s)
+--------------------------------------------------
+[Train 2400000] loss=0.0050
+[Ep 461] R=-13.0  Steps=650816  ε=0.1462
+[Train 2410000] loss=0.0117
+[Ep 462] R=-8.0  Steps=653606  ε=0.1449
+[Train 2420000] loss=0.0021
+[Ep 463] R=-11.0  Steps=656294  ε=0.1437
+[Train 2430000] loss=0.0067
+[Ep 464] R=-3.0  Steps=659884  ε=0.1420
+[Train 2440000] loss=0.0041
+[Ep 465] R=-15.0  Steps=662242  ε=0.1410
+[Train 2450000] loss=0.0065
+[Train 2460000] loss=0.0085
+[Ep 466] R=-4.0  Steps=665766  ε=0.1394
+[Train 2470000] loss=0.0112
+[Ep 467] R=-10.0  Steps=668241  ε=0.1383
+[Train 2480000] loss=0.0036
+[Ep 468] R=-11.0  Steps=670876  ε=0.1371
+[Train 2490000] loss=0.0047
+[Ep 469] R=-9.0  Steps=673647  ε=0.1359
+[Train 2500000] loss=0.0030
+[Ep 470] R=-10.0  Steps=676201  ε=0.1348
+--- Evaluation Result (Ep 470, Step 676201) ---
+Avg Reward over 10 episodes: -9.00 (Duration: 12.51s)
+--------------------------------------------------
+[Train 2510000] loss=0.0016
+[Ep 471] R=-13.0  Steps=678806  ε=0.1337
+[Train 2520000] loss=0.0035
+[Ep 472] R=-12.0  Steps=681566  ε=0.1325
+[Train 2530000] loss=0.0118
+[Train 2540000] loss=0.0028
+[Ep 473] R=-5.0  Steps=685299  ε=0.1309
+[Train 2550000] loss=0.0029
+[Ep 474] R=-15.0  Steps=687510  ε=0.1300
+[Train 2560000] loss=0.0036
+[Ep 475] R=-8.0  Steps=690199  ε=0.1289
+[Train 2570000] loss=0.0059
+[Ep 476] R=-3.0  Steps=694069  ε=0.1273
+[Train 2580000] loss=0.0081
+[Ep 477] R=-7.0  Steps=697455  ε=0.1260
+[Train 2590000] loss=0.0043
+[Train 2600000] loss=0.0098
+[Ep 478] R=-8.0  Steps=700466  ε=0.1247
+[Train 2610000] loss=0.0056
+[Ep 479] R=-8.0  Steps=703188  ε=0.1237
+[Train 2620000] loss=0.0047
+[Ep 480] R=-11.0  Steps=705553  ε=0.1227
+--- Evaluation Result (Ep 480, Step 705553) ---
+Avg Reward over 10 episodes: -2.80 (Duration: 15.42s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 2630000] loss=0.0027
+[Ep 481] R=-5.0  Steps=709281  ε=0.1213
+[Train 2640000] loss=0.0060
+[Train 2650000] loss=0.0024
+[Ep 482] R=-8.0  Steps=712517  ε=0.1200
+[Ep 483] R=-11.0  Steps=714940  ε=0.1191
+[Train 2660000] loss=0.0049
+[Ep 484] R=-11.0  Steps=717476  ε=0.1181
+[Train 2670000] loss=0.0043
+[Train 2680000] loss=0.0027
+[Ep 485] R=-14.0  Steps=720104  ε=0.1171
+[Train 2690000] loss=0.0090
+[Ep 486] R=-10.0  Steps=723233  ε=0.1160
+[Train 2700000] loss=0.0035
+[Ep 487] R=-11.0  Steps=725963  ε=0.1150
+[Train 2710000] loss=0.0027
+[Ep 488] R=-8.0  Steps=728517  ε=0.1140
+[Train 2720000] loss=0.0049
+[Ep 489] R=-5.0  Steps=731828  ε=0.1128
+[Train 2730000] loss=0.0036
+[Ep 490] R=-15.0  Steps=734005  ε=0.1120
+--- Evaluation Result (Ep 490, Step 734005) ---
+Avg Reward over 10 episodes: -1.60 (Duration: 15.67s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 2740000] loss=0.0086
+[Ep 491] R=-11.0  Steps=736850  ε=0.1110
+[Train 2750000] loss=0.0041
+[Train 2760000] loss=0.0025
+[Ep 492] R=-4.0  Steps=740302  ε=0.1098
+[Train 2770000] loss=0.0048
+[Ep 493] R= 5.0  Steps=743681  ε=0.1086
+[Train 2780000] loss=0.0050
+[Ep 494] R=-5.0  Steps=746583  ε=0.1076
+[Train 2790000] loss=0.0070
+[Ep 495] R=-8.0  Steps=749912  ε=0.1065
+[Train 2800000] loss=0.0026
+[Train 2810000] loss=0.0056
+[Ep 496] R=-7.0  Steps=753063  ε=0.1054
+[Train 2820000] loss=0.0068
+[Ep 497] R=-15.0  Steps=755883  ε=0.1045
+[Train 2830000] loss=0.0092
+[Ep 498] R=-13.0  Steps=758214  ε=0.1037
+[Train 2840000] loss=0.0135
+[Ep 499] R=-12.0  Steps=760976  ε=0.1028
+[Train 2850000] loss=0.0059
+[Ep 500] R= 9.0  Steps=764391  ε=0.1017
+--- Evaluation Result (Ep 500, Step 764391) ---
+Avg Reward over 10 episodes: -7.20 (Duration: 13.85s)
+--------------------------------------------------
+[Train 2860000] loss=0.0031
+[Ep 501] R=-6.0  Steps=767388  ε=0.1007
+[Train 2870000] loss=0.0062
+[Train 2880000] loss=0.0056
+[Ep 502] R=-8.0  Steps=770811  ε=0.0996
+[Train 2890000] loss=0.0088
+[Ep 503] R=-18.0  Steps=772755  ε=0.0990
+[Train 2900000] loss=0.0209
+[Ep 504] R=-8.0  Steps=775813  ε=0.0980
+[Train 2910000] loss=0.0097
+[Ep 505] R= 5.0  Steps=779485  ε=0.0969
+[Train 2920000] loss=0.0021
+[Ep 506] R=-10.0  Steps=782336  ε=0.0960
+[Train 2930000] loss=0.0035
+[Ep 507] R=-12.0  Steps=784678  ε=0.0953
+[Train 2940000] loss=0.0106
+[Train 2950000] loss=0.0295
+[Ep 508] R=-10.0  Steps=787556  ε=0.0944
+[Train 2960000] loss=0.0035
+[Ep 509] R= 4.0  Steps=791175  ε=0.0933
+[Train 2970000] loss=0.0036
+[Ep 510] R=-10.0  Steps=794059  ε=0.0925
+--- Evaluation Result (Ep 510, Step 794059) ---
+Avg Reward over 10 episodes: -5.00 (Duration: 14.33s)
+--------------------------------------------------
+[Train 2980000] loss=0.0033
+[Ep 511] R=-6.0  Steps=797423  ε=0.0915
+[Train 2990000] loss=0.0070
+[Train 3000000] loss=0.0034
+[Ep 512] R=-1.0  Steps=801006  ε=0.0904
+[Train 3010000] loss=0.0035
+[Ep 513] R=-1.0  Steps=804104  ε=0.0895
+[Train 3020000] loss=0.0039
+[Train 3030000] loss=0.0061
+[Ep 514] R=-3.0  Steps=807825  ε=0.0885
+[Train 3040000] loss=0.0019
+[Ep 515] R=11.0  Steps=810808  ε=0.0876
+[Train 3050000] loss=0.0024
+[Ep 516] R=-8.0  Steps=813405  ε=0.0869
+[Train 3060000] loss=0.0033
+[Ep 517] R=-12.0  Steps=815775  ε=0.0863
+[Train 3070000] loss=0.0033
+[Ep 518] R= 7.0  Steps=818945  ε=0.0854
+[Train 3080000] loss=0.0040
+[Ep 519] R= 8.0  Steps=821695  ε=0.0846
+[Train 3090000] loss=0.0050
+[Ep 520] R=-9.0  Steps=824439  ε=0.0839
+--- Evaluation Result (Ep 520, Step 824439) ---
+Avg Reward over 10 episodes: 6.20 (Duration: 13.73s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 3100000] loss=0.0051
+[Train 3110000] loss=0.0040
+[Ep 521] R=-2.0  Steps=827927  ε=0.0830
+[Train 3120000] loss=0.0045
+[Ep 522] R=-1.0  Steps=831147  ε=0.0821
+[Train 3130000] loss=0.0072
+[Ep 523] R=-2.0  Steps=834728  ε=0.0812
+[Train 3140000] loss=0.0061
+[Train 3150000] loss=0.0041
+[Ep 524] R= 9.0  Steps=838093  ε=0.0803
+[Train 3160000] loss=0.0034
+[Ep 525] R=-7.0  Steps=840957  ε=0.0796
+[Train 3170000] loss=0.0023
+[Ep 526] R= 9.0  Steps=843697  ε=0.0789
+[Train 3180000] loss=0.0067
+[Ep 527] R=-4.0  Steps=847072  ε=0.0780
+[Train 3190000] loss=0.0069
+[Train 3200000] loss=0.0024
+[Ep 528] R= 6.0  Steps=850416  ε=0.0772
+[Train 3210000] loss=0.0060
+[Ep 529] R=-4.0  Steps=853968  ε=0.0763
+[Train 3220000] loss=0.0062
+[Ep 530] R=-11.0  Steps=856587  ε=0.0757
+--- Evaluation Result (Ep 530, Step 856587) ---
+Avg Reward over 10 episodes: 6.00 (Duration: 12.38s)
+--------------------------------------------------
+[Train 3230000] loss=0.0039
+[Ep 531] R=-8.0  Steps=859447  ε=0.0750
+[Train 3240000] loss=0.0048
+[Train 3250000] loss=0.0025
+[Ep 532] R=-3.0  Steps=862583  ε=0.0743
+[Ep 533] R=-13.0  Steps=864974  ε=0.0737
+[Train 3260000] loss=0.0043
+[Train 3270000] loss=0.0026
+[Ep 534] R=-3.0  Steps=867867  ε=0.0730
+[Train 3280000] loss=0.0032
+[Ep 535] R= 5.0  Steps=870983  ε=0.0723
+[Train 3290000] loss=0.0040
+[Ep 536] R=16.0  Steps=873309  ε=0.0717
+[Train 3300000] loss=0.0031
+[Ep 537] R= 5.0  Steps=876449  ε=0.0710
+[Train 3310000] loss=0.0015
+[Ep 538] R=11.0  Steps=879393  ε=0.0704
+[Train 3320000] loss=0.0018
+[Train 3330000] loss=0.0029
+[Ep 539] R=-1.0  Steps=882753  ε=0.0696
+[Train 3340000] loss=0.0031
+[Ep 540] R= 1.0  Steps=886151  ε=0.0689
+--- Evaluation Result (Ep 540, Step 886151) ---
+Avg Reward over 10 episodes: 6.40 (Duration: 12.68s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 3350000] loss=0.0047
+[Ep 541] R= 5.0  Steps=889176  ε=0.0682
+[Train 3360000] loss=0.0024
+[Ep 542] R= 7.0  Steps=892178  ε=0.0675
+[Train 3370000] loss=0.0081
+[Train 3380000] loss=0.0051
+[Ep 543] R= 3.0  Steps=895582  ε=0.0668
+[Train 3390000] loss=0.0024
+[Ep 544] R= 8.0  Steps=898389  ε=0.0662
+[Train 3400000] loss=0.0025
+[Ep 545] R= 9.0  Steps=901016  ε=0.0657
+[Train 3410000] loss=0.0087
+[Train 3420000] loss=0.0024
+[Ep 546] R=-1.0  Steps=905135  ε=0.0648
+[Train 3430000] loss=0.0069
+[Ep 547] R=12.0  Steps=907684  ε=0.0643
+[Train 3440000] loss=0.0030
+[Ep 548] R=11.0  Steps=910258  ε=0.0637
+[Train 3450000] loss=0.0016
+[Ep 549] R=16.0  Steps=912976  ε=0.0632
+[Train 3460000] loss=0.0045
+[Ep 550] R= 6.0  Steps=916016  ε=0.0626
+--- Evaluation Result (Ep 550, Step 916016) ---
+Avg Reward over 10 episodes: 14.20 (Duration: 9.78s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 3470000] loss=0.0053
+[Ep 551] R= 5.0  Steps=919159  ε=0.0620
+[Train 3480000] loss=0.0079
+[Train 3490000] loss=0.0031
+[Ep 552] R= 5.0  Steps=922648  ε=0.0613
+[Train 3500000] loss=0.0024
+[Ep 553] R=14.0  Steps=925471  ε=0.0607
+[Train 3510000] loss=0.0050
+[Ep 554] R=-4.0  Steps=929048  ε=0.0600
+[Train 3520000] loss=0.0048
+[Ep 555] R=-8.0  Steps=931776  ε=0.0595
+[Train 3530000] loss=0.0032
+[Ep 556] R=-6.0  Steps=934509  ε=0.0590
+[Train 3540000] loss=0.0042
+[Train 3550000] loss=0.0092
+[Ep 557] R= 4.0  Steps=937693  ε=0.0584
+[Train 3560000] loss=0.0025
+[Ep 558] R=-3.0  Steps=940861  ε=0.0578
+[Train 3570000] loss=0.0041
+[Ep 559] R=11.0  Steps=943545  ε=0.0573
+[Train 3580000] loss=0.0072
+[Ep 560] R= 1.0  Steps=947330  ε=0.0566
+--- Evaluation Result (Ep 560, Step 947330) ---
+Avg Reward over 10 episodes: 12.40 (Duration: 10.74s)
+--------------------------------------------------
+[Train 3590000] loss=0.0051
+[Train 3600000] loss=0.0038
+[Ep 561] R=11.0  Steps=950186  ε=0.0561
+[Ep 562] R=17.0  Steps=952313  ε=0.0557
+[Train 3610000] loss=0.0078
+[Train 3620000] loss=0.0016
+[Ep 563] R=11.0  Steps=955052  ε=0.0552
+[Ep 564] R=13.0  Steps=957237  ε=0.0548
+[Train 3630000] loss=0.0108
+[Train 3640000] loss=0.0047
+[Ep 565] R= 5.0  Steps=960176  ε=0.0543
+[Train 3650000] loss=0.0055
+[Ep 566] R= 9.0  Steps=963030  ε=0.0538
+[Train 3660000] loss=0.0029
+[Ep 567] R=11.0  Steps=965664  ε=0.0534
+[Train 3670000] loss=0.0065
+[Ep 568] R=12.0  Steps=968493  ε=0.0529
+[Train 3680000] loss=0.0020
+[Ep 569] R= 1.0  Steps=971603  ε=0.0524
+[Train 3690000] loss=0.0048
+[Ep 570] R=12.0  Steps=974304  ε=0.0519
+--- Evaluation Result (Ep 570, Step 974304) ---
+Avg Reward over 10 episodes: 13.60 (Duration: 10.03s)
+--------------------------------------------------
+[Train 3700000] loss=0.0017
+[Ep 571] R= 6.0  Steps=977356  ε=0.0514
+[Train 3710000] loss=0.0177
+[Train 3720000] loss=0.0015
+[Ep 572] R= 5.0  Steps=980861  ε=0.0509
+[Train 3730000] loss=0.0094
+[Ep 573] R= 4.0  Steps=984387  ε=0.0503
+[Train 3740000] loss=0.0042
+[Ep 574] R=11.0  Steps=987004  ε=0.0499
+[Train 3750000] loss=0.0067
+[Ep 575] R=16.0  Steps=989220  ε=0.0495
+[Train 3760000] loss=0.0019
+[Ep 576] R=12.0  Steps=991757  ε=0.0491
+[Train 3770000] loss=0.0043
+[Ep 577] R= 5.0  Steps=994984  ε=0.0486
+[Train 3780000] loss=0.0033
+[Train 3790000] loss=0.0053
+[Ep 578] R= 2.0  Steps=998797  ε=0.0480
+[Train 3800000] loss=0.0017
+[Ep 579] R=12.0  Steps=1001356  ε=0.0476
+[Train 3810000] loss=0.0020
+[Ep 580] R=13.0  Steps=1003797  ε=0.0473
+--- Evaluation Result (Ep 580, Step 1003797) ---
+Avg Reward over 10 episodes: 14.20 (Duration: 9.75s)
+--------------------------------------------------
+[Train 3820000] loss=0.0036
+[Ep 581] R=13.0  Steps=1006155  ε=0.0469
+[Train 3830000] loss=0.0064
+[Ep 582] R= 3.0  Steps=1009210  ε=0.0464
+[Train 3840000] loss=0.0106
+[Ep 583] R=10.0  Steps=1011988  ε=0.0460
+[Train 3850000] loss=0.0035
+[Ep 584] R=16.0  Steps=1014532  ε=0.0457
+[Train 3860000] loss=0.0030
+[Train 3870000] loss=0.0023
+[Ep 585] R= 4.0  Steps=1017686  ε=0.0452
+[Train 3880000] loss=0.0025
+[Ep 586] R=-1.0  Steps=1021410  ε=0.0447
+[Train 3890000] loss=0.0087
+[Ep 587] R=16.0  Steps=1023809  ε=0.0443
+[Train 3900000] loss=0.0031
+[Ep 588] R= 6.0  Steps=1026949  ε=0.0439
+[Train 3910000] loss=0.0024
+[Ep 589] R=10.0  Steps=1029711  ε=0.0435
+[Train 3920000] loss=0.0034
+[Ep 590] R=12.0  Steps=1032479  ε=0.0431
+--- Evaluation Result (Ep 590, Step 1032479) ---
+Avg Reward over 10 episodes: 17.60 (Duration: 9.09s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 3930000] loss=0.0278
+[Ep 591] R=15.0  Steps=1034823  ε=0.0428
+[Train 3940000] loss=0.0027
+[Ep 592] R=18.0  Steps=1036714  ε=0.0425
+[Train 3950000] loss=0.0023
+[Ep 593] R=15.0  Steps=1039548  ε=0.0421
+[Train 3960000] loss=0.0020
+[Train 3970000] loss=0.0030
+[Ep 594] R=-2.0  Steps=1042914  ε=0.0417
+[Train 3980000] loss=0.0034
+[Ep 595] R=13.0  Steps=1045326  ε=0.0414
+[Train 3990000] loss=0.0031
+[Ep 596] R=16.0  Steps=1047519  ε=0.0411
+[Train 4000000] loss=0.0025
+[Ep 597] R=-6.0  Steps=1050439  ε=0.0407
+[Train 4010000] loss=0.0025
+[Ep 598] R=10.0  Steps=1053172  ε=0.0404
+[Train 4020000] loss=0.0020
+[Ep 599] R=-7.0  Steps=1056157  ε=0.0400
+[Train 4030000] loss=0.0062
+[Ep 600] R=-1.0  Steps=1059308  ε=0.0396
+--- Evaluation Result (Ep 600, Step 1059308) ---
+Avg Reward over 10 episodes: 15.40 (Duration: 10.19s)
+--------------------------------------------------
+[Train 4040000] loss=0.0031
+[Ep 601] R= 8.0  Steps=1061791  ε=0.0393
+[Train 4050000] loss=0.0199
+[Ep 602] R=17.0  Steps=1063930  ε=0.0390
+[Train 4060000] loss=0.0029
+[Ep 603] R=15.0  Steps=1066088  ε=0.0387
+[Train 4070000] loss=0.0025
+[Ep 604] R=12.0  Steps=1068504  ε=0.0384
+[Train 4080000] loss=0.0085
+[Ep 605] R= 9.0  Steps=1071253  ε=0.0381
+[Train 4090000] loss=0.0031
+[Ep 606] R= 1.0  Steps=1074820  ε=0.0376
+[Train 4100000] loss=0.0110
+[Train 4110000] loss=0.0018
+[Ep 607] R=-11.0  Steps=1077816  ε=0.0373
+[Train 4120000] loss=0.0034
+[Ep 608] R= 6.0  Steps=1080741  ε=0.0369
+[Train 4130000] loss=0.0029
+[Ep 609] R=14.0  Steps=1083189  ε=0.0367
+[Train 4140000] loss=0.0024
+[Ep 610] R=13.0  Steps=1085730  ε=0.0364
+--- Evaluation Result (Ep 610, Step 1085730) ---
+Avg Reward over 10 episodes: 15.00 (Duration: 9.47s)
+--------------------------------------------------
+[Train 4150000] loss=0.0040
+[Ep 611] R=16.0  Steps=1087955  ε=0.0361
+[Train 4160000] loss=0.0021
+[Ep 612] R= 8.0  Steps=1090931  ε=0.0358
+[Train 4170000] loss=0.0067
+[Ep 613] R=11.0  Steps=1093582  ε=0.0355
+[Train 4180000] loss=0.0024
+[Ep 614] R=14.0  Steps=1096105  ε=0.0352
+[Train 4190000] loss=0.0060
+[Ep 615] R=13.0  Steps=1098727  ε=0.0349
+[Train 4200000] loss=0.0026
+[Ep 616] R= 8.0  Steps=1101647  ε=0.0346
+[Train 4210000] loss=0.0026
+[Ep 617] R=13.0  Steps=1104181  ε=0.0343
+[Train 4220000] loss=0.0013
+[Ep 618] R=14.0  Steps=1106334  ε=0.0340
+[Train 4230000] loss=0.0028
+[Ep 619] R=10.0  Steps=1108940  ε=0.0338
+[Train 4240000] loss=0.0013
+[Ep 620] R= 3.0  Steps=1112119  ε=0.0334
+--- Evaluation Result (Ep 620, Step 1112119) ---
+Avg Reward over 10 episodes: 13.20 (Duration: 10.83s)
+--------------------------------------------------
+[Train 4250000] loss=0.0007
+[Ep 621] R=13.0  Steps=1114818  ε=0.0331
+[Train 4260000] loss=0.0016
+[Ep 622] R=15.0  Steps=1117426  ε=0.0329
+[Train 4270000] loss=0.0030
+[Train 4280000] loss=0.0049
+[Ep 623] R= 4.0  Steps=1120441  ε=0.0325
+[Train 4290000] loss=0.0019
+[Ep 624] R= 8.0  Steps=1123533  ε=0.0322
+[Train 4300000] loss=0.0064
+[Ep 625] R=16.0  Steps=1125678  ε=0.0320
+[Train 4310000] loss=0.0036
+[Ep 626] R=14.0  Steps=1128080  ε=0.0318
+[Train 4320000] loss=0.0015
+[Ep 627] R=15.0  Steps=1130462  ε=0.0315
+[Ep 628] R=20.0  Steps=1132250  ε=0.0313
+[Train 4330000] loss=0.0034
+[Train 4340000] loss=0.0037
+[Ep 629] R= 3.0  Steps=1135311  ε=0.0310
+[Train 4350000] loss=0.0034
+[Ep 630] R= 5.0  Steps=1138350  ε=0.0307
+--- Evaluation Result (Ep 630, Step 1138350) ---
+Avg Reward over 10 episodes: 13.40 (Duration: 10.01s)
+--------------------------------------------------
+[Train 4360000] loss=0.0044
+[Ep 631] R=16.0  Steps=1140598  ε=0.0305
+[Train 4370000] loss=0.0013
+[Ep 632] R=17.0  Steps=1142670  ε=0.0303
+[Train 4380000] loss=0.0034
+[Ep 633] R=-1.0  Steps=1145824  ε=0.0300
+[Train 4390000] loss=0.0027
+[Ep 634] R=13.0  Steps=1148220  ε=0.0298
+[Train 4400000] loss=0.0017
+[Ep 635] R=17.0  Steps=1150266  ε=0.0296
+[Train 4410000] loss=0.0016
+[Ep 636] R=16.0  Steps=1152556  ε=0.0294
+[Train 4420000] loss=0.0012
+[Ep 637] R=12.0  Steps=1155077  ε=0.0291
+[Train 4430000] loss=0.0034
+[Ep 638] R=14.0  Steps=1157592  ε=0.0289
+[Ep 639] R=19.0  Steps=1159450  ε=0.0287
+[Train 4440000] loss=0.0014
+[Ep 640] R=17.0  Steps=1161647  ε=0.0285
+--- Evaluation Result (Ep 640, Step 1161647) ---
+Avg Reward over 10 episodes: 13.20 (Duration: 10.48s)
+--------------------------------------------------
+[Train 4450000] loss=0.0015
+[Ep 641] R= 8.0  Steps=1164481  ε=0.0283
+[Train 4460000] loss=0.0049
+[Ep 642] R=18.0  Steps=1166473  ε=0.0281
+[Train 4470000] loss=0.0047
+[Ep 643] R=15.0  Steps=1168725  ε=0.0279
+[Train 4480000] loss=0.0070
+[Ep 644] R=15.0  Steps=1170787  ε=0.0277
+[Train 4490000] loss=0.0016
+[Ep 645] R=14.0  Steps=1173157  ε=0.0275
+[Train 4500000] loss=0.0020
+[Ep 646] R=12.0  Steps=1175565  ε=0.0273
+[Train 4510000] loss=0.0021
+[Ep 647] R=16.0  Steps=1177913  ε=0.0271
+[Train 4520000] loss=0.0027
+[Ep 648] R=-10.0  Steps=1180748  ε=0.0268
+[Train 4530000] loss=0.0030
+[Ep 649] R=13.0  Steps=1183164  ε=0.0266
+[Train 4540000] loss=0.0019
+[Ep 650] R=12.0  Steps=1185855  ε=0.0264
+--- Evaluation Result (Ep 650, Step 1185855) ---
+Avg Reward over 10 episodes: 14.60 (Duration: 9.38s)
+--------------------------------------------------
+[Train 4550000] loss=0.0020
+[Ep 651] R=12.0  Steps=1188847  ε=0.0261
+[Train 4560000] loss=0.0014
+[Ep 652] R=18.0  Steps=1190840  ε=0.0260
+[Train 4570000] loss=0.0032
+[Ep 653] R=14.0  Steps=1193002  ε=0.0258
+[Train 4580000] loss=0.0016
+[Ep 654] R= 8.0  Steps=1195808  ε=0.0256
+[Train 4590000] loss=0.0022
+[Ep 655] R=14.0  Steps=1198089  ε=0.0254
+[Train 4600000] loss=0.0019
+[Ep 656] R= 9.0  Steps=1200880  ε=0.0252
+[Train 4610000] loss=0.0024
+[Ep 657] R=17.0  Steps=1202897  ε=0.0250
+[Train 4620000] loss=0.0029
+[Ep 658] R= 7.0  Steps=1206027  ε=0.0247
+[Train 4630000] loss=0.0018
+[Ep 659] R=16.0  Steps=1208125  ε=0.0246
+[Train 4640000] loss=0.0019
+[Ep 660] R=16.0  Steps=1210231  ε=0.0244
+--- Evaluation Result (Ep 660, Step 1210231) ---
+Avg Reward over 10 episodes: 14.20 (Duration: 9.44s)
+--------------------------------------------------
+[Train 4650000] loss=0.0024
+[Ep 661] R= 7.0  Steps=1212855  ε=0.0242
+[Ep 662] R=19.0  Steps=1214841  ε=0.0241
+[Train 4660000] loss=0.0069
+[Ep 663] R=20.0  Steps=1216654  ε=0.0239
+[Train 4670000] loss=0.0039
+[Ep 664] R=12.0  Steps=1218855  ε=0.0237
+[Train 4680000] loss=0.0035
+[Ep 665] R=19.0  Steps=1220703  ε=0.0236
+[Train 4690000] loss=0.0027
+[Ep 666] R=16.0  Steps=1222972  ε=0.0234
+[Train 4700000] loss=0.0028
+[Ep 667] R=14.0  Steps=1225421  ε=0.0233
+[Train 4710000] loss=0.0027
+[Ep 668] R= 7.0  Steps=1228196  ε=0.0230
+[Train 4720000] loss=0.0032
+[Ep 669] R=11.0  Steps=1230640  ε=0.0229
+[Train 4730000] loss=0.0014
+[Ep 670] R= 6.0  Steps=1233923  ε=0.0226
+--- Evaluation Result (Ep 670, Step 1233923) ---
+Avg Reward over 10 episodes: 13.00 (Duration: 10.50s)
+--------------------------------------------------
+[Train 4740000] loss=0.0053
+[Ep 671] R=14.0  Steps=1236412  ε=0.0224
+[Train 4750000] loss=0.0055
+[Ep 672] R=12.0  Steps=1239391  ε=0.0222
+[Train 4760000] loss=0.0055
+[Ep 673] R=10.0  Steps=1242033  ε=0.0220
+[Train 4770000] loss=0.0033
+[Train 4780000] loss=0.0022
+[Ep 674] R= 8.0  Steps=1245331  ε=0.0218
+[Ep 675] R=21.0  Steps=1246993  ε=0.0217
+[Train 4790000] loss=0.0033
+[Ep 676] R=16.0  Steps=1249242  ε=0.0215
+[Train 4800000] loss=0.0033
+[Ep 677] R=17.0  Steps=1251368  ε=0.0214
+[Train 4810000] loss=0.0039
+[Ep 678] R=17.0  Steps=1253530  ε=0.0213
+[Train 4820000] loss=0.0040
+[Ep 679] R=14.0  Steps=1255767  ε=0.0211
+[Train 4830000] loss=0.0013
+[Ep 680] R=19.0  Steps=1257625  ε=0.0210
+--- Evaluation Result (Ep 680, Step 1257625) ---
+Avg Reward over 10 episodes: 16.00 (Duration: 9.09s)
+--------------------------------------------------
+[Ep 681] R=15.0  Steps=1259975  ε=0.0208
+[Train 4840000] loss=0.0013
+[Ep 682] R=20.0  Steps=1261775  ε=0.0207
+[Train 4850000] loss=0.0023
+[Ep 683] R=18.0  Steps=1263900  ε=0.0206
+[Train 4860000] loss=0.0009
+[Ep 684] R=12.0  Steps=1266283  ε=0.0204
+[Train 4870000] loss=0.0024
+[Ep 685] R=20.0  Steps=1268117  ε=0.0203
+[Train 4880000] loss=0.0014
+[Ep 686] R=19.0  Steps=1270004  ε=0.0202
+[Train 4890000] loss=0.0023
+[Ep 687] R=-5.0  Steps=1272931  ε=0.0200
+[Train 4900000] loss=0.0019
+[Ep 688] R=17.0  Steps=1275294  ε=0.0198
+[Train 4910000] loss=0.0051
+[Ep 689] R=11.0  Steps=1277668  ε=0.0197
+[Train 4920000] loss=0.0014
+[Ep 690] R=12.0  Steps=1280117  ε=0.0195
+--- Evaluation Result (Ep 690, Step 1280117) ---
+Avg Reward over 10 episodes: 14.60 (Duration: 9.50s)
+--------------------------------------------------
+[Train 4930000] loss=0.0019
+[Ep 691] R=-10.0  Steps=1282837  ε=0.0193
+[Ep 692] R=20.0  Steps=1284671  ε=0.0192
+[Train 4940000] loss=0.0012
+[Ep 693] R=10.0  Steps=1287096  ε=0.0191
+[Train 4950000] loss=0.0020
+[Ep 694] R=12.0  Steps=1289383  ε=0.0189
+[Train 4960000] loss=0.0026
+[Ep 695] R=15.0  Steps=1291780  ε=0.0188
+[Train 4970000] loss=0.0037
+[Ep 696] R=19.0  Steps=1293643  ε=0.0187
+[Train 4980000] loss=0.0029
+[Ep 697] R=16.0  Steps=1295774  ε=0.0186
+[Train 4990000] loss=0.0012
+[Ep 698] R=14.0  Steps=1298172  ε=0.0184
+[Train 5000000] loss=0.0100
+[Ep 699] R=15.0  Steps=1300464  ε=0.0183
+[Ep 700] R=18.0  Steps=1302317  ε=0.0182
+--- Evaluation Result (Ep 700, Step 1302317) ---
+Avg Reward over 10 episodes: 16.20 (Duration: 9.29s)
+--------------------------------------------------
+[Train 5010000] loss=0.0016
+[Ep 701] R=13.0  Steps=1304795  ε=0.0180
+[Train 5020000] loss=0.0031
+[Train 5030000] loss=0.0045
+[Ep 702] R=10.0  Steps=1307577  ε=0.0179
+[Ep 703] R=17.0  Steps=1309609  ε=0.0178
+[Train 5040000] loss=0.0024
+[Ep 704] R= 7.0  Steps=1312489  ε=0.0176
+[Train 5050000] loss=0.0029
+[Ep 705] R=17.0  Steps=1314410  ε=0.0175
+[Train 5060000] loss=0.0024
+[Ep 706] R=14.0  Steps=1316739  ε=0.0174
+[Train 5070000] loss=0.0022
+[Ep 707] R=10.0  Steps=1319533  ε=0.0172
+[Train 5080000] loss=0.0014
+[Ep 708] R=14.0  Steps=1321673  ε=0.0171
+[Train 5090000] loss=0.0018
+[Ep 709] R=17.0  Steps=1323714  ε=0.0170
+[Train 5100000] loss=0.0053
+[Ep 710] R=17.0  Steps=1325793  ε=0.0169
+--- Evaluation Result (Ep 710, Step 1325793) ---
+Avg Reward over 10 episodes: 15.80 (Duration: 8.99s)
+--------------------------------------------------
+[Train 5110000] loss=0.0017
+[Ep 711] R=16.0  Steps=1328163  ε=0.0167
+[Train 5120000] loss=0.0011
+[Ep 712] R=11.0  Steps=1330611  ε=0.0166
+[Train 5130000] loss=0.0017
+[Ep 713] R= 9.0  Steps=1333484  ε=0.0165
+[Train 5140000] loss=0.0019
+[Ep 714] R=12.0  Steps=1335926  ε=0.0163
+[Train 5150000] loss=0.0023
+[Ep 715] R=20.0  Steps=1337715  ε=0.0162
+[Train 5160000] loss=0.0013
+[Ep 716] R=13.0  Steps=1340147  ε=0.0161
+[Train 5170000] loss=0.0011
+[Ep 717] R=11.0  Steps=1342743  ε=0.0160
+[Ep 718] R=16.0  Steps=1344750  ε=0.0159
+[Train 5180000] loss=0.0019
+[Ep 719] R=19.0  Steps=1346589  ε=0.0158
+[Train 5190000] loss=0.0021
+[Ep 720] R=10.0  Steps=1349233  ε=0.0156
+--- Evaluation Result (Ep 720, Step 1349233) ---
+Avg Reward over 10 episodes: 17.40 (Duration: 8.40s)
+--------------------------------------------------
+[Train 5200000] loss=0.0017
+[Ep 721] R=16.0  Steps=1351336  ε=0.0155
+[Train 5210000] loss=0.0033
+[Ep 722] R=14.0  Steps=1353704  ε=0.0154
+[Train 5220000] loss=0.0018
+[Ep 723] R=14.0  Steps=1355974  ε=0.0153
+[Train 5230000] loss=0.0038
+[Ep 724] R= 6.0  Steps=1358712  ε=0.0152
+[Train 5240000] loss=0.0025
+[Ep 725] R=18.0  Steps=1360824  ε=0.0151
+[Train 5250000] loss=0.0019
+[Ep 726] R=12.0  Steps=1363217  ε=0.0150
+[Train 5260000] loss=0.0036
+[Ep 727] R=16.0  Steps=1365315  ε=0.0149
+[Train 5270000] loss=0.0019
+[Ep 728] R=11.0  Steps=1368239  ε=0.0147
+[Train 5280000] loss=0.0028
+[Ep 729] R=12.0  Steps=1370610  ε=0.0146
+[Train 5290000] loss=0.0034
+[Ep 730] R=15.0  Steps=1372916  ε=0.0145
+--- Evaluation Result (Ep 730, Step 1372916) ---
+Avg Reward over 10 episodes: 16.20 (Duration: 9.12s)
+--------------------------------------------------
+[Ep 731] R=19.0  Steps=1374769  ε=0.0144
+[Train 5300000] loss=0.0010
+[Ep 732] R=14.0  Steps=1377128  ε=0.0143
+[Train 5310000] loss=0.0015
+[Ep 733] R= 9.0  Steps=1379982  ε=0.0142
+[Train 5320000] loss=0.0007
+[Ep 734] R=13.0  Steps=1382425  ε=0.0141
+[Train 5330000] loss=0.0020
+[Ep 735] R=16.0  Steps=1384893  ε=0.0140
+[Train 5340000] loss=0.0019
+[Train 5350000] loss=0.0015
+[Ep 736] R= 7.0  Steps=1387628  ε=0.0138
+[Train 5360000] loss=0.0005
+[Ep 737] R=11.0  Steps=1390097  ε=0.0137
+[Ep 738] R=18.0  Steps=1392097  ε=0.0136
+[Train 5370000] loss=0.0038
+[Ep 739] R=15.0  Steps=1394291  ε=0.0135
+[Train 5380000] loss=0.0014
+[Ep 740] R=19.0  Steps=1396202  ε=0.0135
+--- Evaluation Result (Ep 740, Step 1396202) ---
+Avg Reward over 10 episodes: 16.20 (Duration: 9.23s)
+--------------------------------------------------
+[Train 5390000] loss=0.0012
+[Ep 741] R= 8.0  Steps=1399285  ε=0.0133
+[Train 5400000] loss=0.0014
+[Ep 742] R=15.0  Steps=1401371  ε=0.0132
+[Train 5410000] loss=0.0012
+[Ep 743] R=19.0  Steps=1403395  ε=0.0132
+[Train 5420000] loss=0.0031
+[Ep 744] R=19.0  Steps=1405220  ε=0.0131
+[Train 5430000] loss=0.0013
+[Ep 745] R=15.0  Steps=1407583  ε=0.0130
+[Ep 746] R=16.0  Steps=1409655  ε=0.0129
+[Train 5440000] loss=0.0009
+[Ep 747] R=19.0  Steps=1411438  ε=0.0128
+[Train 5450000] loss=0.0043
+[Ep 748] R=14.0  Steps=1413781  ε=0.0127
+[Train 5460000] loss=0.0055
+[Ep 749] R=17.0  Steps=1415789  ε=0.0126
+[Train 5470000] loss=0.0011
+[Ep 750] R=14.0  Steps=1418050  ε=0.0126
+--- Evaluation Result (Ep 750, Step 1418050) ---
+Avg Reward over 10 episodes: 17.00 (Duration: 8.80s)
+--------------------------------------------------
+[Train 5480000] loss=0.0046
+[Ep 751] R=19.0  Steps=1420060  ε=0.0125
+[Ep 752] R=15.0  Steps=1422266  ε=0.0124
+[Train 5490000] loss=0.0018
+[Ep 753] R=12.0  Steps=1424667  ε=0.0123
+[Train 5500000] loss=0.0025
+[Ep 754] R=19.0  Steps=1426510  ε=0.0122
+[Train 5510000] loss=0.0013
+[Ep 755] R=15.0  Steps=1428661  ε=0.0121
+[Train 5520000] loss=0.0019
+[Ep 756] R=17.0  Steps=1430709  ε=0.0121
+[Train 5530000] loss=0.0018
+[Ep 757] R=15.0  Steps=1432862  ε=0.0120
+[Train 5540000] loss=0.0024
+[Ep 758] R=-4.0  Steps=1436094  ε=0.0118
+[Train 5550000] loss=0.0033
+[Ep 759] R=16.0  Steps=1438370  ε=0.0118
+[Train 5560000] loss=0.0018
+[Ep 760] R=21.0  Steps=1440013  ε=0.0117
+--- Evaluation Result (Ep 760, Step 1440013) ---
+Avg Reward over 10 episodes: 16.40 (Duration: 8.76s)
+--------------------------------------------------
+[Ep 761] R=16.0  Steps=1442368  ε=0.0116
+[Train 5570000] loss=0.0019
+[Ep 762] R=12.0  Steps=1444812  ε=0.0115
+[Train 5580000] loss=0.0024
+[Ep 763] R=18.0  Steps=1446833  ε=0.0114
+[Train 5590000] loss=0.0016
+[Ep 764] R=18.0  Steps=1448803  ε=0.0114
+[Train 5600000] loss=0.0018
+[Ep 765] R=19.0  Steps=1450729  ε=0.0113
+[Train 5610000] loss=0.0052
+[Ep 766] R=14.0  Steps=1452783  ε=0.0112
+[Ep 767] R=21.0  Steps=1454517  ε=0.0112
+[Train 5620000] loss=0.0007
+[Ep 768] R=15.0  Steps=1456862  ε=0.0111
+[Train 5630000] loss=0.0036
+[Ep 769] R=17.0  Steps=1458897  ε=0.0110
+[Train 5640000] loss=0.0038
+[Ep 770] R=17.0  Steps=1461085  ε=0.0109
+--- Evaluation Result (Ep 770, Step 1461085) ---
+Avg Reward over 10 episodes: 15.60 (Duration: 9.62s)
+--------------------------------------------------
+[Train 5650000] loss=0.0017
+[Ep 771] R=10.0  Steps=1463756  ε=0.0108
+[Train 5660000] loss=0.0010
+[Ep 772] R=17.0  Steps=1465749  ε=0.0108
+[Train 5670000] loss=0.0009
+[Ep 773] R=11.0  Steps=1468460  ε=0.0107
+[Train 5680000] loss=0.0015
+[Ep 774] R= 8.0  Steps=1471077  ε=0.0106
+[Train 5690000] loss=0.0044
+[Ep 775] R=16.0  Steps=1473263  ε=0.0105
+[Train 5700000] loss=0.0012
+[Ep 776] R=20.0  Steps=1475232  ε=0.0105
+[Ep 777] R=18.0  Steps=1477134  ε=0.0104
+[Train 5710000] loss=0.0019
+[Ep 778] R=15.0  Steps=1479301  ε=0.0103
+[Train 5720000] loss=0.0017
+[Ep 779] R=14.0  Steps=1481754  ε=0.0102
+[Train 5730000] loss=0.0059
+[Ep 780] R=13.0  Steps=1484098  ε=0.0102
+--- Evaluation Result (Ep 780, Step 1484098) ---
+Avg Reward over 10 episodes: 15.40 (Duration: 9.66s)
+--------------------------------------------------
+[Train 5740000] loss=0.0016
+[Ep 781] R=16.0  Steps=1486199  ε=0.0101
+[Train 5750000] loss=0.0063
+[Ep 782] R=14.0  Steps=1488692  ε=0.0100
+[Train 5760000] loss=0.0019
+[Ep 783] R=15.0  Steps=1490845  ε=0.0100
+[Train 5770000] loss=0.0026
+[Ep 784] R=20.0  Steps=1492616  ε=0.0100
+[Train 5780000] loss=0.0013
+[Ep 785] R=10.0  Steps=1495323  ε=0.0100
+[Train 5790000] loss=0.0011
+[Ep 786] R=15.0  Steps=1497671  ε=0.0100
+[Ep 787] R=16.0  Steps=1499664  ε=0.0100
+[Train 5800000] loss=0.0026
+[Ep 788] R=13.0  Steps=1502063  ε=0.0100
+[Train 5810000] loss=0.0020
+[Ep 789] R=20.0  Steps=1503835  ε=0.0100
+[Train 5820000] loss=0.0012
+[Ep 790] R=17.0  Steps=1505864  ε=0.0100
+--- Evaluation Result (Ep 790, Step 1505864) ---
+Avg Reward over 10 episodes: 15.40 (Duration: 10.49s)
+--------------------------------------------------
+[Train 5830000] loss=0.0020
+[Ep 791] R= 6.0  Steps=1508566  ε=0.0100
+[Train 5840000] loss=0.0014
+[Ep 792] R=17.0  Steps=1510458  ε=0.0100
+[Train 5850000] loss=0.0018
+[Ep 793] R=13.0  Steps=1512961  ε=0.0100
+[Train 5860000] loss=0.0040
+[Ep 794] R=13.0  Steps=1515378  ε=0.0100
+[Ep 795] R=17.0  Steps=1517405  ε=0.0100
+[Train 5870000] loss=0.0021
+[Ep 796] R=13.0  Steps=1519799  ε=0.0100
+[Train 5880000] loss=0.0011
+[Ep 797] R=15.0  Steps=1522041  ε=0.0100
+[Train 5890000] loss=0.0023
+[Ep 798] R=12.0  Steps=1524573  ε=0.0100
+[Train 5900000] loss=0.0015
+[Ep 799] R=17.0  Steps=1526520  ε=0.0100
+[Train 5910000] loss=0.0018
+[Ep 800] R=19.0  Steps=1528414  ε=0.0100
+--- Evaluation Result (Ep 800, Step 1528414) ---
+Avg Reward over 10 episodes: 15.40 (Duration: 9.85s)
+--------------------------------------------------
+[Train 5920000] loss=0.0013
+[Ep 801] R=15.0  Steps=1530630  ε=0.0100
+[Train 5930000] loss=0.0043
+[Ep 802] R=18.0  Steps=1532521  ε=0.0100
+[Ep 803] R=17.0  Steps=1534825  ε=0.0100
+[Train 5940000] loss=0.0017
+[Ep 804] R=21.0  Steps=1536483  ε=0.0100
+[Train 5950000] loss=0.0015
+[Ep 805] R=19.0  Steps=1538506  ε=0.0100
+[Train 5960000] loss=0.0009
+[Ep 806] R=17.0  Steps=1540473  ε=0.0100
+[Ep 807] R=19.0  Steps=1542435  ε=0.0100
+[Train 5970000] loss=0.0018
+[Ep 808] R=18.0  Steps=1544402  ε=0.0100
+[Train 5980000] loss=0.0023
+[Ep 809] R=19.0  Steps=1546311  ε=0.0100
+[Train 5990000] loss=0.0029
+[Ep 810] R=13.0  Steps=1548787  ε=0.0100
+--- Evaluation Result (Ep 810, Step 1548787) ---
+Avg Reward over 10 episodes: 8.40 (Duration: 10.65s)
+--------------------------------------------------
+[Train 6000000] loss=0.0007
+[Ep 811] R= 6.0  Steps=1551643  ε=0.0100
+[Train 6010000] loss=0.0030
+[Ep 812] R=17.0  Steps=1553680  ε=0.0100
+[Train 6020000] loss=0.0015
+[Ep 813] R=18.0  Steps=1555608  ε=0.0100
+[Train 6030000] loss=0.0014
+[Ep 814] R=12.0  Steps=1557871  ε=0.0100
+[Ep 815] R=19.0  Steps=1559646  ε=0.0100
+[Train 6040000] loss=0.0033
+[Ep 816] R=20.0  Steps=1561509  ε=0.0100
+[Train 6050000] loss=0.0010
+[Ep 817] R= 8.0  Steps=1564422  ε=0.0100
+[Train 6060000] loss=0.0022
+[Ep 818] R=12.0  Steps=1566874  ε=0.0100
+[Train 6070000] loss=0.0005
+[Ep 819] R=16.0  Steps=1569047  ε=0.0100
+[Train 6080000] loss=0.0023
+[Ep 820] R=-2.0  Steps=1572102  ε=0.0100
+--- Evaluation Result (Ep 820, Step 1572102) ---
+Avg Reward over 10 episodes: 16.80 (Duration: 9.43s)
+--------------------------------------------------
+[Train 6090000] loss=0.0007
+[Ep 821] R=18.0  Steps=1574108  ε=0.0100
+[Train 6100000] loss=0.0012
+[Ep 822] R=18.0  Steps=1576177  ε=0.0100
+[Train 6110000] loss=0.0011
+[Ep 823] R=15.0  Steps=1578381  ε=0.0100
+[Train 6120000] loss=0.0013
+[Ep 824] R=13.0  Steps=1580522  ε=0.0100
+[Train 6130000] loss=0.0011
+[Ep 825] R=15.0  Steps=1582696  ε=0.0100
+[Ep 826] R=18.0  Steps=1584625  ε=0.0100
+[Train 6140000] loss=0.0013
+[Ep 827] R=10.0  Steps=1587199  ε=0.0100
+[Train 6150000] loss=0.0008
+[Ep 828] R=13.0  Steps=1589538  ε=0.0100
+[Train 6160000] loss=0.0035
+[Ep 829] R= 8.0  Steps=1592165  ε=0.0100
+[Train 6170000] loss=0.0022
+[Ep 830] R=19.0  Steps=1594035  ε=0.0100
+--- Evaluation Result (Ep 830, Step 1594035) ---
+Avg Reward over 10 episodes: 13.60 (Duration: 9.74s)
+--------------------------------------------------
+[Train 6180000] loss=0.0017
+[Ep 831] R=16.0  Steps=1596112  ε=0.0100
+[Train 6190000] loss=0.0021
+[Ep 832] R=15.0  Steps=1598430  ε=0.0100
+[Train 6200000] loss=0.0012
+[Ep 833] R=14.0  Steps=1600737  ε=0.0100
+[Train 6210000] loss=0.0030
+[Ep 834] R=19.0  Steps=1602626  ε=0.0100
+[Ep 835] R=17.0  Steps=1604583  ε=0.0100
+[Train 6220000] loss=0.0026
+[Ep 836] R=20.0  Steps=1606431  ε=0.0100
+[Train 6230000] loss=0.0023
+[Ep 837] R=18.0  Steps=1608416  ε=0.0100
+[Train 6240000] loss=0.0035
+[Ep 838] R=17.0  Steps=1610395  ε=0.0100
+[Ep 839] R=16.0  Steps=1612399  ε=0.0100
+[Train 6250000] loss=0.0012
+[Ep 840] R=17.0  Steps=1614441  ε=0.0100
+--- Evaluation Result (Ep 840, Step 1614441) ---
+Avg Reward over 10 episodes: 17.00 (Duration: 9.00s)
+--------------------------------------------------
+[Train 6260000] loss=0.0038
+[Ep 841] R=15.0  Steps=1616619  ε=0.0100
+[Train 6270000] loss=0.0008
+[Ep 842] R=21.0  Steps=1618279  ε=0.0100
+[Train 6280000] loss=0.0007
+[Ep 843] R=17.0  Steps=1620183  ε=0.0100
+[Ep 844] R=18.0  Steps=1622142  ε=0.0100
+[Train 6290000] loss=0.0011
+[Ep 845] R=18.0  Steps=1624097  ε=0.0100
+[Train 6300000] loss=0.0023
+[Ep 846] R=18.0  Steps=1626240  ε=0.0100
+[Train 6310000] loss=0.0016
+[Ep 847] R=17.0  Steps=1628141  ε=0.0100
+[Train 6320000] loss=0.0010
+[Ep 848] R=17.0  Steps=1630375  ε=0.0100
+[Ep 849] R=19.0  Steps=1632273  ε=0.0100
+[Train 6330000] loss=0.0013
+[Ep 850] R=21.0  Steps=1633952  ε=0.0100
+--- Evaluation Result (Ep 850, Step 1633952) ---
+Avg Reward over 10 episodes: 17.80 (Duration: 8.56s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 6340000] loss=0.0013
+[Ep 851] R=20.0  Steps=1635861  ε=0.0100
+[Train 6350000] loss=0.0008
+[Ep 852] R=12.0  Steps=1638339  ε=0.0100
+[Train 6360000] loss=0.0036
+[Ep 853] R=19.0  Steps=1640178  ε=0.0100
+[Train 6370000] loss=0.0006
+[Ep 854] R=11.0  Steps=1642674  ε=0.0100
+[Ep 855] R=17.0  Steps=1644794  ε=0.0100
+[Train 6380000] loss=0.0012
+[Ep 856] R=11.0  Steps=1647142  ε=0.0100
+[Train 6390000] loss=0.0007
+[Ep 857] R=19.0  Steps=1649053  ε=0.0100
+[Train 6400000] loss=0.0017
+[Ep 858] R=19.0  Steps=1650934  ε=0.0100
+[Train 6410000] loss=0.0028
+[Ep 859] R=18.0  Steps=1652967  ε=0.0100
+[Ep 860] R=20.0  Steps=1654655  ε=0.0100
+--- Evaluation Result (Ep 860, Step 1654655) ---
+Avg Reward over 10 episodes: 17.00 (Duration: 8.47s)
+--------------------------------------------------
+[Train 6420000] loss=0.0024
+[Ep 861] R=15.0  Steps=1656847  ε=0.0100
+[Train 6430000] loss=0.0014
+[Ep 862] R=14.0  Steps=1659058  ε=0.0100
+[Train 6440000] loss=0.0006
+[Ep 863] R=19.0  Steps=1660916  ε=0.0100
+[Train 6450000] loss=0.0035
+[Ep 864] R=17.0  Steps=1662995  ε=0.0100
+[Train 6460000] loss=0.0010
+[Ep 865] R=14.0  Steps=1665382  ε=0.0100
+[Ep 866] R=18.0  Steps=1667159  ε=0.0100
+[Train 6470000] loss=0.0011
+[Ep 867] R=18.0  Steps=1669061  ε=0.0100
+[Train 6480000] loss=0.0019
+[Ep 868] R= 7.0  Steps=1672421  ε=0.0100
+[Train 6490000] loss=0.0008
+[Ep 869] R=16.0  Steps=1674587  ε=0.0100
+[Train 6500000] loss=0.0014
+[Ep 870] R=19.0  Steps=1676460  ε=0.0100
+--- Evaluation Result (Ep 870, Step 1676460) ---
+Avg Reward over 10 episodes: 19.00 (Duration: 7.98s)
+--------------------------------------------------
+*** New best model saved: ./results_pong\LAB5_B11017015_task2_pong.pt ***
+[Train 6510000] loss=0.0030
+[Ep 871] R=19.0  Steps=1678279  ε=0.0100
+[Train 6520000] loss=0.0025
+[Ep 872] R=14.0  Steps=1680451  ε=0.0100
+[Train 6530000] loss=0.0024
+[Ep 873] R=14.0  Steps=1682803  ε=0.0100
+[Train 6540000] loss=0.0013
+[Ep 874] R=13.0  Steps=1685083  ε=0.0100
+[Ep 875] R=14.0  Steps=1687396  ε=0.0100
+[Train 6550000] loss=0.0016
+[Ep 876] R=16.0  Steps=1689529  ε=0.0100
+[Train 6560000] loss=0.0006
+[Ep 877] R=19.0  Steps=1691383  ε=0.0100
+[Train 6570000] loss=0.0013
+[Ep 878] R=20.0  Steps=1693076  ε=0.0100
+[Train 6580000] loss=0.0182
+[Ep 879] R=17.0  Steps=1695118  ε=0.0100
+[Ep 880] R=20.0  Steps=1696872  ε=0.0100
+--- Evaluation Result (Ep 880, Step 1696872) ---
+Avg Reward over 10 episodes: 16.60 (Duration: 8.91s)
+--------------------------------------------------
+[Train 6590000] loss=0.0009
+[Ep 881] R=19.0  Steps=1698777  ε=0.0100
+[Train 6600000] loss=0.0011
+[Ep 882] R=16.0  Steps=1700988  ε=0.0100
+[Train 6610000] loss=0.0013
+[Ep 883] R=14.0  Steps=1703286  ε=0.0100
+[Train 6620000] loss=0.0011
+[Ep 884] R=18.0  Steps=1705407  ε=0.0100
+[Ep 885] R=20.0  Steps=1707238  ε=0.0100
+[Train 6630000] loss=0.0026
+[Ep 886] R=17.0  Steps=1709479  ε=0.0100
+[Train 6640000] loss=0.0012
+[Ep 887] R=12.0  Steps=1711906  ε=0.0100
+[Train 6650000] loss=0.0018
+[Ep 888] R=12.0  Steps=1714288  ε=0.0100
+[Train 6660000] loss=0.0011
+[Ep 889] R=20.0  Steps=1716026  ε=0.0100
+[Train 6670000] loss=0.0007
+[Ep 890] R=18.0  Steps=1717871  ε=0.0100
+--- Evaluation Result (Ep 890, Step 1717871) ---
+Avg Reward over 10 episodes: 12.00 (Duration: 10.71s)
+--------------------------------------------------
+[Ep 891] R=18.0  Steps=1719813  ε=0.0100
+[Train 6680000] loss=0.0010
+[Ep 892] R=19.0  Steps=1721697  ε=0.0100
+[Train 6690000] loss=0.0020
+[Ep 893] R=18.0  Steps=1723839  ε=0.0100
+[Train 6700000] loss=0.0018
+[Ep 894] R=19.0  Steps=1725695  ε=0.0100
+[Train 6710000] loss=0.0065
+[Ep 895] R=16.0  Steps=1727595  ε=0.0100
+[Train 6720000] loss=0.0011
+[Ep 896] R= 8.0  Steps=1730436  ε=0.0100
+[Ep 897] R=20.0  Steps=1732250  ε=0.0100
+[Train 6730000] loss=0.0022
+[Ep 898] R=19.0  Steps=1734119  ε=0.0100
+[Train 6740000] loss=0.0008
+[Ep 899] R=14.0  Steps=1736788  ε=0.0100
+[Train 6750000] loss=0.0014
+[Ep 900] R=19.0  Steps=1738689  ε=0.0100
+--- Evaluation Result (Ep 900, Step 1738689) ---
+Avg Reward over 10 episodes: 18.40 (Duration: 8.15s)
+--------------------------------------------------
+[Train 6760000] loss=0.0005
+[Ep 901] R=15.0  Steps=1740939  ε=0.0100
+[Train 6770000] loss=0.0032
+[Ep 902] R=14.0  Steps=1743238  ε=0.0100
+[Train 6780000] loss=0.0012
+[Ep 903] R=19.0  Steps=1745156  ε=0.0100
+[Ep 904] R=12.0  Steps=1747430  ε=0.0100
+[Train 6790000] loss=0.0053
+[Ep 905] R=16.0  Steps=1749455  ε=0.0100
+[Train 6800000] loss=0.0007
+[Ep 906] R=18.0  Steps=1751561  ε=0.0100
+[Train 6810000] loss=0.0004
+[Ep 907] R=14.0  Steps=1753952  ε=0.0100
+[Train 6820000] loss=0.0010
+[Ep 908] R=20.0  Steps=1755845  ε=0.0100
+[Train 6830000] loss=0.0008
+[Ep 909] R=16.0  Steps=1758081  ε=0.0100
+[Ep 910] R=18.0  Steps=1759924  ε=0.0100
+--- Evaluation Result (Ep 910, Step 1759924) ---
+Avg Reward over 10 episodes: 15.80 (Duration: 8.75s)
+--------------------------------------------------
+[Train 6840000] loss=0.0227
+[Ep 911] R=18.0  Steps=1761771  ε=0.0100
+[Train 6850000] loss=0.0020
+[Ep 912] R=16.0  Steps=1763858  ε=0.0100
+[Train 6860000] loss=0.0011
+[Ep 913] R=21.0  Steps=1765566  ε=0.0100
+[Ep 914] R=19.0  Steps=1767410  ε=0.0100
+[Train 6870000] loss=0.0022
+[Ep 915] R=19.0  Steps=1769279  ε=0.0100
+[Train 6880000] loss=0.0009
+[Ep 916] R=19.0  Steps=1771135  ε=0.0100
+[Train 6890000] loss=0.0036
+[Ep 917] R=20.0  Steps=1772937  ε=0.0100
+[Train 6900000] loss=0.0020
+[Ep 918] R=14.0  Steps=1775268  ε=0.0100
+[Ep 919] R=16.0  Steps=1777465  ε=0.0100
+[Train 6910000] loss=0.0006
+[Train 6920000] loss=0.0013
+[Ep 920] R=-2.0  Steps=1780300  ε=0.0100
+--- Evaluation Result (Ep 920, Step 1780300) ---
+Avg Reward over 10 episodes: 18.40 (Duration: 8.56s)
+--------------------------------------------------
+[Ep 921] R=15.0  Steps=1782484  ε=0.0100
+[Train 6930000] loss=0.0035
+[Ep 922] R=19.0  Steps=1784262  ε=0.0100
+[Train 6940000] loss=0.0014
+[Ep 923] R=10.0  Steps=1786913  ε=0.0100
+[Train 6950000] loss=0.0011
+[Ep 924] R=15.0  Steps=1789171  ε=0.0100
+[Train 6960000] loss=0.0012
+[Ep 925] R=17.0  Steps=1791238  ε=0.0100
+[Train 6970000] loss=0.0013
+[Ep 926] R=21.0  Steps=1792881  ε=0.0100
+[Ep 927] R=18.0  Steps=1794958  ε=0.0100
+[Train 6980000] loss=0.0013
+[Ep 928] R=12.0  Steps=1797167  ε=0.0100
+[Train 6990000] loss=0.0009
+[Ep 929] R=13.0  Steps=1799544  ε=0.0100
+[Train 7000000] loss=0.0011
+[Ep 930] R=20.0  Steps=1801357  ε=0.0100
+--- Evaluation Result (Ep 930, Step 1801357) ---
+Avg Reward over 10 episodes: 18.00 (Duration: 8.29s)
+--------------------------------------------------
+[Train 7010000] loss=0.0015
+[Ep 931] R=20.0  Steps=1803113  ε=0.0100
+[Train 7020000] loss=0.0032
+[Ep 932] R=14.0  Steps=1805317  ε=0.0100
+[Ep 933] R=18.0  Steps=1807195  ε=0.0100
+[Train 7030000] loss=0.0020
+[Ep 934] R=16.0  Steps=1809285  ε=0.0100
+[Train 7040000] loss=0.0011
+[Ep 935] R=18.0  Steps=1811290  ε=0.0100
+[Train 7050000] loss=0.0012
+[Ep 936] R=18.0  Steps=1813301  ε=0.0100
+[Train 7060000] loss=0.0029
+[Ep 937] R=16.0  Steps=1815581  ε=0.0100
+[Ep 938] R=18.0  Steps=1817464  ε=0.0100
+[Train 7070000] loss=0.0009
+[Ep 939] R=13.0  Steps=1819830  ε=0.0100
+[Train 7080000] loss=0.0021
+[Ep 940] R=15.0  Steps=1822340  ε=0.0100
+--- Evaluation Result (Ep 940, Step 1822340) ---
+Avg Reward over 10 episodes: 17.60 (Duration: 8.38s)
+--------------------------------------------------
+[Train 7090000] loss=0.0022
+[Ep 941] R=20.0  Steps=1824186  ε=0.0100
+[Train 7100000] loss=0.0014
+[Ep 942] R=14.0  Steps=1826441  ε=0.0100
+[Train 7110000] loss=0.0018
+[Ep 943] R=18.0  Steps=1828410  ε=0.0100
+[Train 7120000] loss=0.0012
+[Ep 944] R= 8.0  Steps=1831195  ε=0.0100
+[Train 7130000] loss=0.0017
+[Ep 945] R=19.0  Steps=1833031  ε=0.0100
+[Train 7140000] loss=0.0025
+[Ep 946] R=14.0  Steps=1835592  ε=0.0100
+[Train 7150000] loss=0.0010
+[Ep 947] R=18.0  Steps=1837535  ε=0.0100
+[Ep 948] R=20.0  Steps=1839616  ε=0.0100
+[Train 7160000] loss=0.0015
+[Ep 949] R=18.0  Steps=1841455  ε=0.0100
+[Train 7170000] loss=0.0010
+[Ep 950] R=16.0  Steps=1843717  ε=0.0100
+--- Evaluation Result (Ep 950, Step 1843717) ---
+Avg Reward over 10 episodes: 17.80 (Duration: 8.69s)
+--------------------------------------------------
+[Train 7180000] loss=0.0006
+[Ep 951] R=17.0  Steps=1845799  ε=0.0100
+[Train 7190000] loss=0.0031
+[Ep 952] R=10.0  Steps=1848823  ε=0.0100
+[Train 7200000] loss=0.0014
+[Ep 953] R=19.0  Steps=1850766  ε=0.0100
+[Train 7210000] loss=0.0068
+[Ep 954] R=16.0  Steps=1852921  ε=0.0100
+[Train 7220000] loss=0.0015
+[Ep 955] R=11.0  Steps=1855587  ε=0.0100
+[Ep 956] R=21.0  Steps=1857285  ε=0.0100
+[Train 7230000] loss=0.0010
+[Ep 957] R=10.0  Steps=1859983  ε=0.0100
+[Train 7240000] loss=0.0005
+[Train 7250000] loss=0.0158
+[Ep 958] R=11.0  Steps=1862587  ε=0.0100
+[Ep 959] R=18.0  Steps=1864435  ε=0.0100
+[Train 7260000] loss=0.0012
+[Ep 960] R=21.0  Steps=1866216  ε=0.0100
+--- Evaluation Result (Ep 960, Step 1866216) ---
+Avg Reward over 10 episodes: 15.00 (Duration: 9.57s)
+--------------------------------------------------
+[Train 7270000] loss=0.0013
+[Ep 961] R=17.0  Steps=1868198  ε=0.0100
+[Train 7280000] loss=0.0011
+[Ep 962] R=15.0  Steps=1870344  ε=0.0100
+[Train 7290000] loss=0.0012
+[Ep 963] R=15.0  Steps=1872677  ε=0.0100
+[Ep 964] R=16.0  Steps=1874733  ε=0.0100
+[Train 7300000] loss=0.0023
+[Ep 965] R=12.0  Steps=1877184  ε=0.0100
+[Train 7310000] loss=0.0013
+[Ep 966] R=17.0  Steps=1879172  ε=0.0100
+[Train 7320000] loss=0.0017
+[Ep 967] R= 8.0  Steps=1881929  ε=0.0100
+[Train 7330000] loss=0.0081
+[Ep 968] R=15.0  Steps=1884132  ε=0.0100
+[Train 7340000] loss=0.0034
+[Ep 969] R=18.0  Steps=1886335  ε=0.0100
+[Train 7350000] loss=0.0006
+[Ep 970] R=14.0  Steps=1888606  ε=0.0100
+--- Evaluation Result (Ep 970, Step 1888606) ---
+Avg Reward over 10 episodes: 18.00 (Duration: 8.59s)
+--------------------------------------------------
+[Train 7360000] loss=0.0008
+[Ep 971] R=20.0  Steps=1890508  ε=0.0100
+[Train 7370000] loss=0.0007
+[Ep 972] R=16.0  Steps=1892680  ε=0.0100
+[Ep 973] R=19.0  Steps=1894509  ε=0.0100
+[Train 7380000] loss=0.0009
+[Ep 974] R=14.0  Steps=1896718  ε=0.0100
+[Train 7390000] loss=0.0068
+[Ep 975] R=19.0  Steps=1898691  ε=0.0100
+[Train 7400000] loss=0.0004
+[Ep 976] R=13.0  Steps=1900995  ε=0.0100
+[Train 7410000] loss=0.0084
+[Ep 977] R=17.0  Steps=1903030  ε=0.0100
+[Ep 978] R=19.0  Steps=1904866  ε=0.0100
+[Train 7420000] loss=0.0011
+[Ep 979] R=15.0  Steps=1907125  ε=0.0100
+[Train 7430000] loss=0.0031
+[Ep 980] R=18.0  Steps=1909146  ε=0.0100
+--- Evaluation Result (Ep 980, Step 1909146) ---
+Avg Reward over 10 episodes: 16.80 (Duration: 8.74s)
+--------------------------------------------------
+[Train 7440000] loss=0.0013
+[Ep 981] R=-7.0  Steps=1911959  ε=0.0100
+[Train 7450000] loss=0.0020
+[Train 7460000] loss=0.0019
+[Ep 982] R= 1.0  Steps=1915628  ε=0.0100
+[Train 7470000] loss=0.0018
+[Ep 983] R=19.0  Steps=1917506  ε=0.0100
+[Ep 984] R=16.0  Steps=1919595  ε=0.0100
+[Train 7480000] loss=0.0032
+[Ep 985] R=19.0  Steps=1921416  ε=0.0100
+[Train 7490000] loss=0.0028
+[Ep 986] R=11.0  Steps=1923984  ε=0.0100
+[Train 7500000] loss=0.0026
+[Ep 987] R=19.0  Steps=1925885  ε=0.0100
+[Train 7510000] loss=0.0018
+[Ep 988] R=18.0  Steps=1927809  ε=0.0100
+[Ep 989] R=18.0  Steps=1929912  ε=0.0100
+[Train 7520000] loss=0.0016
+[Ep 990] R=20.0  Steps=1931702  ε=0.0100
+--- Evaluation Result (Ep 990, Step 1931702) ---
+Avg Reward over 10 episodes: 17.20 (Duration: 8.46s)
+--------------------------------------------------
+[Train 7530000] loss=0.0015
+[Ep 991] R=20.0  Steps=1933412  ε=0.0100
+[Train 7540000] loss=0.0021
+[Ep 992] R=18.0  Steps=1935478  ε=0.0100
+[Ep 993] R=20.0  Steps=1937259  ε=0.0100
+[Train 7550000] loss=0.0013
+[Train 7560000] loss=0.0027
+[Ep 994] R= 9.0  Steps=1940045  ε=0.0100
+[Ep 995] R=18.0  Steps=1941952  ε=0.0100
+[Train 7570000] loss=0.0008
+[Ep 996] R=15.0  Steps=1944093  ε=0.0100
+[Train 7580000] loss=0.0016
+[Ep 997] R=16.0  Steps=1946302  ε=0.0100
+[Train 7590000] loss=0.0017
+[Ep 998] R=20.0  Steps=1948075  ε=0.0100
+[Train 7600000] loss=0.0012
+[Ep 999] R=19.0  Steps=1950178  ε=0.0100

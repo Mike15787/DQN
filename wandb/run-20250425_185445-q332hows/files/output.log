@@ -1,0 +1,165 @@
+Using device: cuda
+[Eval] Ep: 0 Total Reward: 15.0 SC: 15 UC: 0 Eps: 1.0000
+Saved model checkpoint to ./results\model_ep0.pt
+Saved new best model to ./results\best_model.pt with reward 10.0
+[TrueEval] Ep: 0 Eval Reward: 10.00 SC: 15 UC: 0
+[Eval] Ep: 1 Total Reward: 25.0 SC: 40 UC: 0 Eps: 1.0000
+[Eval] Ep: 2 Total Reward: 16.0 SC: 56 UC: 0 Eps: 1.0000
+[Eval] Ep: 3 Total Reward: 11.0 SC: 67 UC: 0 Eps: 1.0000
+[Eval] Ep: 4 Total Reward: 14.0 SC: 81 UC: 0 Eps: 1.0000
+[Eval] Ep: 5 Total Reward: 18.0 SC: 99 UC: 0 Eps: 1.0000
+[Eval] Ep: 6 Total Reward: 26.0 SC: 125 UC: 0 Eps: 1.0000
+[Eval] Ep: 7 Total Reward: 12.0 SC: 137 UC: 0 Eps: 1.0000
+[Eval] Ep: 8 Total Reward: 15.0 SC: 152 UC: 0 Eps: 1.0000
+[Eval] Ep: 9 Total Reward: 16.0 SC: 168 UC: 0 Eps: 1.0000
+[Eval] Ep: 10 Total Reward: 34.0 SC: 202 UC: 0 Eps: 1.0000
+[Eval] Ep: 11 Total Reward: 61.0 SC: 263 UC: 0 Eps: 1.0000
+[Eval] Ep: 12 Total Reward: 42.0 SC: 305 UC: 0 Eps: 1.0000
+[Eval] Ep: 13 Total Reward: 13.0 SC: 318 UC: 0 Eps: 1.0000
+[Eval] Ep: 14 Total Reward: 16.0 SC: 334 UC: 0 Eps: 1.0000
+[Eval] Ep: 15 Total Reward: 40.0 SC: 374 UC: 0 Eps: 1.0000
+[Eval] Ep: 16 Total Reward: 22.0 SC: 396 UC: 0 Eps: 1.0000
+[Eval] Ep: 17 Total Reward: 19.0 SC: 415 UC: 0 Eps: 1.0000
+[Eval] Ep: 18 Total Reward: 21.0 SC: 436 UC: 0 Eps: 1.0000
+[Eval] Ep: 19 Total Reward: 15.0 SC: 451 UC: 0 Eps: 1.0000
+[Eval] Ep: 20 Total Reward: 62.0 SC: 513 UC: 0 Eps: 1.0000
+[TrueEval] Ep: 20 Eval Reward: 10.00 SC: 513 UC: 0
+[Eval] Ep: 21 Total Reward: 27.0 SC: 540 UC: 0 Eps: 1.0000
+[Eval] Ep: 22 Total Reward: 14.0 SC: 554 UC: 0 Eps: 1.0000
+[Eval] Ep: 23 Total Reward: 15.0 SC: 569 UC: 0 Eps: 1.0000
+[Eval] Ep: 24 Total Reward: 13.0 SC: 582 UC: 0 Eps: 1.0000
+[Eval] Ep: 25 Total Reward: 71.0 SC: 653 UC: 0 Eps: 1.0000
+[Eval] Ep: 26 Total Reward: 13.0 SC: 666 UC: 0 Eps: 1.0000
+[Eval] Ep: 27 Total Reward: 33.0 SC: 699 UC: 0 Eps: 1.0000
+[Eval] Ep: 28 Total Reward: 21.0 SC: 720 UC: 0 Eps: 1.0000
+[Eval] Ep: 29 Total Reward: 12.0 SC: 732 UC: 0 Eps: 1.0000
+[Eval] Ep: 30 Total Reward: 14.0 SC: 746 UC: 0 Eps: 1.0000
+[Eval] Ep: 31 Total Reward: 17.0 SC: 763 UC: 0 Eps: 1.0000
+[Eval] Ep: 32 Total Reward: 19.0 SC: 782 UC: 0 Eps: 1.0000
+[Eval] Ep: 33 Total Reward: 16.0 SC: 798 UC: 0 Eps: 1.0000
+[Eval] Ep: 34 Total Reward: 19.0 SC: 817 UC: 0 Eps: 1.0000
+[Eval] Ep: 35 Total Reward: 12.0 SC: 829 UC: 0 Eps: 1.0000
+[Eval] Ep: 36 Total Reward: 54.0 SC: 883 UC: 0 Eps: 1.0000
+[Eval] Ep: 37 Total Reward: 9.0 SC: 892 UC: 0 Eps: 1.0000
+[Eval] Ep: 38 Total Reward: 14.0 SC: 906 UC: 0 Eps: 1.0000
+[Eval] Ep: 39 Total Reward: 14.0 SC: 920 UC: 0 Eps: 1.0000
+[Eval] Ep: 40 Total Reward: 20.0 SC: 940 UC: 0 Eps: 1.0000
+[TrueEval] Ep: 40 Eval Reward: 10.00 SC: 940 UC: 0
+[Eval] Ep: 41 Total Reward: 17.0 SC: 957 UC: 0 Eps: 1.0000
+[Eval] Ep: 42 Total Reward: 17.0 SC: 974 UC: 0 Eps: 1.0000
+[Collect] Ep: 43 Step: 26 SC: 1000 UC: 1 Eps: 0.9950
+[Eval] Ep: 43 Total Reward: 30.0 SC: 1004 UC: 5 Eps: 0.9752
+[Eval] Ep: 44 Total Reward: 16.0 SC: 1020 UC: 21 Eps: 0.9001
+[Eval] Ep: 45 Total Reward: 17.0 SC: 1037 UC: 38 Eps: 0.8266
+[Eval] Ep: 46 Total Reward: 25.0 SC: 1062 UC: 63 Eps: 0.7292
+[Eval] Ep: 47 Total Reward: 39.0 SC: 1101 UC: 102 Eps: 0.5997
+[Eval] Ep: 48 Total Reward: 26.0 SC: 1127 UC: 128 Eps: 0.5264
+[Eval] Ep: 49 Total Reward: 11.0 SC: 1138 UC: 139 Eps: 0.4982
+[Eval] Ep: 50 Total Reward: 9.0 SC: 1147 UC: 148 Eps: 0.4762
+[Eval] Ep: 51 Total Reward: 13.0 SC: 1160 UC: 161 Eps: 0.4462
+[Eval] Ep: 52 Total Reward: 12.0 SC: 1172 UC: 173 Eps: 0.4201
+[Eval] Ep: 53 Total Reward: 9.0 SC: 1181 UC: 182 Eps: 0.4016
+[Eval] Ep: 54 Total Reward: 8.0 SC: 1189 UC: 190 Eps: 0.3858
+[Eval] Ep: 55 Total Reward: 15.0 SC: 1204 UC: 205 Eps: 0.3579
+[Eval] Ep: 56 Total Reward: 8.0 SC: 1212 UC: 213 Eps: 0.3438
+[Eval] Ep: 57 Total Reward: 16.0 SC: 1228 UC: 229 Eps: 0.3173
+[Eval] Ep: 58 Total Reward: 9.0 SC: 1237 UC: 238 Eps: 0.3033
+[Eval] Ep: 59 Total Reward: 12.0 SC: 1249 UC: 250 Eps: 0.2856
+[Eval] Ep: 60 Total Reward: 7.0 SC: 1256 UC: 257 Eps: 0.2758
+[TrueEval] Ep: 60 Eval Reward: 8.00 SC: 1256 UC: 257
+[Eval] Ep: 61 Total Reward: 7.0 SC: 1263 UC: 264 Eps: 0.2663
+[Eval] Ep: 62 Total Reward: 8.0 SC: 1271 UC: 272 Eps: 0.2558
+[Eval] Ep: 63 Total Reward: 11.0 SC: 1282 UC: 283 Eps: 0.2421
+[Eval] Ep: 64 Total Reward: 9.0 SC: 1291 UC: 292 Eps: 0.2314
+[Eval] Ep: 65 Total Reward: 10.0 SC: 1301 UC: 302 Eps: 0.2201
+[Eval] Ep: 66 Total Reward: 9.0 SC: 1310 UC: 311 Eps: 0.2104
+[Eval] Ep: 67 Total Reward: 8.0 SC: 1318 UC: 319 Eps: 0.2021
+[Eval] Ep: 68 Total Reward: 8.0 SC: 1326 UC: 327 Eps: 0.1942
+[Eval] Ep: 69 Total Reward: 12.0 SC: 1338 UC: 339 Eps: 0.1828
+[Eval] Ep: 70 Total Reward: 11.0 SC: 1349 UC: 350 Eps: 0.1730
+[Eval] Ep: 71 Total Reward: 9.0 SC: 1358 UC: 359 Eps: 0.1654
+[Eval] Ep: 72 Total Reward: 10.0 SC: 1368 UC: 369 Eps: 0.1573
+[Eval] Ep: 73 Total Reward: 16.0 SC: 1384 UC: 385 Eps: 0.1452
+[Eval] Ep: 74 Total Reward: 9.0 SC: 1393 UC: 394 Eps: 0.1388
+[Eval] Ep: 75 Total Reward: 9.0 SC: 1402 UC: 403 Eps: 0.1326
+[Eval] Ep: 76 Total Reward: 9.0 SC: 1411 UC: 412 Eps: 0.1268
+[Eval] Ep: 77 Total Reward: 9.0 SC: 1420 UC: 421 Eps: 0.1212
+[Eval] Ep: 78 Total Reward: 10.0 SC: 1430 UC: 431 Eps: 0.1153
+[Eval] Ep: 79 Total Reward: 10.0 SC: 1440 UC: 441 Eps: 0.1096
+[Eval] Ep: 80 Total Reward: 10.0 SC: 1450 UC: 451 Eps: 0.1043
+[TrueEval] Ep: 80 Eval Reward: 9.00 SC: 1450 UC: 451
+[Eval] Ep: 81 Total Reward: 8.0 SC: 1458 UC: 459 Eps: 0.1002
+[Eval] Ep: 82 Total Reward: 8.0 SC: 1466 UC: 467 Eps: 0.0962
+[Eval] Ep: 83 Total Reward: 9.0 SC: 1475 UC: 476 Eps: 0.0920
+[Eval] Ep: 84 Total Reward: 8.0 SC: 1483 UC: 484 Eps: 0.0884
+[Eval] Ep: 85 Total Reward: 9.0 SC: 1492 UC: 493 Eps: 0.0845
+[Eval] Ep: 86 Total Reward: 8.0 SC: 1500 UC: 501 Eps: 0.0812
+[Eval] Ep: 87 Total Reward: 9.0 SC: 1509 UC: 510 Eps: 0.0776
+[Eval] Ep: 88 Total Reward: 9.0 SC: 1518 UC: 519 Eps: 0.0742
+[Eval] Ep: 89 Total Reward: 11.0 SC: 1529 UC: 530 Eps: 0.0702
+[Eval] Ep: 90 Total Reward: 9.0 SC: 1538 UC: 539 Eps: 0.0671
+[Eval] Ep: 91 Total Reward: 9.0 SC: 1547 UC: 548 Eps: 0.0641
+[Eval] Ep: 92 Total Reward: 8.0 SC: 1555 UC: 556 Eps: 0.0616
+[Eval] Ep: 93 Total Reward: 8.0 SC: 1563 UC: 564 Eps: 0.0592
+[Eval] Ep: 94 Total Reward: 8.0 SC: 1571 UC: 572 Eps: 0.0569
+[Eval] Ep: 95 Total Reward: 7.0 SC: 1578 UC: 579 Eps: 0.0549
+[Eval] Ep: 96 Total Reward: 8.0 SC: 1586 UC: 587 Eps: 0.0527
+[Eval] Ep: 97 Total Reward: 9.0 SC: 1595 UC: 596 Eps: 0.0504
+[Eval] Ep: 98 Total Reward: 9.0 SC: 1604 UC: 605 Eps: 0.0499
+[Eval] Ep: 99 Total Reward: 7.0 SC: 1611 UC: 612 Eps: 0.0499
+[Eval] Ep: 100 Total Reward: 8.0 SC: 1619 UC: 620 Eps: 0.0499
+Saved model checkpoint to ./results\model_ep100.pt
+[TrueEval] Ep: 100 Eval Reward: 10.00 SC: 1619 UC: 620
+[Eval] Ep: 101 Total Reward: 7.0 SC: 1626 UC: 627 Eps: 0.0499
+[Eval] Ep: 102 Total Reward: 8.0 SC: 1634 UC: 635 Eps: 0.0499
+[Eval] Ep: 103 Total Reward: 8.0 SC: 1642 UC: 643 Eps: 0.0499
+[Eval] Ep: 104 Total Reward: 9.0 SC: 1651 UC: 652 Eps: 0.0499
+[Eval] Ep: 105 Total Reward: 10.0 SC: 1661 UC: 662 Eps: 0.0499
+[Eval] Ep: 106 Total Reward: 7.0 SC: 1668 UC: 669 Eps: 0.0499
+[Eval] Ep: 107 Total Reward: 10.0 SC: 1678 UC: 679 Eps: 0.0499
+[Eval] Ep: 108 Total Reward: 9.0 SC: 1687 UC: 688 Eps: 0.0499
+[Eval] Ep: 109 Total Reward: 8.0 SC: 1695 UC: 696 Eps: 0.0499
+[Eval] Ep: 110 Total Reward: 9.0 SC: 1704 UC: 705 Eps: 0.0499
+[Eval] Ep: 111 Total Reward: 8.0 SC: 1712 UC: 713 Eps: 0.0499
+[Eval] Ep: 112 Total Reward: 10.0 SC: 1722 UC: 723 Eps: 0.0499
+[Eval] Ep: 113 Total Reward: 7.0 SC: 1729 UC: 730 Eps: 0.0499
+[Eval] Ep: 114 Total Reward: 9.0 SC: 1738 UC: 739 Eps: 0.0499
+[Eval] Ep: 115 Total Reward: 7.0 SC: 1745 UC: 746 Eps: 0.0499
+[Eval] Ep: 116 Total Reward: 9.0 SC: 1754 UC: 755 Eps: 0.0499
+[Eval] Ep: 117 Total Reward: 11.0 SC: 1765 UC: 766 Eps: 0.0499
+[Eval] Ep: 118 Total Reward: 11.0 SC: 1776 UC: 777 Eps: 0.0499
+[Eval] Ep: 119 Total Reward: 9.0 SC: 1785 UC: 786 Eps: 0.0499
+[Eval] Ep: 120 Total Reward: 10.0 SC: 1795 UC: 796 Eps: 0.0499
+[TrueEval] Ep: 120 Eval Reward: 9.00 SC: 1795 UC: 796
+[Eval] Ep: 121 Total Reward: 8.0 SC: 1803 UC: 804 Eps: 0.0499
+[Eval] Ep: 122 Total Reward: 9.0 SC: 1812 UC: 813 Eps: 0.0499
+[Eval] Ep: 123 Total Reward: 8.0 SC: 1820 UC: 821 Eps: 0.0499
+[Eval] Ep: 124 Total Reward: 12.0 SC: 1832 UC: 833 Eps: 0.0499
+[Eval] Ep: 125 Total Reward: 10.0 SC: 1842 UC: 843 Eps: 0.0499
+[Eval] Ep: 126 Total Reward: 9.0 SC: 1851 UC: 852 Eps: 0.0499
+[Eval] Ep: 127 Total Reward: 8.0 SC: 1859 UC: 860 Eps: 0.0499
+[Eval] Ep: 128 Total Reward: 7.0 SC: 1866 UC: 867 Eps: 0.0499
+[Eval] Ep: 129 Total Reward: 8.0 SC: 1874 UC: 875 Eps: 0.0499
+[Eval] Ep: 130 Total Reward: 9.0 SC: 1883 UC: 884 Eps: 0.0499
+[Eval] Ep: 131 Total Reward: 9.0 SC: 1892 UC: 893 Eps: 0.0499
+[Eval] Ep: 132 Total Reward: 9.0 SC: 1901 UC: 902 Eps: 0.0499
+[Eval] Ep: 133 Total Reward: 10.0 SC: 1911 UC: 912 Eps: 0.0499
+[Eval] Ep: 134 Total Reward: 9.0 SC: 1920 UC: 921 Eps: 0.0499
+[Eval] Ep: 135 Total Reward: 9.0 SC: 1929 UC: 930 Eps: 0.0499
+[Eval] Ep: 136 Total Reward: 8.0 SC: 1937 UC: 938 Eps: 0.0499
+[Eval] Ep: 137 Total Reward: 9.0 SC: 1946 UC: 947 Eps: 0.0499
+[Eval] Ep: 138 Total Reward: 10.0 SC: 1956 UC: 957 Eps: 0.0499
+[Eval] Ep: 139 Total Reward: 9.0 SC: 1965 UC: 966 Eps: 0.0499
+[Eval] Ep: 140 Total Reward: 8.0 SC: 1973 UC: 974 Eps: 0.0499
+[TrueEval] Ep: 140 Eval Reward: 8.00 SC: 1973 UC: 974
+[Eval] Ep: 141 Total Reward: 8.0 SC: 1981 UC: 982 Eps: 0.0499
+[Eval] Ep: 142 Total Reward: 8.0 SC: 1989 UC: 990 Eps: 0.0499
+[Eval] Ep: 143 Total Reward: 9.0 SC: 1998 UC: 999 Eps: 0.0499
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 290, in <module>
+    agent.run()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 149, in run
+    self.train()
+  File "C:\Users\USER\Documents\vscode project\NCYU LABs\lab5\Task1.py", line 266, in train
+    print(f"[Train #{self.train_count}] Loss: {loss.item():.4f} Q mean: {q_values.mean().item():.3f} std: {q_values.std().item():.3f}")
+NameError: name 'q_values' is not defined

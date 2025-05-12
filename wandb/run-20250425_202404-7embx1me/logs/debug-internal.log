@@ -1,0 +1,16 @@
+{"time":"2025-04-25T20:24:04.9281302+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\USER\\Documents\\vscode project\\NCYU LABs\\lab5\\wandb\\run-20250425_202404-7embx1me\\logs\\debug-core.log"}
+{"time":"2025-04-25T20:24:05.288331+08:00","level":"INFO","msg":"created new stream","id":"7embx1me"}
+{"time":"2025-04-25T20:24:05.2888574+08:00","level":"INFO","msg":"stream: started","id":"7embx1me"}
+{"time":"2025-04-25T20:24:05.2888574+08:00","level":"INFO","msg":"handler: started","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:05.2888574+08:00","level":"INFO","msg":"sender: started","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:05.2888574+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:05.5486896+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-25T20:24:05.5502354+08:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-25T20:24:20.6311962+08:00","level":"INFO","msg":"stream: closing","id":"7embx1me"}
+{"time":"2025-04-25T20:24:20.6311962+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-25T20:24:20.6311962+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-25T20:24:21.670902+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-25T20:24:21.9752299+08:00","level":"INFO","msg":"handler: closed","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:21.9752299+08:00","level":"INFO","msg":"sender: closed","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:21.9752299+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7embx1me"}
+{"time":"2025-04-25T20:24:21.9752299+08:00","level":"INFO","msg":"stream: closed","id":"7embx1me"}
